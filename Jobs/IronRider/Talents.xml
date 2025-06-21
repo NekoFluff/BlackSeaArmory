@@ -455,7 +455,7 @@
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
-  <!-- I see dead eye -->
+  <!-- Dead eye -->
   <Talent identifier="deadeyebw">
     <Description tag="talentdescription.unlockrecipe">
       <Replace tag="[itemname]" value="entityname.esg_bw2" color="gui.orange" />

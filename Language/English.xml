@@ -45,10 +45,10 @@
   <talentname.laststand>Last Stand</talentname.laststand>
   <talentdescription.laststand> When your life is lower than [health]%, you will quickly restore your health. </talentdescription.laststand>
   <talentname.implacablebw>Iron Will</talentname.implacablebw>
-  <talentname.deadeyebw>I See Dead Eye</talentname.deadeyebw>
-  <talentdescription.deadeyebw>When you launch an Experimental Precise Gun and Designated Marksman Rifle,damage and penetration increases [powerincrease]%. You can also recover from bleeding faster.</talentdescription.deadeyebw>
+  <talentname.deadeyebw>Dead Eye</talentname.deadeyebw>
+  <talentdescription.deadeyebw>When using an Experimental Precise Gun, your damage and penetration increases [powerincrease]%. You also recover from bleeding faster.</talentdescription.deadeyebw>
   <talentname.stonewallbw>Shield Barrier</talentname.stonewallbw>
-  <talentdescription.stonewallbw>When you are attacked,within [seconds] your physical damage resistance increases [physicaldamagereduction]%,stun resistance increases [stunresistance]%, and melee damage increases [amount]%.</talentdescription.stonewallbw>
+  <talentdescription.stonewallbw>When you are attacked, for [seconds] seconds your physical damage resistance increases [physicaldamagereduction]%, stun resistance increases [stunresistance]%, and melee damage increases [amount]%.</talentdescription.stonewallbw>
   <talentname.munitionsexpertisebw>High Permission</talentname.munitionsexpertisebw>
   <talentname.gunsmithbw>Artisan</talentname.gunsmithbw>
   <talentdescription.gunsmithbw>Item you fabricate are of [qualitybonus] higher quality.</talentdescription.gunsmithbw>
@@ -82,10 +82,10 @@
   <talentdescription.steelruler_deffense>When driving a mech, damage taken reduced [value]%</talentdescription.steelruler_deffense>
   <talentdescription.steelruler_logist>When driving a mech, speed increased [value]%</talentdescription.steelruler_logist>
   <talentdescription.miracleworker_bw>When using a mech, both you and your allies gain a [value]% general enhancement and +[value] to skills.</talentdescription.miracleworker_bw>
-  <talentdescription.revengesquad_offense>When an ally is dying, you gain [amount]% ‖color:gui.orange‖ damage bonus ‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_offense>
-  <talentdescription.revengesquad_deffense>When an ally is dying, you gain [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_deffense>
-  <talentdescription.revengesquad_logistic>When an ally is dying, you gain [amount]% ‖color:gui.orange‖repair speed‖end‖ and [amount2]% ‖color:gui.orange‖ movement speed and medical supply effectiveness‖end‖. Effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
-  <talentdescription.warlordbw_offense>Every time you complete a task, you maximum damage is increased by [smallgain]%. If all crew members survive, increase the maximum damage by [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
+  <talentdescription.revengesquad_offense>When an ally is dying, you gain a [amount]% ‖color:gui.orange‖ damage bonus‖end‖. The effect lasts for [duration] seconds decreases over time. </talentdescription.revengesquad_offense>
+  <talentdescription.revengesquad_deffense>When an ally is dying, you gain [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖. The effect lasts for [duration] seconds and the effect decreases over time. </talentdescription.revengesquad_deffense>
+  <talentdescription.revengesquad_logistic>When an ally is dying, you gain [amount]% ‖color:gui.orange‖repair speed‖end‖ and [amount2]% ‖color:gui.orange‖ movement speed and medical supply effectiveness‖end‖. The effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
+  <talentdescription.warlordbw_offense>Every time you complete a task, your maximum damage is increased by [smallgain]%. If all crew members survive, increase the maximum damage by [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
   <talentdescription.warlordbw_deffense>Every time you complete a task, your maximum life is increased by [smallgain]%. If all crew members survive, increase the maximum life by [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
   <Afflictionname.commnetbw>Command network</Afflictionname.commnetbw>
   <stattypenames.penetration>Armor Penetration</stattypenames.penetration>
