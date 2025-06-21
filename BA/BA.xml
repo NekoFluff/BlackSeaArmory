@@ -1394,7 +1394,7 @@
       <RequiredItem identifier="relic_bw" />
       <RequiredItem identifier="physicorium" amount="2" />
       <RequiredItem identifier="bca_bw" amount="2" />
-      <RequiredItem tag="x01suit" />
+      <RequiredItem identifier="armored_hardsuit_bw" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/BA/EL/SYS.png" sourcerect="0,0,256,256" />
     <Sprite name="Diving Suit Item" texture="%ModDir%/BA/EL/BA.png" sourcerect="9,16,297,297" depth="0.55" origin="0.5,0.52" />
