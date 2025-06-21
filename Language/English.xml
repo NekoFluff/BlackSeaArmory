@@ -8,9 +8,9 @@
   <loadingscreentip>Spread increases quickly with rapid consecutive firing - Black Sea Armory</loadingscreentip>
   <loadingscreentip>Exosuit can often reduce recoil - Black Sea Armory</loadingscreentip>
   <loadingscreentip>Rare materials may be found in scrap - Black Sea Armory</loadingscreentip>
-  <!--Job.xml-->
-  <jobName.Pilot>Iron Rider</jobName.Pilot>
-  <jobdescription.Pilot>Elite Soldiers of the Iron League, Iron Riders serve as stalwart defenders of humanity on Europa.</jobdescription.Pilot>
+  <!--Jobs.xml-->
+  <jobName.IronRider>Iron Rider</jobName.IronRider>
+  <jobdescription.IronRider>Elite Soldiers of the Iron League, Iron Riders serve as stalwart defenders of humanity on Europa.</jobdescription.IronRider>
   <talenttree.bwbr1>Gun sword prayer</talenttree.bwbr1>
   <talenttree.bwbr2>Iron Cult</talenttree.bwbr2>
   <talenttree.bwbr3>Techno Barbarians</talenttree.bwbr3>
@@ -82,12 +82,12 @@
   <talentdescription.steelruler_offense>When driving a mech,attack power increased [value]%.</talentdescription.steelruler_offense>
   <talentdescription.steelruler_deffense>When driving a mech,damage taken reduced [value]%</talentdescription.steelruler_deffense>
   <talentdescription.steelruler_logist>When driving a mech,speed increased [value]%</talentdescription.steelruler_logist>
-  <talentdescription.miracleworker_bw>Gives [value]% enhancement to self and friendlies when piloting a mech.</talentdescription.miracleworker_bw>
+  <talentdescription.miracleworker_bw>Gives [value]% enhancement to self and friendlies when IronRidering a mech.</talentdescription.miracleworker_bw>
   <talentdescription.revengesquad_offense> When a alloy is dying, you get [amount]% ‖color:gui.orange‖ damage bonus ‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_offense>
   <talentdescription.revengesquad_deffense> When a alloy is dying, you get [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_deffense>
   <talentdescription.revengesquad_logistic>When a alloy is dying, you get [amount]%的‖color:gui.orange‖Repair speed‖end‖ increased by [amount2]% and ‖color:gui.orange‖ movement speed and medical supply effectiveness also enhanced‖end‖，effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
-  <talentdescription.warlordbw_offense>Every time you complete a task, you increase [smallgain]% of your your maximum damage. If all crew members survive, increase the maximum damage of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
-  <talentdescription.warlordbw_deffense>Every time you complete a task, you increase [smallgain]% of your your maximum life.  If all crew members survive, increase the maximum life of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
+  <talentdescription.warlordbw_offense>Every time you complete a task, you increase [smallgain]% of your your maximum damage. If all crew members survive, increase the maximum damage of [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
+  <talentdescription.warlordbw_deffense>Every time you complete a task, you increase [smallgain]% of your your maximum life. If all crew members survive, increase the maximum life of [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
   <Afflictionname.commnetbw>Command network</Afflictionname.commnetbw>
   <stattypenames.penetration>Armor Penetration</stattypenames.penetration>
   <stattypenames.flowresistance>Flow Resistance</stattypenames.flowresistance>

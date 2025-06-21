@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <Job identifier="Pilot" maxnumber="99" minkarma="50" uicolor="0.43,0.57,0.43" vitalitymodifier="20" pricemultiplier="3.0" idlebehavior="Patrol">
+  <Job identifier="IronRider" maxnumber="99" minkarma="50" uicolor="0.43,0.57,0.43" vitalitymodifier="20" pricemultiplier="3.0" idlebehavior="Patrol">
     <Jobicon>
       <sprite texture="%ModDir%/Job/SR.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     </Jobicon>
@@ -23,10 +23,10 @@
       </Item>
       <Item identifier="smgmagazine_bw" showpreview="false" />
       <Item identifier="smgmagazine_bw" showpreview="false" />
+      <Item identifier="smgmagazine_bw" showpreview="false" />
       <Item identifier="PFbw" equip="false" />
-      <Item identifier="bandolierbw" equip="true" />
       <Item identifier="captainscapbw" equip="true" />
-      <Item identifier="shellbagbw" equip="true" />
+      <Item identifier="dreadnoughtsupportsystem" equip="true" />
       <PreviewSprites dims="120,109">
         <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
         <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />

@@ -131,7 +131,7 @@
   </npcset>
   <!--Assault on Mech Labs-->
   <npcset identifier="assaultonmechlabs">
-    <npc identifier="elmechlab_heavy" commonness="0" moduleflags="researchmodule" job="Pilot" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.5" aimspeed="1.5" aimaccuracy="0.8" reportrange="3000" skillmultiplier="5.0">
+    <npc identifier="elmechlab_heavy" commonness="0" moduleflags="researchmodule" job="IronRider" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.5" aimspeed="1.5" aimaccuracy="0.8" reportrange="3000" skillmultiplier="5.0">
       <ItemSet commonness="1">
         <Item identifier="idcard" equip="true" />
         <Item identifier="hammer_bw" equip="false">
@@ -195,7 +195,7 @@
         <Item identifier="HMG1_mag_bw" />
       </ItemSet>
     </npc>
-    <npc identifier="elmechlab_overwatch" commonness="0" moduleflags="engineeringmodule,researchmodule" job="Pilot" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.5" aimspeed="1" aimaccuracy="0.8" reportrange="10000" skillmultiplier="5.0">
+    <npc identifier="elmechlab_overwatch" commonness="0" moduleflags="engineeringmodule,researchmodule" job="IronRider" behavior="Passive" healthmultiplier="1" healthmultiplierinmultiplayer="1.5" aimspeed="1" aimaccuracy="0.8" reportrange="10000" skillmultiplier="5.0">
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="PFbw" equip="false" />
@@ -333,7 +333,7 @@
         <Item identifier="HMG1_mag_bw" />
       </ItemSet>
     </npc>
-    <npc identifier="elmechlab_officer" commonness="0" moduleflags="researchmodule" job="Pilot" behavior="Passive" healthmultiplier="1.1" healthmultiplierinmultiplayer="1.8" aimspeed="2.4" aimaccuracy="0.8" reportrange="30000" skillmultiplier="5.0">
+    <npc identifier="elmechlab_officer" commonness="0" moduleflags="researchmodule" job="IronRider" behavior="Passive" healthmultiplier="1.1" healthmultiplierinmultiplayer="1.8" aimspeed="2.4" aimaccuracy="0.8" reportrange="30000" skillmultiplier="5.0">
       <ItemSet commonness="2">
         <Item identifier="idcard" equip="true" />
         <Item identifier="bw_axe" equip="false" />
@@ -376,7 +376,7 @@
         </Item>
       </ItemSet>
     </npc>
-    <npc identifier="elmechlab_medical" commonness="0" moduleflags="researchmodule" job="Pilot" behavior="Passive" healthmultiplier="1.1" healthmultiplierinmultiplayer="1.8" aimspeed="2.4" aimaccuracy="0.8" reportrange="30000" skillmultiplier="5.0">
+    <npc identifier="elmechlab_medical" commonness="0" moduleflags="researchmodule" job="IronRider" behavior="Passive" healthmultiplier="1.1" healthmultiplierinmultiplayer="1.8" aimspeed="2.4" aimaccuracy="0.8" reportrange="30000" skillmultiplier="5.0">
       <ItemSet commonness="0.5">
         <Item identifier="idcard" equip="true" />
         <Item identifier="bw_axe" equip="false" />

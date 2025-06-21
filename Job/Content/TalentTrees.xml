@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TalentTrees>
-  <TalentTree jobidentifier="Pilot">
+  <TalentTree jobidentifier="IronRider">
     <SubTree identifier="bwpl_primary" nameidentifier="talenttree.primary" type="primary">
       <TalentOptions requiredtalents="1" maxchosentalents="3">
         <TalentOption identifier="firstaidtraining" />
@@ -19,7 +19,7 @@
       <TalentOptions>
         <TalentOption identifier="olympian_offense" />
       </TalentOptions>
-      <TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="swordwarriorbw" />
         <TalentOption identifier="deadeyebw" />
       </TalentOptions>
@@ -37,7 +37,7 @@
       <TalentOptions>
         <TalentOption identifier="olympian_defense" />
       </TalentOptions>
-      <TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="enforcerbw" />
         <TalentOption identifier="implacablebw" />
       </TalentOptions>
@@ -55,7 +55,7 @@
       <TalentOptions>
         <TalentOption identifier="olympian_logistic" />
       </TalentOptions>
-      <TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="3">
         <TalentOption identifier="optimizedpowerflowbw" />
         <TalentOption identifier="custommachinebw" />
         <TalentOption identifier="drsubmarinebw" />

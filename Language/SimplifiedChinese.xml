@@ -10,8 +10,8 @@
   <loadingscreentip>废料里可能有稀有材料 - Black Sea Armory</loadingscreentip>
   <loadingscreentip>压缩钛合金的代号是压缩毛巾 - Black Sea Armory</loadingscreentip>
   <!--Job.xml-->
-  <jobName.Pilot>铁骑兵</jobName.Pilot>
-  <jobdescription.Pilot>铁骑兵，钢铁联盟的的精锐，是欧罗巴上人类的坚定的捍卫者。</jobdescription.Pilot>
+  <jobName.IronRider>铁骑兵</jobName.IronRider>
+  <jobdescription.IronRider>铁骑兵，钢铁联盟的的精锐，是欧罗巴上人类的坚定的捍卫者。</jobdescription.IronRider>
   <talenttree.bwbr1>枪剑祷告</talenttree.bwbr1>
   <talenttree.bwbr2>钢铁崇拜</talenttree.bwbr2>
   <talenttree.bwbr3>科技蛮族</talenttree.bwbr3>

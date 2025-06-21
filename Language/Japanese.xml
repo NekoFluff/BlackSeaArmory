@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Japanese" nowhitespace="false" translatedname="日本語">
   <!--Job.xml-->
-  <jobName.Pilot>アイアンライダー</jobName.Pilot>
-  <jobdescription.Pilot>アイアンリーグの精鋭であるアイアンライダーは、エウロパに暮す人類の守護者としての役割を担っている。</jobdescription.Pilot>
+  <jobName.IronRider>アイアンライダー</jobName.IronRider>
+  <jobdescription.IronRider>アイアンリーグの精鋭であるアイアンライダーは、エウロパに暮す人類の守護者としての役割を担っている。</jobdescription.IronRider>
   <talenttree.bwbr1>ガンソードの祈り</talenttree.bwbr1>
   <talenttree.bwbr2>アイアンカルト</talenttree.bwbr2>
   <talenttree.bwbr3>テクノバーバリアン</talenttree.bwbr3>

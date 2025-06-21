@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Traditional Chinese" nowhitespace="false" translatedname="中文(繁體)">
   <!--Job.xml-->
-  <jobName.Pilot>鐵騎兵</jobName.Pilot>
-  <jobdescription.Pilot>木衛二聯盟中的精銳，擅長駕駛機甲執行各式特種突擊任務。</jobdescription.Pilot>
+  <jobName.IronRider>鐵騎兵</jobName.IronRider>
+  <jobdescription.IronRider>木衛二聯盟中的精銳，擅長駕駛機甲執行各式特種突擊任務。</jobdescription.IronRider>
   <talenttree.bwbr1>槍劍禱告</talenttree.bwbr1>
   <talenttree.bwbr2>鋼鐵崇拜</talenttree.bwbr2>
   <talenttree.bwbr3>科技蠻族</talenttree.bwbr3>
