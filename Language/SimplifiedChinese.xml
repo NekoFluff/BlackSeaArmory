@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Simplified Chinese" nowhitespace="false" translatedname="中文(简体)">
+  <!--tips-->
+  <loadingscreentip>"火药也是药" - 庸医安迪</loadingscreentip>
+  <loadingscreentip>"真的有人会读tip吗?" - 庸医安迪</loadingscreentip>
+  <loadingscreentip>精确射手步枪通常可以切换至半自动模式以获得更好的精度 - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>武器的穿甲性能通常取决于枪管长度，子弹类型 - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>散步会在连续快速射击时会快速扩大 - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>外骨骼往往能够减小后坐力 - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>废料里可能有稀有材料 - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>压缩钛合金的代号是压缩毛巾 - Black Sea Armory</loadingscreentip>
+  <!--Job.xml-->
+  <jobName.Pilot>铁骑兵</jobName.Pilot>
+  <jobdescription.Pilot>铁骑兵，钢铁联盟的的精锐，是欧罗巴上人类的坚定的捍卫者。</jobdescription.Pilot>
+  <talenttree.bwbr1>枪剑祷告</talenttree.bwbr1>
+  <talenttree.bwbr2>钢铁崇拜</talenttree.bwbr2>
+  <talenttree.bwbr3>科技蛮族</talenttree.bwbr3>
+  <talentname.advancedsplicingbw>异星征服者</talentname.advancedsplicingbw>
+  <talentname.collegeathleticsbw>体能健将</talentname.collegeathleticsbw>
+  <talentname.bountyhunterbw>铁腕处置</talentname.bountyhunterbw>
+  <talentdescription.crafthighqualitypistols>你制造的手枪品质提升[qualitybonus]。</talentdescription.crafthighqualitypistols>
+  <talentdescription.bountyhunterbw>使用手枪与铁拳攻击时，额外造成[probability]%伤害与[armorpenetration]%穿甲。</talentdescription.bountyhunterbw>
+  <talentname.justascratchbw>强化骨骼</talentname.justascratchbw>
+  <talentdescription.quickdrawbw>每过[seconds]秒，下一次强力近战系统造成的伤害提升[damage]倍。</talentdescription.quickdrawbw>
+  <talentname.sailorwithnonamebw>沧桑水手</talentname.sailorwithnonamebw>
+  <talentname.tumblebw>备用武装</talentname.tumblebw>
+  <talentdescription.tumblebw>你的手枪与铁拳伤害提升[damage]%。</talentdescription.tumblebw>
+  <talentname.firstaidtrainingbw>战地急救</talentname.firstaidtrainingbw>
+  <talentname.physicalconditioningbw>强健体魄</talentname.physicalconditioningbw>
+  <talentname.trustbuildingbw>历战老兵</talentname.trustbuildingbw>
+  <talentdescription.trustbuildingbw>每当你完成一项任务，你增加[smallgain]%最大生命。若所有船员都幸存，则再增加[largegain]%的最大生命，上限为[maxgain]%。</talentdescription.trustbuildingbw>
+  <talentname.buccaneerbw>White Soldier Battle</talentname.buccaneerbw>
+  <talentname.swordwarriorbw>长剑修士</talentname.swordwarriorbw>
+  <talentdescription.crafthighqualityswordwarriorbw>你制造的长剑武器品质提升[qualitybonus]。</talentdescription.crafthighqualityswordwarriorbw>
+  <talentdescription.swordwarriorbw>近战武器攻击时，你携带的每个[itemname]都会提升[powerincrease]%伤害，上限为[maxpowerincrease]%。</talentdescription.swordwarriorbw>
+  <talentname.enforcerbw>重装猎手</talentname.enforcerbw>
+  <talentdescription.enforcerbw>使用霰弹攻击时，额外造成[damage]%伤害与[armorpenetration]%穿甲。</talentdescription.enforcerbw>
+  <talentname.steelruler>钢铁统御</talentname.steelruler>
+  <talentdescription.steelruler>驾驶机甲时，武器攻击力提升[value]%，[stattype]提升[amount]%，受到伤害减少[value]%。</talentdescription.steelruler>
+  <talentname.bythebookbw>兼职佣兵</talentname.bythebookbw>
+  <talentname.olympianbw>战斗精通</talentname.olympianbw>
+  <talentname.warlordbw>深渊王牌</talentname.warlordbw>
+  <talentdescription.chanceofextraweapondamagebw2>使用武器攻击时，额外造成[probability]%伤害与[armorpenetration]%穿甲。</talentdescription.chanceofextraweapondamagebw2>
+  <talentname.laststand>永不放弃</talentname.laststand>
+  <talentdescription.laststand>当你的生命低于[health]%时，会快速回复生命值。</talentdescription.laststand>
+  <talentname.implacablebw>钢铁意志</talentname.implacablebw>
+  <talentname.deadeyebw>死眼绝射</talentname.deadeyebw>
+  <talentdescription.deadeyebw>当你使用精确射手步枪或狙击炮时，攻击和穿透率提升[powerincrease]%。你也能更快地从出血状态中恢复过来。</talentdescription.deadeyebw>
+  <talentname.stonewallbw>持盾护卫</talentname.stonewallbw>
+  <talentdescription.stonewallbw>当你受到攻击后，[seconds]内你的物理伤害抗性提升[physicaldamagereduction]%，击晕抗性提升[stunresistance]%，近战伤害提升[amount]%。</talentdescription.stonewallbw>
+  <talentname.munitionsexpertisebw>权限许可</talentname.munitionsexpertisebw>
+  <talentname.gunsmithbw>战争铁匠</talentname.gunsmithbw>
+  <talentdescription.gunsmithbw>所制造物品的质量提高[qualitybonus]。</talentdescription.gunsmithbw>
+  <talentname.duelistbw>风暴之心</talentname.duelistbw>
+  <talentdescription.chanceofextraweapondamagebw>使用近身战冲锋枪或动力斧攻击时，[probability]%机率造成双倍伤害与额外[amount]%穿甲力。</talentdescription.chanceofextraweapondamagebw>
+  <talentname.optimizedpowerflowbw>改装电路</talentname.optimizedpowerflowbw>
+  <talentdescription.optimizedpowerflowbw>炮塔耗能与充能速度降低你电器技能的[statamount]%。</talentdescription.optimizedpowerflowbw>
+  <talentdescription.crafthighqualitylaserbw>你制造的能量武器品质提升[qualitybonus]。</talentdescription.crafthighqualitylaserbw>
+  <talentname.custommachinebw>改装机械</talentname.custommachinebw>
+  <talentdescription.crafthighqualityhmgbw>你制造的机枪武器品质提升[qualitybonus]。</talentdescription.crafthighqualityhmgbw>
+  <!--New Job.xml-->
+  <talenttree.bwpl_offense>杀戮专家</talenttree.bwpl_offense>
+  <!--Mastery of Slaughter-->
+  <talenttree.bwpl_defense>无畏堡垒</talenttree.bwpl_defense>
+  <!--Fearless Bastion-->
+  <talenttree.bwpl_logistic>战术补给</talenttree.bwpl_logistic>
+  <!--Tactical Logistics-->
+  <talentname.olympian_offense>战斗供能</talentname.olympian_offense>
+  <!--Combat Energization-->
+  <talentname.olympian_defense>损伤缓解</talentname.olympian_defense>
+  <!--Damage Mitigation-->
+  <talentname.olympian_logistic>后勤保障</talentname.olympian_logistic>
+  <!--Logistical Safeguard-->
+  <talentname.drsubmarinebw>战地医疗</talentname.drsubmarinebw>
+  <!--Field Medic-->
+  <talentname.offense_system>强袭核心</talentname.offense_system>
+  <!--Assault Core-->
+  <talentname.defense_system>堡垒核心</talentname.defense_system>
+  <!--Fortress Core-->
+  <talentname.logistic_system>辅助核心</talentname.logistic_system>
+  <!--Logistics Core-->
+  <talentname.revengesquad_offense>绝命冲锋</talentname.revengesquad_offense>
+  <!--Desperate Assault-->
+  <talentname.revengesquad_deffense>救赎之盾</talentname.revengesquad_deffense>
+  <!--Redemption Shield-->
+  <talentname.revengesquad_logistic>绝境响应</talentname.revengesquad_logistic>
+  <!--Dire Response-->
+  <talentname.warlordbw_offense>深渊王牌</talentname.warlordbw_offense>
+  <!--Ace-->
+  <talentname.warlordbw_deffense>装甲堡垒</talentname.warlordbw_deffense>
+  <!--Armor Citadel-->
+  <talentname.miracleworker_bw>联队指挥学</talentname.miracleworker_bw>
+  <!--Leadership-->
+  <stattypenames.rangedspreadreduction>散布减少</stattypenames.rangedspreadreduction>
+  <stattypenames.MedicalItemEffectivenessMultiplier>医疗物资效果提高</stattypenames.MedicalItemEffectivenessMultiplier>
+  <talentdescription.olympian_bw>以下属性可获得等同于你最低技能等级的属性加成</talentdescription.olympian_bw>
+  <talentdescription.steelruler_offense>驾驶机甲时，武器攻击力提升[value]%</talentdescription.steelruler_offense>
+  <talentdescription.steelruler_deffense>驾驶机甲时，受到伤害减少[value]%</talentdescription.steelruler_deffense>
+  <talentdescription.steelruler_logist>驾驶机甲时，移动速度提升[value]%。</talentdescription.steelruler_logist>
+  <talentdescription.miracleworker_bw>驾驶机甲时，给自身和友军提供[value]%增强。</talentdescription.miracleworker_bw>
+  <talentdescription.revengesquad_offense>友军濒死时，你获得[amount]%的‖color:gui.orange‖伤害加成‖end‖，该友军死亡或者恢复后持续[duration]秒，效果随时间减少。</talentdescription.revengesquad_offense>
+  <talentdescription.revengesquad_deffense>友军濒死时，你获得[amount]%的‖color:gui.orange‖物理伤害抗性‖end‖，该友军死亡或者恢复后持续持续[duration]秒，效果随时间减少。</talentdescription.revengesquad_deffense>
+  <talentdescription.revengesquad_logistic>友军濒死时，你获得[amount]%的‖color:gui.orange‖维修速度‖end‖和[amount2]%的‖color:gui.orange‖移动速度和医疗物资效果提高‖end‖的效果，该友军死亡或者恢复后持续持续[duration]秒，效果随时间减少。</talentdescription.revengesquad_logistic>
+  <talentdescription.warlordbw_offense>每当你完成一项任务，你增加[smallgain]%最大伤害。若所有船员都幸存，则再增加[largegain]%的最大伤害，上限为[maxgain]%。</talentdescription.warlordbw_offense>
+  <talentdescription.warlordbw_deffense>每当你完成一项任务，你增加[smallgain]%最大生命。若所有船员都幸存，则再增加[largegain]%的最大生命，上限为[maxgain]%。</talentdescription.warlordbw_deffense>
+  <Afflictionname.commnetbw>指挥网络</Afflictionname.commnetbw>
+  <stattypenames.penetration>穿甲</stattypenames.penetration>
+  <stattypenames.flowresistance>水流抗性</stattypenames.flowresistance>
+  <Afflictionname.revengesquad_offense>复仇之愿</Afflictionname.revengesquad_offense>
+  <Afflictionname.revengesquad_deffense>守护之愿</Afflictionname.revengesquad_deffense>
+  <Afflictionname.revengesquad_logistic>维护之愿</Afflictionname.revengesquad_logistic>
+  <Afflictiondescription.revengesquad_offense>拯救一个生命的唯一途径就是夺取另一个生命</Afflictiondescription.revengesquad_offense>
+  <Afflictiondescription.revengesquad_deffense>拯救一个生命的唯一途径就是承受一切痛苦</Afflictiondescription.revengesquad_deffense>
+  <Afflictiondescription.revengesquad_logistic>拯救一个生命的唯一途径就是捍卫最后的希望</Afflictiondescription.revengesquad_logistic>
+  <talentname.apolloassistsystem_bw>阿波罗辅助系统</talentname.apolloassistsystem_bw>
+  <talentdescription.apolloassistsystem_bw>驾驶阿波罗时，造成额外25%化学烧伤，并且治疗伤员后，使得伤员60秒内获得阿波罗纳米机器人的辅助。</talentdescription.apolloassistsystem_bw>
+  <talentname.circeassistsystem_bw>喀耳刻辅助系统</talentname.circeassistsystem_bw>
+  <talentdescription.circeassistsystem_bw>驾驶喀耳刻时，造成额外100%化学烧伤和烧伤。</talentdescription.circeassistsystem_bw>
+  <!--AR.xml-->
+  <label.semiautomatic>半自动模式</label.semiautomatic>
+  <label.lighting>照明系统</label.lighting>
+  <entityname.spar-408>SPAR-408 特种精确射手步枪</entityname.spar-408>
+  <entitydescription.spar-408>钢铁联盟设计的一款精确射手步枪，用歼灭高威胁目标。</entitydescription.spar-408>
+  <entityname.408_7magazine_bw>SPAR-408 克拉肯穿甲弹匣(7)</entityname.408_7magazine_bw>
+  <entitydescription.408_7magazine_bw>7发 .408 步枪弹匣，所使用穿甲弹，足以击穿绝大部分生物的装甲。</entitydescription.408_7magazine_bw>
+  <entityname.408fmj_7magazine_bw>SPAR-408 鲲全金属被甲弹匣(7)</entityname.408fmj_7magazine_bw>
+  <entitydescription.408fmj_7magazine_bw>7发 .408 步枪弹匣，所使用全金属被甲弹，能够在目标体内造成大量伤害。</entitydescription.408fmj_7magazine_bw>
+  <entityname.408jhp_7magazine_bw>SPAR-408 斯库拉全金属被甲空心弹弹匣(7)</entityname.408jhp_7magazine_bw>
+  <entitydescription.408jhp_7magazine_bw>7发 .408 步枪弹匣，所使用全金属被甲空心弹，能够在目标体内造成巨额伤害和巨大的停止作用。</entitydescription.408jhp_7magazine_bw>
+  <entityname.spar-338>SPAR-338 特种机枪</entityname.spar-338>
+  <entitydescription.spar-338>钢铁联盟设计的一款精确而致命的机枪，用于抵御怪物日益增加的危险。</entitydescription.spar-338>
+  <entityname.338_24magazine_bw>SPAR-338弹匣(24)</entityname.338_24magazine_bw>
+  <entitydescription.338_24magazine_bw>24发钛合金 .338 拉普麦格农机枪弹匣。</entitydescription.338_24magazine_bw>
+  <entityname.338ap_24magazine_bw>SPAR-338 穿甲弹匣(24)</entityname.338ap_24magazine_bw>
+  <entitydescription.338ap_24magazine_bw>24发钛合金穿甲 .338 拉普麦格农机枪弹匣。</entitydescription.338ap_24magazine_bw>
+  <entityname.338_60magazine_bw>SPAR-338弹匣(60)</entityname.338_60magazine_bw>
+  <entitydescription.338_60magazine_bw>60发钛合金 .338 拉普麦格农加长型机枪弹匣，用于提供火力压制。</entitydescription.338_60magazine_bw>
+  <entityname.spar-93>SPAR-93 特种突击步枪</entityname.spar-93>
+  <entitydescription.spar-93>基于SPAR-76在市场上的显著成就，钢铁联盟推出了一款新型重型突击步枪。这款步枪以其坚固的构造和高效的作战能力为特色，能够通过几发高威力子弹迅速制服敌人。</entitydescription.spar-93>
+  <entityname.93_30magazine_bw>SPAR-93弹匣(30)</entityname.93_30magazine_bw>
+  <entitydescription.93_30magazine_bw>30发 9.3×63mm 步枪弹匣，每一发都如同重锤一般。</entitydescription.93_30magazine_bw>
+  <entityname.93ap_30magazine_bw>SPAR-93 穿甲弹匣(30)</entityname.93ap_30magazine_bw>
+  <entitydescription.93ap_30magazine_bw>30发 9.3×63mm 穿甲步枪弹匣，所使用特制穿甲弹。</entitydescription.93ap_30magazine_bw>
+  <entityname.spar-8s>SPAR-8S 特种精确射手步枪</entityname.spar-8s>
+  <entitydescription.spar-8s>钢铁联盟设计的一款全自动小队精确射手步枪，延长了枪管并使用改进型制退器显著的提高了精度和穿甲能力。</entitydescription.spar-8s>
+  <entityname.spar-8>SPAR-8 特种精确射手步枪</entityname.spar-8>
+  <entitydescription.spar-8>钢铁联盟设计的一款全自动精确射手步枪，深受精锐部队的喜爱。</entitydescription.spar-8>
+  <entityname.8_45magazine_bw>SPAR-8弹匣(45)</entityname.8_45magazine_bw>
+  <entitydescription.8_45magazine_bw>45发钛合金 8×75mm 步枪弹匣，所使用狙击穿甲弹。</entitydescription.8_45magazine_bw>
+  <entityname.8_20magazine_bw>SPAR-8弹匣(20)</entityname.8_20magazine_bw>
+  <entitydescription.8_20magazine_bw>20发钛合金 8×75mm 步枪弹匣，所使用狙击穿甲弹。</entitydescription.8_20magazine_bw>
+  <entityname.8ap_20magazine_bw>SPAR-8 穿甲弹匣(20)</entityname.8ap_20magazine_bw>
+  <entitydescription.8ap_20magazine_bw>20发钛合金 8×75mm 穿甲步枪弹匣，所使用特制穿甲弹。</entitydescription.8ap_20magazine_bw>
+  <entityname.spar-76>SPAR-76 特种突击步枪</entityname.spar-76>
+  <entitydescription.spar-76>钢铁联盟设计的一款重型突击步枪，结实耐用，设计初衷为仅需几发即可瘫痪对方。</entitydescription.spar-76>
+  <entityname.762_30magazine_bw>SPAR-76弹匣(30)</entityname.762_30magazine_bw>
+  <entitydescription.762_30magazine_bw>30发 7.62×54mm 步枪弹匣，每一发都如同重锤一般。</entitydescription.762_30magazine_bw>
+  <entityname.762ap_30magazine_bw>SPAR-76 穿甲弹匣(30)</entityname.762ap_30magazine_bw>
+  <entitydescription.762ap_30magazine_bw>30发 7.62×54mm 穿甲步枪弹匣，所使用钛合金穿甲弹。</entitydescription.762ap_30magazine_bw>
+  <entityname.spar-65>SPAR-65 特种突击步枪</entityname.spar-65>
+  <entitydescription.spar-65>在spar-556a的基础上更换65mm重型枪管和优化人体工学设计</entitydescription.spar-65>
+  <entityname.65_50magazine_bw>SPAR-65弹鼓(50)</entityname.65_50magazine_bw>
+  <entitydescription.65_50magazine_bw>50发 6.5×52mm 步枪弹鼓，可在战术小队内充当火力压制的角色。</entitydescription.65_50magazine_bw>
+  <entityname.65ap_50magazine_bw>SPAR-65 穿甲弹鼓(50)</entityname.65ap_50magazine_bw>
+  <entitydescription.65ap_50magazine_bw>50发 6.5×52mm 穿甲步枪弹鼓，所使用钛合金穿甲弹。</entitydescription.65ap_50magazine_bw>
+  <entityname.spar-556a>spar-556a 特种突击步枪</entityname.spar-556a>
+  <entitydescription.spar-556a>钢铁联盟联立初期所设计的一款突击步枪，为使用延长枪管的改进型。</entitydescription.spar-556a>
+  <entityname.spar-556>spar-556 特种突击步枪</entityname.spar-556>
+  <entitydescription.spar-556>钢铁联盟联立初期所设计的一款突击步枪，由于缺乏经验，因此参照了目前联盟内主流突击步枪所研发的枪械，但因缺乏足够的停止作用而深受诟病。</entitydescription.spar-556>
+  <entityname.556_30magazine_bw>spar-556弹匣(30)</entityname.556_30magazine_bw>
+  <entitydescription.556_30magazine_bw>30发 5.56×45mm 步枪弹匣，所使用钢芯弹。</entitydescription.556_30magazine_bw>
+  <entityname.556ap_30magazine_bw>spar-556 穿甲弹匣(30)</entityname.556ap_30magazine_bw>
+  <entitydescription.556ap_30magazine_bw>30发 5.56×45mm 穿甲步枪弹匣，所使用穿甲钛合金弹。</entitydescription.556ap_30magazine_bw>
+  <entityname.556_150magazine_bw>spar-556弹鼓(150)</entityname.556_150magazine_bw>
+  <entitydescription.556_150magazine_bw>150发 5.56×45mm 步枪弹鼓，可在战术小队内充当火力压制的角色。</entitydescription.556_150magazine_bw>
+  <entityname.asmg-300>AG-300 特种冲锋枪</entityname.asmg-300>
+  <entitydescription.asmg-300>为特勤战术队应对室内CQC环境所研制的亚音速冲锋枪，被联盟长钉分队审判者大量使用。</entitydescription.asmg-300>
+  <entityname.300blk_24magazine_bw>AG-300弹匣(24)</entityname.300blk_24magazine_bw>
+  <entitydescription.300blk_24magazine_bw>24发 .300 BLK 冲锋枪弹匣，有着卓越的亚音速性能。</entitydescription.300blk_24magazine_bw>
+  <entityname.asmg-45>AG-45 冲锋枪</entityname.asmg-45>
+  <entitydescription.asmg-45>广泛用于潜艇内的防御性武器，拥有较高的停止作用以及较低的后坐力，受安保公司的喜爱。</entitydescription.asmg-45>
+  <entityname.45_50magazine_bw>AG-45弹匣(50)</entityname.45_50magazine_bw>
+  <entitydescription.45_50magazine_bw>50发 .45 ACP 冲锋枪弹匣，经典且可靠。</entitydescription.45_50magazine_bw>
+  <entityname.asmg-50>AG-50 突击冲锋枪</entityname.asmg-50>
+  <entitydescription.asmg-50>使用高装药的.510弹药，难以控制的枪械，拥有极高的停止作用。</entitydescription.asmg-50>
+  <entityname.50lb_16magazine_bw>AG-50弹匣(16)</entityname.50lb_16magazine_bw>
+  <entitydescription.50lb_16magazine_bw>16发 .510 LB 冲锋枪弹匣。</entitydescription.50lb_16magazine_bw>
+  <entityname.spsg-15>SPSG-15 特种突击霰弹枪</entityname.spsg-15>
+  <entitydescription.spsg-15>有着独特转轮式供弹机构的全自动无托霰弹枪，拥有高达15发的弹容量，使其成为室内CQB的最佳选择。</entitydescription.spsg-15>
+  <entityname.spsg-4>SPSG-4 特种"重锤"霰弹枪</entityname.spsg-4>
+  <entitydescription.spsg-4>SPSG-4 特种"重锤"霰弹枪通过特殊设计的燃气导轨能够瞬间发送两枚霰弹弹药，但击发后繁琐的复位机制使其泛用性大大降低。</entitydescription.spsg-4>
+  <entityname.spsg-8>SPSG-8 特种"撕裂"霰弹枪</entityname.spsg-8>
+  <entitydescription.spsg-8>SPSG-8 特种"撕裂"霰弹枪更长的枪口以及改进自动化机构实现更强的火力</entitydescription.spsg-8>
+  <entityname.mph_bw>4 英寸多用途"臭臭"榴弹炮</entityname.mph_bw>
+  <entitydescription.mph_bw>4 英寸多用途"臭臭"榴弹炮能够发射特制4 英寸榴弹炮以应对不同的情况</entitydescription.mph_bw>
+  <entityname.mph_ammo_cyanide>4 英寸 "普鲁士蓝"榴弹</entityname.mph_ammo_cyanide>
+  <entitydescription.mph_ammo_cyanide>剧毒氰化氢和氰化钾混合榴弹，能够使范围内目标急性氰化物中毒</entitydescription.mph_ammo_cyanide>
+  <entityname.mph_ammo_cyanide_d>4 英寸 "普鲁士蓝"榴弹(延迟引信)</entityname.mph_ammo_cyanide_d>
+  <entitydescription.mph_ammo_cyanide_d>剧毒氰化氢和氰化钾混合榴弹，能够使范围内目标急性氰化物中毒。使用延迟引信，在碰撞后1.5秒后引爆。</entitydescription.mph_ammo_cyanide_d>
+  <entityname.mph_ammo_stun>4 英寸 "黑日"榴弹</entityname.mph_ammo_stun>
+  <entitydescription.mph_ammo_stun>能够产生巨大的闪光和声爆，迫使目标失去能力，并且释放麻痹毒剂使目标失去行动能力</entitydescription.mph_ammo_stun>
+  <entityname.mph_ammo_stun_d>4 英寸 "黑日"榴弹(延迟引信)</entityname.mph_ammo_stun_d>
+  <entitydescription.mph_ammo_stun_d>能够产生巨大的闪光和声爆，迫使目标失去能力，并且释放麻痹毒剂使目标失去行动能力。使用延迟引信，在碰撞后1.5秒后引爆。</entitydescription.mph_ammo_stun_d>
+  <entityname.mph_ammo_radiation>4 英寸 "辐寿"榴弹</entityname.mph_ammo_radiation>
+  <entitydescription.mph_ammo_radiation>能够产生辐射云，使目标区域任何物品严重污染</entitydescription.mph_ammo_radiation>
+  <entityname.mph_ammo_radiation_d>4 英寸 "辐寿"榴弹(延迟引信)</entityname.mph_ammo_radiation_d>
+  <entitydescription.mph_ammo_radiation_d>能够产生辐射云，使目标区域任何物品严重污染。使用延迟引信，在碰撞后1.5秒后引爆。</entitydescription.mph_ammo_radiation_d>
+  <entityname.mph_ammo_emp>4 英寸 "电涌"榴弹</entityname.mph_ammo_emp>
+  <entitydescription.mph_ammo_emp>能够产生强大的EMP脉冲波，瘫痪一切电力设施</entitydescription.mph_ammo_emp>
+  <entityname.mph_ammo_exp>4 英寸 "暴雷"榴弹</entityname.mph_ammo_exp>
+  <entitydescription.mph_ammo_exp>爆炸就是艺术</entitydescription.mph_ammo_exp>
+  <entityname.mph_ammo_exp_vt>4 英寸 "暴雷"榴弹(VT)</entityname.mph_ammo_exp_vt>
+  <entitydescription.mph_ammo_exp_vt>爆炸就是艺术，使用近炸引信在目标附近引爆并产生金属风暴，对除发射者外的一切目标进行切割。</entitydescription.mph_ammo_exp_vt>
+  <entityname.mph_ammo_exp_pg>4 英寸 "暴雷"榴弹(PG)</entityname.mph_ammo_exp_pg>
+  <entitydescription.mph_ammo_exp_pg>爆炸就是艺术，使用定时引信在设定的目标位置引爆并产生金属风暴，对除发射者外的一切目标进行切割。</entitydescription.mph_ammo_exp_pg>
+  <entityname.mph_ammo_breaching>4 英寸 "公牛"榴弹</entityname.mph_ammo_breaching>
+  <entitydescription.mph_ammo_breaching>FBI BREACHING!!!</entitydescription.mph_ammo_breaching>
+  <entityname.mph_ammo_base>4 英寸 榴弹</entityname.mph_ammo_base>
+  <entitydescription.mph_ammo_base>未填装战斗部，但被这玩意捅到怎么想都很糟糕吧。</entitydescription.mph_ammo_base>
+  <entityname.mph_ammo_heathesh>4 英寸 串联破甲碎甲榴弹</entityname.mph_ammo_heathesh>
+  <entitydescription.mph_ammo_heathesh>通过破甲战斗部击穿装甲再在内部引爆碎甲弹，无论对装甲和巨兽都极其有效。</entitydescription.mph_ammo_heathesh>
+  <!--AXE.xml-->
+  <entityname.PFbw>强力近战系统(Power Combat System)</entityname.PFbw>
+  <entitydescription.PFbw>所有钢铁联盟的新兵都接受过徒手格斗的训练。</entitydescription.PFbw>
+  <entityname.stunbatonbw>热能军刀(Heat Saber)</entityname.stunbatonbw>
+  <entitydescription.stunbatonbw>强力晕眩武器，装上X01氧气电池后能造成额外热能伤害，但无法穿透重装甲。</entitydescription.stunbatonbw>
+  <entityname.hammer_bw>雷霆之锤(Thunder Hammer)</entityname.hammer_bw>
+  <entitydescription.hammer_bw>一个重型破门锤，可以使用聚能装药以获得更强的穿透力。但在战斗中很难发挥作用。</entitydescription.hammer_bw>
+  <entityname.uex2>铁锤引爆器(Hammer Detonator)</entityname.uex2>
+  <entitydescription.uex2>与雷霆之锤配合使用的锥形聚能炸药。一不留神就会伤害到自己。</entitydescription.uex2>
+  <entityname.bw_axe>钢铁联盟登船斧(Iron League Boarding Axe)</entityname.bw_axe>
+  <entitydescription.bw_axe>作为雷霆之锤的替代品，这种笨重的斧头在破坏船壳的速度更慢，但更安全。此外它对装甲的效果非常可怕。</entitydescription.bw_axe>
+  <entityname.bwgs>岁星(Winter Star)</entityname.bwgs>
+  <entitydescription.bwgs>仿佛自古代而来的长剑，其厚重的剑身可以很好地对付盔甲。 </entitydescription.bwgs>
+  <entityname.tachi>天征(Conquest)</entityname.tachi>
+  <entitydescription.tachi>仿佛自古代而来的太刀，它锋锐且迅捷的刀刃在对抗盔甲时很吃力，但在遇到肉体时却很出色。 </entitydescription.tachi>
+  <!--BA.xml-->
+  <entityname.corsairar_bw>劫盗式(Corsair)</entityname.corsairar_bw>
+  <entitydescription.corsairar_bw>淘汰的军用装甲，大量流入黑市导致海盗猖獗。使用氧气瓶。</entitydescription.corsairar_bw>
+  <entityname.armored_miningsuit_bw>锤头矿机(Hammer Mining Armor)</entityname.armored_miningsuit_bw>
+  <entitydescription.armored_miningsuit_bw>重型挖矿机甲，只要装入电池便能维持氧气循环系统，可以装载锤头集装箱。</entitydescription.armored_miningsuit_bw>
+  <entityname.toolbox_bw>锤头集装箱(Hammer Container)</entityname.toolbox_bw>
+  <entitydescription.toolbox_bw>厚实的集装箱，可以安全装载轨道炮之类的危险易爆物。 </entitydescription.toolbox_bw>
+  <entityname.armored_hardsuit_bw>X01战斗装甲(X01 Battle Armor)</entityname.armored_hardsuit_bw>
+  <entitydescription.armored_hardsuit_bw>为了执行多种军事任务而诞生的先进装甲，使用X01氧气电池。可以装载一把重武器。</entitydescription.armored_hardsuit_bw>
+  <entityname.oxygen_cell_bw>X01 氧气电池(X01 Oxygen Cell)</entityname.oxygen_cell_bw>
+  <entitydescription.oxygen_cell_bw>实验性氧气电池，可以承受高热与冲撞。 </entitydescription.oxygen_cell_bw>
+  <entityname.laser_bw>Laser</entityname.laser_bw>
+  <entityname.armored_hardsuit_bwl>X01战斗装甲(队长机) X01 Battle Armor(Leader)</entityname.armored_hardsuit_bwl>
+  <entitydescription.armored_hardsuit_bwl>为了执行多种军事任务而诞生的先进装甲，使用X01氧气电池。队长机有着更好的声纳系统。</entitydescription.armored_hardsuit_bwl>
+  <entityname.armored_hardsuit_bw2>X01战斗装甲(老兵机) X01 Battle Armor(Veteran)</entityname.armored_hardsuit_bw2>
+  <entitydescription.armored_hardsuit_bw2>为了执行多种军事任务而诞生的先进装甲，使用X01氧气电池。老兵机拥有个性涂装，还能挂上额外的铁拳。</entitydescription.armored_hardsuit_bw2>
+  <entityname.knight_hardsuit_bw>银骑士(Silver Knight)</entityname.knight_hardsuit_bw>
+  <entitydescription.knight_hardsuit_bw>以外星材料打造的神秘护甲，非常坚韧。可以装载一把重武器。使用外星电池。</entitydescription.knight_hardsuit_bw>
+  <entityname.pio_bw>先锋式改(Pioneer Custom)</entityname.pio_bw>
+  <entitydescription.pio_bw>专精于建造大型工程项目的装甲，对于潜舰维护也十分在行。使用氧气瓶。</entitydescription.pio_bw>
+  <entityname.pio_bw2>先锋式(Pioneer)</entityname.pio_bw2>
+  <entitydescription.pio_bw2>专精于建造大型工程项目的装甲，对于潜舰维护也十分在行。使用氧气瓶。</entitydescription.pio_bw2>
+  <entityname.armored_miningsuit_bw2>大力神(Hercules)</entityname.armored_miningsuit_bw2>
+  <entitydescription.armored_miningsuit_bw2>重型军用机甲，可以搬运大量弹药。在水中十分笨拙，不被启用时自动充电。</entitydescription.armored_miningsuit_bw2>
+  <entityname.corsairar_bp>X00原型装甲(X00 Prototype Armor)</entityname.corsairar_bp>
+  <entitydescription.corsairar_bp>实验性原型机，具有极高的攻击性能。使用X01氧气电池。</entitydescription.corsairar_bp>
+  <entityname.armored_miningsuit_bw3>大力神 Mk.II(Hercules Mk.II)</entityname.armored_miningsuit_bw3>
+  <entitydescription.armored_miningsuit_bw3>重型军用工程机甲改装，稍微改善速度与试验型能量循环炉。</entitydescription.armored_miningsuit_bw3>
+  <entityname.apollo_bw>阿波罗(Apollo)</entityname.apollo_bw>
+  <entitydescription.apollo_bw>轻型战地医师机甲，可以携带大量医疗物资，在战场中快速移动，并且对药物和研究提供巨量加成。</entitydescription.apollo_bw>
+  <entityname.circe_bw>喀耳刻(Circe)</entityname.circe_bw>
+  <entitydescription.circe_bw>轻型化学战专用机甲，可以携带大量医疗物资，在战场中快速移动，并且对毒剂烧伤有绝佳抗性。</entitydescription.circe_bw>
+  <entityname.armored_hardsuit_bw_med>X01战斗装甲(战斗医疗)</entityname.armored_hardsuit_bw_med>
+  <entitydescription.armored_hardsuit_bw_med>为了执行多种军事任务而诞生的先进装甲，使用X01氧气电池。附加有着自动健康监控系统。</entitydescription.armored_hardsuit_bw_med>
+  <entityname.pio_bw_med>先锋式改二型</entityname.pio_bw_med>
+  <entitydescription.pio_bw_med>专精于医疗救助。使用氧气瓶。</entitydescription.pio_bw_med>
+  <!--Shield.xml-->
+  <entityname.bwapc>逆向工程外星电池(Reverse Engineering Alien Power Cell)</entityname.bwapc>
+  <entitydescription.bwapc>人工增强的外星电池。 </entitydescription.bwapc>
+  <entityname.rgcbw>雷霆炮辅助装置(Thunder Cannon Support Device)</entityname.rgcbw>
+  <entitydescription.rgcbw>可以装载4发轨道炮炮弹或雷霆炮。</entitydescription.rgcbw>
+  <entityname.shield_bw>登舰盾(Boarding Shield)</entityname.shield_bw>
+  <entityname.arsenal_bw>黑海武库(Black Sea Arsenal)</entityname.arsenal_bw>
+  <entitydescription.shield_bw>装甲是越厚越好。 </entitydescription.shield_bw>
+  <entitydescription.arsenal_bw>随身携带的黑海武库，能携带大量军火也能作为攻坚的尖盾。背负时能为机甲提供额外电源和火控系统。</entitydescription.arsenal_bw>
+  <entityname.harpoongunbw>连发鱼叉枪(Rapid Harpoongun)</entityname.harpoongunbw>
+  <entitydescription.harpoongunbw>快速连射鱼叉枪。使用鱼叉。 </entitydescription.harpoongunbw>
+  <entityname.spearbw>碎裂鱼叉(Tattered Spear)</entityname.spearbw>
+  <entitydescription.spearbw>穿甲鱼叉。</entitydescription.spearbw>
+  <entityname.plasmacutterbw>超级等离子切割器(MEGA Plasma)</entityname.plasmacutterbw>
+  <entitydescription.plasmacutterbw>先进切割工具，也很适合拿来烤肉。 </entitydescription.plasmacutterbw>
+  <entityname.bwpower>异星充能器(Alien Charger)</entityname.bwpower>
+  <entitydescription.bwpower>可以替异星电池充电。</entitydescription.bwpower>
+  <entityname.ancientweaponbw>征服者(Conqueror)</entityname.ancientweaponbw>
+  <entitydescription.ancientweaponbw>强力能量武器。依据使用的外星电池进行不同攻击模式。 </entitydescription.ancientweaponbw>
+  <entityname.relic_bw>圣物碎片(Relic Fragments)</entityname.relic_bw>
+  <entityname.cell_bw>闭锁循环电路系统(Closed Circulatory System Cell)</entityname.cell_bw>
+  <entitydescription.cell_bw>结合异星科技的动力电池，能供给锤头、劫盗式、先锋式无限电力。</entitydescription.cell_bw>
+  <!--Boarding Torpedo.xml-->
+  <entityname.boarding_torpedo_bw>登舰鱼雷(Boarding Torpedo)</entityname.boarding_torpedo_bw>
+  <entitydescription.boarding_torpedo_bw>小子们给偶听好嘞，红色跑得快，WAGHHHHHHHHHHHHHH！ ！ ！ </entitydescription.boarding_torpedo_bw>
+  <entityname.jetscooterbw>工程摩托(Engineering Motor)</entityname.jetscooterbw>
+  <entitydescription.jetscooterbw>辅助重型机甲用的重型引擎。</entitydescription.jetscooterbw>
+  <entityname.divingknifebw>破甲者(Armor Breaker)</entityname.divingknifebw>
+  <entitydescription.divingknifebw>小型单分子刃，能确实造成伤害。</entitydescription.divingknifebw>
+  <entityname.railbw>钛合金轨道炮炮弹(Titanium Railgun Shell)</entityname.railbw>
+  <entityname.rg_bw>雷霆炮(Thunder Cannon)</entityname.rg_bw>
+  <entitydescription.rg_bw>强行改装成携带式的船舰主炮，存在诸多缺点。使用核弹以外的轨道炮炮弹。 </entitydescription.rg_bw>
+  <!--Guns.xml-->
+  <entityname.HMG1_bp6>革命(Revolution)</entityname.HMG1_bp6>
+  <entitydescription.HMG1_bp6>军用改装提高枪管的综合性能。</entitydescription.HMG1_bp6>
+  <entityname.HMG1_bw>镰刀重机枪(Sickle HMG)</entityname.HMG1_bw>
+  <entitydescription.HMG1_bw>重型自动火力，但容易过热，需要依靠强制散热。使用14.5mm机枪弹药。 </entitydescription.HMG1_bw>
+  <entityname.HMG1_mag_bw>14.5mm机枪弹药(14.5 Ammo Box) 200发</entityname.HMG1_mag_bw>
+  <entityname.HMG1_mag_bw_h>14.5mm机枪弹药(14.5 Ammo Box) 100发</entityname.HMG1_mag_bw_h>
+  <entitydescription.HMG1_mag_bw>老旧，但致命。 </entitydescription.HMG1_mag_bw>
+  <entitydescription.HMG1_mag_bw_h>老旧，但致命。 </entitydescription.HMG1_mag_bw_h>
+  <entityname.minichaingun_bw>试验链炮(Experimental Chaingun)</entityname.minichaingun_bw>
+  <entitydescription.minichaingun_bw>昂贵的重型武器。使用链炮弹药。 </entitydescription.minichaingun_bw>
+  <entityname.chaingun_ammo_bw>链炮弹药(Experimental Chaingun Ammo Box)</entityname.chaingun_ammo_bw>
+  <entitydescription.chaingun_ammo_bw>1000发子弹装，枪林弹雨！ ！ ！ </entitydescription.chaingun_ammo_bw>
+  <entityname.chaingun_round_bw>Experimental Chaingun Round</entityname.chaingun_round_bw>
+  <!--Laser Cannon.xml-->
+  <entityname.lasercannon_bw>试验雷射炮(Experimental Laser Cannon)</entityname.lasercannon_bw>
+  <entitydescription.lasercannon_bw>重装雷射炮，可以轻易融化血肉之躯，对门与甲板有奇效。使用X01 氧气电池。 </entitydescription.lasercannon_bw>
+  <entityname.explosivespearbw>铁拳(Iron Fist)</entityname.explosivespearbw>
+  <entitydescription.explosivespearbw>单次使用反装甲武器，能造成强大破坏。 </entitydescription.explosivespearbw>
+  <entityname.ifbw>Fist</entityname.ifbw>
+  <entityname.esg_bw>试验狙击炮(Experimental Precise Gun)</entityname.esg_bw>
+  <entitydescription.esg_bw>为了长程支援而开发的重型炮。使用精准弹。 </entitydescription.esg_bw>
+  <entityname.SG_ammo>精准弹弹夹(Precise Bullet Clip)</entityname.SG_ammo>
+  <entityname.esg_bw2>试验狙击炮Mk.II(Experimental Precise Gun Mk.II)</entityname.esg_bw2>
+  <entitydescription.esg_bw2>改良后的重型炮，加快瞄准速度。使用精准弹。</entitydescription.esg_bw2>
+  <entityname.lasercannon_bp3>灾祸(Disaster)</entityname.lasercannon_bp3>
+  <entitydescription.lasercannon_bp3>紧凑枪身改装的雷射炮，有着容易过热的缺陷。</entitydescription.lasercannon_bp3>
+  <!--Guns.xml-->
+  <entityname.lmground_bw>Lmg Round</entityname.lmground_bw>
+  <entityname.lmground_bw2>Lmg Round2</entityname.lmground_bw2>
+  <entityname.lmgmagazine_bw>双连7.62mm弹匣(Linked 7.62mm Magzine)</entityname.lmgmagazine_bw>
+  <entitydescription.lmgmagazine_bw>快乐扳机指！ ！ ！ </entitydescription.lmgmagazine_bw>
+  <entityname.lmgmagazine_bw2>双连7.62mm再生弹匣(Linked Autofilled 7.62mm Magzine)</entityname.lmgmagazine_bw2>
+  <entitydescription.lmgmagazine_bw2>活体金属能自动再生弹药，但威力减半。 </entitydescription.lmgmagazine_bw2>
+  <entityname.lmg_bw>战术轻机枪(Tactical LMG)</entityname.lmg_bw>
+  <entitydescription.lmg_bw>可信赖的好伙伴，能对轻型目标造成有效伤害。使用双连7.62mm弹匣。 </entitydescription.lmg_bw>
+  <!--PRG.xml-->
+  <entityname.battlecannon_bw>伐木炮(Axe Rocket Cannon)</entityname.battlecannon_bw>
+  <entitydescription.battlecannon_bw>能发射爆破弹的重型炮。使用火箭弹。 </entitydescription.battlecannon_bw>
+  <entityname.cannonshell_bw>火箭弹(Rocket Shell)</entityname.cannonshell_bw>
+  <entitydescription.cannonshell_bw>如飓风般的火力，能持续造成优秀的烧伤与爆炸伤害。 </entitydescription.cannonshell_bw>
+  <entityname.prg_bw>试验可携式轨道炮(Experimental Portable Rail Gun)</entityname.prg_bw>
+  <entitydescription.prg_bw>重型肩射主炮，难以驾驭但有着强大火力。使用PRG风暴弹头。 </entitydescription.prg_bw>
+  <entityname.prg_ammo>PRG风暴弹头(Experimental PRG Storm Shell)</entityname.prg_ammo>
+  <entitydescription.prg_ammo>强大的穿甲弹头。 </entitydescription.prg_ammo>
+  <!--SG.xml-->
+  <entityname.shotgunshellbw>双重霰弹(Double Shotgunshell)</entityname.shotgunshellbw>
+  <entityname.shotgununiquebw>毁灭战士(DOOM)</entityname.shotgununiquebw>
+  <entitydescription.shotgununiquebw>双管猎枪。经典。使用双重霰弹。 </entitydescription.shotgununiquebw>
+  <entityname.grenadelauncher_bw>多用途弹鼓枪(Drum Hybrid Barrel)</entityname.grenadelauncher_bw>
+  <entitydescription.grenadelauncher_bw>能发射不同用途的自动枪。使用弹鼓霰弹或25mm榴弹。 </entitydescription.grenadelauncher_bw>
+  <entityname.bw_shotgun_drum>弹鼓霰弹(Drum Shotgun Shell)</entityname.bw_shotgun_drum>
+  <entitydescription.bw_shotgun_drum>猎鹿弹。 </entitydescription.bw_shotgun_drum>
+  <entityname.bw_shotgun_shell>弹鼓霰弹(Drum Shotgun Shell)</entityname.bw_shotgun_shell>
+  <entitydescription.bw_shotgun_shell>猎鹿弹。 </entitydescription.bw_shotgun_shell>
+  <entityname.bw_grenade_drum>25mm榴弹(Drum 25mm Grenade)</entityname.bw_grenade_drum>
+  <entitydescription.bw_grenade_drum>榴弹！ ！ ！全自动！ ！ ！ </entitydescription.bw_grenade_drum>
+  <entityname.bw_grenade>25mm榴弹(Drum 25mm Grenade)</entityname.bw_grenade>
+  <entitydescription.bw_grenade>榴弹！ ！ ！全自动！ ！ ！ </entitydescription.bw_grenade>
+  <!--Mods\BWeapons\SMG\Guns.xml-->
+  <entityname.smground_bw>Smg Round</entityname.smground_bw>
+  <entityname.smgmagazine_bw>7.62弹匣(7.62mm Magzine)</entityname.smgmagazine_bw>
+  <entitydescription.smgmagazine_bw>''小''朋友。 </entitydescription.smgmagazine_bw>
+  <entityname.smg_bw>近身战冲锋枪(CQB SMG)</entityname.smg_bw>
+  <entitydescription.smg_bw>可以双持的快速火力。使用7.62mm弹匣。 </entitydescription.smg_bw>
+  <entityname.smgmagazine_bw2>[遗产即将移除]7.62mm再生弹匣(7.62mm Autofilled Magzine)</entityname.smgmagazine_bw2>
+  <entitydescription.>活体金属能自动再生弹药，但威力减半。 </entitydescription.>
+  <entityname.smground_bw2>Smg Round2</entityname.smground_bw2>
+  <!--Materials-->
+  <entityname.bca_bw>复合装甲板</entityname.bca_bw>
+  <entitydescription.bca_bw>钢铁联盟研发的采用了NERA（非爆炸反应装甲）设计，能够提供多层次的防御，是一种高级复合装甲，包括压缩钛合金、装甲硅、贫化材料、钛金属纤维网和橡胶。有效地抵御来自爆炸、穿甲等武器的威胁。</entitydescription.bca_bw>
+  <entityname.pta_bw>压缩钛合金</entityname.pta_bw>
+  <entitydescription.pta_bw>钢铁联盟研发的最新合金，有种无与伦比的材料性能。但代价是高昂的造价，因此仅仅被钢铁联盟用于制造高端武器，用于对抗日益增长的威胁。 </entitydescription.pta_bw>
+  <entityname.amu_bw>硬化铝合金</entityname.amu_bw>
+  <entitydescription.amu_bw>钢铁联盟研发的合金，具有良好的散热性能，媲美钢的硬度以及极轻的重量，常被用于制作枪支外壳。 </entitydescription.amu_bw>
+  <entityname.sst_bw>硬化钢</entityname.sst_bw>
+  <entitydescription.sst_bw>钢铁联盟研发的合金，有着惊人的硬度和耐用性，常被用于制作枪管。 </entitydescription.sst_bw>
+  <entityname.camp6_bw>六号化合物</entityname.camp6_bw>
+  <entitydescription.camp6_bw>钢铁联盟研发的一种军用烈性火药，可用于合成军用烈性炸药，在同等质量下远超木卫二已知的火药性能。据说研发者是一名前线活跃的军医，其座右铭是“火药也是药”。 </entitydescription.camp6_bw>
+  <entityname.camp7_bw>七号化合物</entityname.camp7_bw>
+  <entitydescription.camp7_bw>钢铁联盟研发的一种军用烈性火药，在六号化合物的配方上加入了当地特产，可用于合成军用烈性炸药。据说研发者是一名前线活跃的军医，其座右铭是“火药也是药”。 </entitydescription.camp7_bw>
+  <entityname.c6_bw>C6炸药</entityname.c6_bw>
+  <entitydescription.c6_bw>钢铁联盟研发的一种军用烈性炸药。 </entitydescription.c6_bw>
+  <!--tactical Scanner.xml-->
+  <entityname.divingsuitlockerbw>机坪(Apron)</entityname.divingsuitlockerbw>
+  <entityname.shellbagbw>无畏辅助系统(Dreadnought Support System)</entityname.shellbagbw>
+  <entitydescription.shellbagbw>为了舰内作战而设计的步兵支援系统，不能承受高水压。使用X01 氧气电池的话能在水中提供氧气。 </entitydescription.shellbagbw>
+  <entityname.shellshieldbw>无畏步兵动力装甲(Dreadnought PCIA)</entityname.shellshieldbw>
+  <entitydescription.shellshieldbw>为了保护舰内高阶军官而设计的动力装甲，可以承受强大水压。使用X01 氧气电池的话能在水中提供氧气。 </entitydescription.shellshieldbw>
+  <entityname.ballistichelmetbw>装甲头盔(Armored helmet)</entityname.ballistichelmetbw>
+  <entitydescription.ballistichelmetbw>步兵的象征。不能拆解。 </entitydescription.ballistichelmetbw>
+  <entityname.captainscapbw>军帽(Military cap)</entityname.captainscapbw>
+  <entitydescription.captainscapbw>指挥的象征。不能拆解。 </entitydescription.captainscapbw>
+  <entityname.weldingtoolbw>智慧电弧(Smart Arc)</entityname.weldingtoolbw>
+  <entitydescription.weldingtoolbw>搭载智慧系统可以避免误伤生物。使用电池或X01 氧气电池。 </entitydescription.weldingtoolbw>
+  <entityname.captainsuniformbw>前线装甲(Battle Armor)</entityname.captainsuniformbw>
+  <entitydescription.captainsuniformbw>忠诚的象征。不能拆解。 </entitydescription.captainsuniformbw>
+  <entityname.tatical_scanner>战术扫描仪(Tactical Scanner)</entityname.tatical_scanner>
+  <entitydescription.tatical_scanner>不仅能扫描生物健康状态，还能在危急时救你一命。 </entitydescription.tatical_scanner>
+  <entityname.revolver_bw>死亡摇滚(Dead Rock)</entityname.revolver_bw>
+  <entitydescription.revolver_bw>老式武器，使用14.5mm弹头。 </entitydescription.revolver_bw>
+  <entityname.revolverammobw>14.5mm弹头弹夹(14.5mm Round Clip)</entityname.revolverammobw>
+  <entityname.revolverammobw2>14.5mm震荡弹头弹夹(14.5mm Concussion Round Clip)</entityname.revolverammobw2>
+  <entityname.revolverammobw3>14.5mm照明弹头弹夹(14.5mm Flare Round Clip)</entityname.revolverammobw3>
+  <entityname.coilgunammo_bw>[遗产]再生金属电磁枪弹药箱(红) Autofilled Coilgun Ammunition Box(Red)</entityname.coilgunammo_bw>
+  <entityname.coilgunammo_bw2>[遗产]再生金属电磁枪弹药箱(黄) Autofilled Coilgun Ammunition Box(Yellow)</entityname.coilgunammo_bw2>
+  <entityname.coilgunboltbw>coilgunboltbw</entityname.coilgunboltbw>
+  <entityname.coilgunboltbw2>coilgunboltbw2</entityname.coilgunboltbw2>
+  <entityname.bandolierbw>战术背带(Tactical Bandolier)</entityname.bandolierbw>
+  <entitydescription.bandolierbw>勇气的象征，提升远距武器射击速度。不能拆解。</entitydescription.bandolierbw>
+  <entityname.bandolierbw2>战术支援系统(Tactical Support System)</entityname.bandolierbw2>
+  <entitydescription.bandolierbw2>勇气的象征，提升远距与近距武器攻击速度。不能拆解。</entitydescription.bandolierbw2>
+  <entityname.bandolierbw3>坚盾支援系统(Shield Support System)</entityname.bandolierbw3>
+  <entitydescription.bandolierbw3>勇气的象征，增加防御力与远距武器射击速度。不能拆解。</entitydescription.bandolierbw3>
+  <entityname.bandolierbw4>突击支援系统(Assault Support System)</entityname.bandolierbw4>
+  <entitydescription.bandolierbw4>勇气的象征，加强远距与近距武器攻击速度与防御力。不能拆解。</entitydescription.bandolierbw4>
+  <entityname.handcannonbw>平定者(Peace Keeper)</entityname.handcannonbw>
+  <entitydescription.handcannonbw>大口径手炮，威吓力十足。</entitydescription.handcannonbw>
+  <!--Affliction-->
+  <Afflictionname.architect>建筑师</Afflictionname.architect>
+  <Afflictiondescription.architect>维修加快25%。</Afflictiondescription.architect>
+  <Afflictionname.architect2>堡垒建筑师</Afflictionname.architect2>
+  <Afflictiondescription.architect2>维修加快25%，生命值提高50%。</Afflictiondescription.architect2>
+  <Afflictionname.Hercules>堡垒建筑师</Afflictionname.Hercules>
+  <Afflictiondescription.Hercules>维修加快25%，生命值提高25%。</Afflictiondescription.Hercules>
+  <Afflictionname.Hercules2>堡垒建筑师</Afflictionname.Hercules2>
+  <Afflictiondescription.Hercules2>维修加快25%，生命值提高25%，物理伤害减免15%。</Afflictiondescription.Hercules2>
+  <Afflictionname.Swift>迅捷</Afflictionname.Swift>
+  <Afflictiondescription.Swift>近战攻击速度提高20%。</Afflictiondescription.Swift>
+  <Afflictionname.Alienpw>坚韧</Afflictionname.Alienpw>
+  <Afflictiondescription.Alienpw>生命值提高50%，受到伤害后非常缓慢地自我修复。</Afflictiondescription.Alienpw>
+  <Afflictionname.X01>先进装甲</Afflictionname.X01>
+  <Afflictiondescription.X01>伤害提高10%，生命值提高10%。</Afflictiondescription.X01>
+  <Afflictionname.X00>突击装甲</Afflictionname.X00>
+  <Afflictiondescription.X00>伤害提高10%，攻击速度提高20%，生命值提升10%。</Afflictiondescription.X00>
+  <Afflictionname.X01D>活性装甲</Afflictionname.X01D>
+  <Afflictiondescription.X01D>伤害提高10%，生命值提高20%，受到伤害后非常缓慢地自我修复。</Afflictiondescription.X01D>
+  <Afflictionname.Hammer>修复</Afflictionname.Hammer>
+  <Afflictiondescription.Hammer>生命值提高10%。</Afflictiondescription.Hammer>
+  <Afflictionname.PCIA>生物保健系统</Afflictionname.PCIA>
+  <Afflictiondescription.PCIA>受到伤害后非常缓慢地自我修复。 </Afflictiondescription.PCIA>
+  <Afflictionname.DEFbw>额外装甲</Afflictionname.DEFbw>
+  <Afflictiondescription.DEFbw>生命值提高50%，物理伤害减免30%。</Afflictiondescription.DEFbw>
+  <Afflictionname.DEFbw2>附加装甲</Afflictionname.DEFbw2>
+  <Afflictiondescription.DEFbw2>生命值提高25%，物理伤害减免15%。</Afflictiondescription.DEFbw2>
+  <Afflictionname.DEFbw3>额外装甲</Afflictionname.DEFbw3>
+  <Afflictiondescription.DEFbw3>生命值提高50%，物理伤害减免30%，攻击速度提高20%。</Afflictiondescription.DEFbw3>
+  <Afflictionname.Swift2>突击装甲</Afflictionname.Swift2>
+  <Afflictiondescription.Swift2>伤害提高10%，攻击速度提高20%，生命值提升25%。</Afflictiondescription.Swift2>
+  <Afflictionname.steelruler>钢铁统驭</Afflictionname.steelruler>
+  <Afflictionname.quickdrawingbw>全力一击</Afflictionname.quickdrawingbw>
+  <Afflictionname.stonewallbw>坚守阵线</Afflictionname.stonewallbw>
+  <Afflictionname.sup1>支援系统</Afflictionname.sup1>
+  <Afflictiondescription.sup1>远程攻击速度提高20%。</Afflictiondescription.sup1>
+  <Afflictionname.sup2>支援系统</Afflictionname.sup2>
+  <Afflictiondescription.sup2>攻击速度提高20%。</Afflictiondescription.sup2>
+  <Afflictionname.sup3>突击支援系统</Afflictionname.sup3>
+  <Afflictiondescription.sup3>攻击速度提高20%，生命值提高25%，物理伤害减免15%。</Afflictiondescription.sup3>
+  <Afflictionname.sup4>武库支援系统</Afflictionname.sup4>
+  <Afflictiondescription.sup4>攻击速度提高20%，生命值提高25%，物理伤害减免20%。</Afflictiondescription.sup4>
+  <Afflictionname.Med_sys>战地医师系统</Afflictionname.Med_sys>
+  <Afflictiondescription.Med_sys>生命值提高10%，毒药效果增加10%。</Afflictiondescription.Med_sys>
+  <Afflictionname.Apollo_sys>战地医师系统</Afflictionname.Apollo_sys>
+  <Afflictiondescription.Apollo_sys>生命值提高10%，毒剂效果增加25%，基因合并时无污染风险。</Afflictiondescription.Apollo_sys>
+  <Afflictionname.Circe_sys>化学战系统</Afflictionname.Circe_sys>
+  <Afflictiondescription.Circe_sys>生命值提高10%，毒剂和火焰效果增加100%，随着时间中和体内有毒物质。</Afflictiondescription.Circe_sys>
+  <Afflictionname.bedsidemanner_bw>阿波罗支援系统</Afflictionname.bedsidemanner_bw>
+  <Afflictiondescription.bedsidemanner_bw>移动速度提高10%，物理伤害减免10%，生效期间不会因伤痛而死亡。</Afflictiondescription.bedsidemanner_bw>
+  <entityname.railgunshellbw2>空包弹(Empty Shell)</entityname.railgunshellbw2>
+  <!--Enemy Characters equipments-->
+  <entityname.corsairar_bw_e>Pirate Corsair</entityname.corsairar_bw_e>
+  <entityname.armored_miningsuit_bw_e>Reinforced Mining Armor</entityname.armored_miningsuit_bw_e>
+  <entityname.pio_bw2_e>Pirate Pioneer</entityname.pio_bw2_e>
+  <entityname.armored_hardsuit_bw_e>X01</entityname.armored_hardsuit_bw_e>
+  <entityname.armored_hardsuit_bw2_e>X01 Veteran</entityname.armored_hardsuit_bw2_e>
+  <entityname.armored_miningsuit_bw3_e>modified Hercules</entityname.armored_miningsuit_bw3_e>
+  <entityname.knight_hardsuit_bw_e>Corrupted Knight</entityname.knight_hardsuit_bw_e>
+  <entityname.clownexosuitbw_e>Funkoverlord 4000</entityname.clownexosuitbw_e>
+  <entitydescription.corsairar_bw_e>This suit is locked by biometric authentication.</entitydescription.corsairar_bw_e>
+  <entitydescription.armored_miningsuit_bw_e>This suit is locked by biometric authentication.</entitydescription.armored_miningsuit_bw_e>
+  <entitydescription.pio_bw2_e>This suit is locked by biometric authentication.</entitydescription.pio_bw2_e>
+  <entitydescription.armored_hardsuit_bw_e>This suit is locked by biometric authentication.</entitydescription.armored_hardsuit_bw_e>
+  <entitydescription.armored_hardsuit_bw2_e>This suit is locked by biometric authentication.</entitydescription.armored_hardsuit_bw2_e>
+  <entitydescription.armored_miningsuit_bw3_e>This suit is locked by biometric authentication.</entitydescription.armored_miningsuit_bw3_e>
+  <entitydescription.knight_hardsuit_bw_e>Why do we resist embracing the Husk?</entitydescription.knight_hardsuit_bw_e>
+  <entitydescription.clownexosuitbw_e>Why so serious?</entitydescription.clownexosuitbw_e>
+  <!--Enemy Characters-->
+  <!--Pirate-->
+  <character.Piraterecruits>投机者</character.Piraterecruits>
+  <!--单手冲锋枪-->
+  <character.Piraterecruitspod>投机者跳帮舱</character.Piraterecruitspod>
+  <!--单人跳帮 | 二海-->
+  <character.Piratescavenger>清道夫</character.Piratescavenger>
+  <!--榴弹发射器/LMG+奇奇怪怪的近战武器-->
+  <character.Piratescavengerpod>清道夫跳帮舱</character.Piratescavengerpod>
+  <!--单人跳帮 | 二海-->
+  <character.Pirateboarder>风暴</character.Pirateboarder>
+  <!--CQB/LMG/556 -->
+  <character.Piratecommando>旋风</character.Piratecommando>
+  <!--AG,556,65 -->
+  <character.Pirateenforcer>强袭者</character.Pirateenforcer>
+  <!-- -4/-15/弹鼓 -->
+  <character.Pirateenforcerpod>强袭跳帮舱</character.Pirateenforcerpod>
+  <!--单人跳帮-->
+  <character.Pirategrenadier>雷暴</character.Pirategrenadier>
+  <!--弹鼓榴弹-->
+  <character.Piratedismantler>碾灭者</character.Piratedismantler>
+  <!--大锤-->
+  <character.Piratedismantlerpod>粉碎小组跳帮舱</character.Piratedismantlerpod>
+  <!--大锤+小锤跳帮-->
+  <character.Pirateforerunner>粉碎者</character.Pirateforerunner>
+  <!--小锤-->
+  <character.Piratecommando2>旋风</character.Piratecommando2>
+  <!--AG300,556A,65-->
+  <character.Piratecommandopod>旋风跳帮舱</character.Piratecommandopod>
+  <character.Piraterifleman>征讨者</character.Piraterifleman>
+  <!--突击步枪/65-->
+  <character.Pirateriflemanpod>征讨者跳帮舱</character.Pirateriflemanpod>
+  <!--Piraterifleman+Piratecommando-->
+  <character.Piraterepressor>压迫者</character.Piraterepressor>
+  <!--76-->
+  <character.Piraterepressorpod>压迫者跳帮舱</character.Piraterepressorpod>
+  <character.Piratemarksman>告密者</character.Piratemarksman>
+  <!---8/-8s-->
+  <character.Piratemarksmanpod>告密者跳帮舱</character.Piratemarksmanpod>
+  <character.Piratetyrant>暴君</character.Piratetyrant>
+  <!--93-->
+  <character.Piratetyrantpod>暴君跳帮舱</character.Piratetyrantpod>
+  <character.Pirategunner>突袭者</character.Pirategunner>
+  <!-- -338 -->
+  <character.Pirategunnerpod>突袭小组跳帮舱</character.Pirategunnerpod>
+  <!--Pirategunner+Piratescavenger-->
+  <character.Pirategunner2>绞肉机</character.Pirategunner2>
+  <!--镰刀-->
+  <character.Piratebombard>屠夫</character.Piratebombard>
+  <!--伐木炮-->
+  <character.Pirateheavy>钢炉</character.Pirateheavy>
+  <!--盾+手炮/LMG-->
+  <character.Pirateheavypod>液压机跳帮舱</character.Pirateheavypod>
+  <!--单人跳帮-->
+  <character.Pirateantisub>轰鸣</character.Pirateantisub>
+  <!--轨道炮高爆/破片-->
+  <character.Pirateantisub_emp>雷霆</character.Pirateantisub_emp>
+  <!--EMP-->
+  <character.Piratedesolator>污钢</character.Piratedesolator>
+  <!--轨道炮脏弹-->
+  <character.Piratenuker>熔毁</character.Piratenuker>
+  <!--小核弹-->
+  <character.Piratesharpshooter>收割者</character.Piratesharpshooter>
+  <!--精确步枪/408不同弹种随机-->
+  <character.Piratesharpshooterpod>猎杀小组跳帮舱</character.Piratesharpshooterpod>
+  <!--Piratesharpshooter+Piraterifleman-->
+  <character.Pirateveteran>红湮</character.Pirateveteran>
+  <!--双持激光炮/双持激光炮T2/激光炮T2+手炮/激光炮+轨道炮 | 四海深渊-->
+  <character.Pirateveteranpod>死光小组跳帮舱</character.Pirateveteranpod>
+  <!--Pirateveteran+Pirateforerunner-->
+  <!--Coalition-->
+  <character.Coalitionantisub>标枪分队轰击者</character.Coalitionantisub>
+  <!--双持轨道炮-->
+  <character.Coalitionheavy>标枪分队救赎者</character.Coalitionheavy>
+  <!--盾+手炮/链炮-->
+  <character.Coalitiongunner>标枪分队仲裁者</character.Coalitiongunner>
+  <!--镰刀T2-->
+  <character.Coalitionsharpshooter>标枪分队根除者</character.Coalitionsharpshooter>
+  <!--精确步枪-->
+  <character.Coalitionannihilator>标枪分队歼灭者</character.Coalitionannihilator>
+  <!--双持激光炮-->
+  <character.Coalitionveteran>标枪分队毁灭者</character.Coalitionveteran>
+  <!--双持激光炮T2-->
+  <character.Coalitionrifleman>标枪分队先驱者</character.Coalitionrifleman>
+  <!--Conqueror-->
+  <!--Separatist-->
+  <character.Separatistrifleman>塞壬小队序曲</character.Separatistrifleman>
+  <!--突击步枪-->
+  <character.Separatistantisub>塞壬小队小夜曲</character.Separatistantisub>
+  <!--轨道炮脏弹-->
+  <character.Separatistveteran>塞壬小队交响曲</character.Separatistveteran>
+  <!--双持轨道炮-->
+  <character.Separatistgunner>塞壬小队协奏曲</character.Separatistgunner>
+  <!--镰刀T2-->
+  <character.Separatistsharpshooter>塞壬小队奏鸣曲</character.Separatistsharpshooter>
+  <!--精确步枪-->
+  <character.Separatistbombard>塞壬小队进行曲</character.Separatistbombard>
+  <!--伐木炮-->
+  <!--Cultist-->
+  <character.Corruptedknight>堕落骑士</character.Corruptedknight>
+  <character.Cultistdevoter>异教徒虔诚者</character.Cultistdevoter>
+  <character.Cultistzealot>异教徒狂热者</character.Cultistzealot>
+  <character.Technoprankster>科学怪人</character.Technoprankster>
+  <!--BOSS-->
+  <character.Coalitioneyeofear>恐惧之眼</character.Coalitioneyeofear>
+  <!--Mission text-->
+  <missionheader.killtarget>目标被消灭</missionheader.killtarget>
+  <missionmessage.killmessage>目标被消灭已经被肃清了。驾驶潜水艇离开洞穴以领取奖励。</missionmessage.killmessage>
+  <missionname.killnuker>核能危机</missionname.killnuker>
+  <missiondescription.killnuker>一群精英分裂主义分子带着核弹投奔了海盗。虽然目前还没有伤亡的报告，但需要立刻消除这一威胁。他们的机甲可以抵御大部分潜艇的武器装备，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.killnuker>
+  <missionsonarlabel.killnuker>海盗小队</missionsonarlabel.killnuker>
+  <missionsuccess.killnuker>被盗的核武器已被妥善处理。</missionsuccess.killnuker>
+  <missionname.killbseclown>科学怪人</missionname.killbseclown>
+  <missiondescription.killbseclown>一名来自小丑圣母的绿皮科技爱好者利用钢铁联盟技术进行恶作剧。虽然他的恶作剧大多无害，但这次特别的玩笑严重破坏了我们的航线。找到并教训他。</missiondescription.killbseclown>
+  <missionsonarlabel.killbseclown>科学怪人</missionsonarlabel.killbseclown>
+  <missionsuccess.killbseclown>他不会再给我们添麻烦了。</missionsuccess.killbseclown>
+  <missionname.clearruinskhusk>堕落骑士</missionname.clearruinskhusk>
+  <missiondescription.clearruinskhusk>一名被洗脑的基因增强士兵和一些邪教徒携带一套尖端的秘密装备逃到附近的外星废墟。追踪并消除威胁。看来他们也与邪教徒秘密合作开发恶意装备。</missiondescription.clearruinskhusk>
+  <missionsuccess.clearruinskhusk>目标已被歼灭。</missionsuccess.clearruinskhusk>
+  <missionsonarlabel.clearruinskhusk>异教徒</missionsonarlabel.clearruinskhusk>
+  <missionname.killpirates>海盗机械化部队</missionname.killpirates>
+  <missiondescription.killpirates>根据我们的线报，有一群海盗机甲部队封锁了从[location1]到[location2]的通道. 让这些机甲消失，以便我们的船只能够继续安全地通过通道。他们的机甲被设计成能够抵御大多数潜艇的武器，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.killpirates>
+  <missionsonarlabel.killpirates>海盗突击队</missionsonarlabel.killpirates>
+  <missionsuccess.killpirates>海盗们已经被消灭了。这条路线应该又是安全的。</missionsuccess.killpirates>
+  <missionname.killtraitors>机械化叛徒</missionname.killtraitors>
+  <missiondescription.killtraitors>我们机械化部队的军官带着最先进的武器投奔了海盗。我们要求在局势进一步恶化之前消灭他。他们的机甲被设计成可以抵御大部分潜艇的武器，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.killtraitors>
+  <missionsonarlabel.killtraitors>叛徒</missionsonarlabel.killtraitors>
+  <missionsuccess.killtraitors>该官员和他的团队已被肃清。</missionsuccess.killtraitors>
+  <missionname.separatistex1>分离主义巡逻队</missionname.separatistex1>
+  <missiondescription.separatistex1>根据我们的线报，有一群分离主义机甲部队在[location1]到[location2]的通道上游荡. 让这些机甲消失，以便我们的船只能够继续安全地通过通道。他们的机甲服被设计成能够抵御大多数潜艇的武器，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.separatistex1>
+  <missionsonarlabel.separatistex1>分离主义巡逻队</missionsonarlabel.separatistex1>
+  <missionsuccess.separatistex1>分裂主义分子们已经被消灭了。这条路线应该又是安全的。</missionsuccess.separatistex1>
+  <missionname.killseparatist>分离主义军事演习</missionname.killseparatist>
+  <missiondescription.killseparatist>根据我们的线报，有一群分离主义机械化部队在[location1]到[location2]的通道上进行军事演习. 让这些机甲消失，以便我们的船只能够继续安全地通过通道。他们的机甲服被设计成能够抵御大多数潜艇的武器，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.killseparatist>
+  <missionsonarlabel.killseparatist>分离主义部队</missionsonarlabel.killseparatist>
+  <missionsuccess.killseparatist>分裂主义分子们已经被消灭了。这条路线应该又是安全的。</missionsuccess.killseparatist>
+  <missionname.coalitionex1>联盟巡逻队</missionname.coalitionex1>
+  <missiondescription.coalitionex1>根据我们的消息, 有一群联盟机甲部队在[location1]到[location2]的通道上游荡.让这些机甲消失，以便我们的船只能够继续安全地通过通道。他们的机甲服被设计成能够抵御大多数潜艇的武器，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.coalitionex1>
+  <missionsonarlabel.coalitionex1>联盟巡逻队</missionsonarlabel.coalitionex1>
+  <missionsuccess.coalitionex1>联盟巡逻队已经被消灭了。这条路线应该又是安全的。</missionsuccess.coalitionex1>
+  <missionname.killcoalition>联盟军事演习</missionname.killcoalition>
+  <missiondescription.killcoalition>根据我们的消息，联盟的机械化部队在[地点1]到[地点2]的路线上进行军事演习。 让这些机甲消失，以便我们的船只能够继续安全地通过通道。他们的机甲服被设计成能够抵御大多数潜艇的武器，强烈建议使用手持反巨兽武器或者大口径反舰武器来对付他们。</missiondescription.killcoalition>
+  <missionsonarlabel.killcoalition>联盟部队</missionsonarlabel.killcoalition>
+  <missionsuccess.killcoalition>联盟部队已被消灭。这条路线应该又是安全的。</missionsuccess.killcoalition>
+  <missionname.separatistattackbae>消息接入中</missionname.separatistattackbae>
+  <missiondescription.separatistattackbae>“这条通道已经被Jovian Separatists夺回。立即掉头，否则我们将确保你们这些法西斯分子没有一个能活着离开这里。”</missiondescription.separatistattackbae>
+  <missionname.coalitionattackbae>消息接入中</missionname.coalitionattackbae>
+  <missiondescription.coalitionattackbae>“叛徒！你已经走到头了！叛变联盟的代价只有死亡！”</missiondescription.coalitionattackbae>
+  <missionname.abandonedoutposthumansbae>恢复前哨站</missionname.abandonedoutposthumansbae>
+  <missiondescription.abandonedoutposthumansbae>我们最近失去了与[location1]的联系，怀疑该地点已被某人占领。摧毁哨站的反应堆，以驱逐任何擅自占据者，并确保他们不会返回。</missiondescription.abandonedoutposthumansbae>
+  <missionsuccess.abandonedoutposthumansbae>成功地将擅自占据者驱逐出哨站。</missionsuccess.abandonedoutposthumansbae>
+  <missionfailure.abandonedoutposthumansbae>反应堆摧毁失败了</missionfailure.abandonedoutposthumansbae>
+  <missionheader0.abandonedoutposthumansbae>反应器已被摧毁</missionheader0.abandonedoutposthumansbae>
+  <missionmessage0.abandonedoutposthumansbae>反应堆已被摧毁。这应该能确保无人再次试图占领哨站。从哨站解除对接以完成任务。</missionmessage0.abandonedoutposthumansbae>
+  <missionname.abandonedoutpostassassinatebae>前哨站刺杀行动</missionname.abandonedoutpostassassinatebae>
+  <missiondescription.abandonedoutpostassassinatebae>我们最近失去了与[location1]的联系，有报告称一群臭名昭著的重装歹徒已将其作为基地。该团伙领袖的悬赏令已下—消灭领袖以领取奖励。</missiondescription.abandonedoutpostassassinatebae>
+  <missionsuccess.abandonedoutpostassassinatebae>强盗团伙的首领已被成功消灭</missionsuccess.abandonedoutpostassassinatebae>
+  <missionfailure.abandonedoutpostassassinatebae>消灭强盗团伙的领袖失败。</missionfailure.abandonedoutpostassassinatebae>
+  <missionheader0.abandonedoutpostassassinatebae>强盗领袖已被暗杀</missionheader0.abandonedoutpostassassinatebae>
+  <missionmessage0.abandonedoutpostassassinatebae>强盗团伙的领袖已成功被消灭。从哨站解除对接以完成任务。</missionmessage0.abandonedoutpostassassinatebae>
+  <missionname.assaultonmechlabs>突袭黑海机甲实验室[地狱难度]</missionname.assaultonmechlabs>
+  <missiondescription.assaultonmechlabs>XOF传讯：摧毁位于[location1]黑海机甲实验室, 不要让我失望。任务细节：大量精锐黑海机甲守卫以及少量试验型机甲，安保力量配备了重装守卫和精确射手，请谨慎安排突袭计划，不留活口，并且摧毁该站点。</missiondescription.assaultonmechlabs>
+  <missionheader0.assaultonmechlabs>黑海机甲实验室已被摧毁</missionheader0.assaultonmechlabs>
+  <missionmessage0.assaultonmechlabs>黑海机甲实验室已被摧毁，XOF对你很满意，现在赶在精锐部队抵达前撤离，不要留下任何痕迹。</missionmessage0.assaultonmechlabs>
+  <missionsuccess.assaultonmechlabs>突袭成功</missionsuccess.assaultonmechlabs>
+  <missionfailure.assaultonmechlabs>突袭失败</missionfailure.assaultonmechlabs>
+  <missionname.assaultonseparatismstation>突袭分离主义站点[极其困难]</missionname.assaultonseparatismstation>
+  <missiondescription.assaultonseparatismstation>摧毁位于[location1]站点，该站点为塞壬小队的补给站，摧毁它以切断分离主义的补给线。</missiondescription.assaultonseparatismstation>
+  <missionheader0.assaultonseparatismstation>分离主义站点已被摧毁</missionheader0.assaultonseparatismstation>
+  <missionmessage0.assaultonseparatismstation>补给线已经被切断。</missionmessage0.assaultonseparatismstation>
+  <missionname.huntingground_eyeofear>失控之眼</missionname.huntingground_eyeofear>
+  <missiondescription.huntingground_eyeofear>一头失控的机械造物在深渊失去了控制，攻击一切目标。要是它不死，我们很难在周边建设新的前哨站，甚至会影响已经建成的前哨站。</missiondescription.huntingground_eyeofear>
+  <missionsuccess.huntingground_eyeofears>恐惧之眼已经死了，这条通道安全了。</missionsuccess.huntingground_eyeofears>
+  <missionfailure.huntingground_eyeofears>恐惧之眼还盘踞在此，影响着人们的生活。</missionfailure.huntingground_eyeofears>
+  <missionheader0.huntingground_eyeofears>已消灭目标</missionheader0.huntingground_eyeofears>
+  <missionmessage0.huntingground_eyeofears>恐惧之眼已经死了，这条通道安全了。</missionmessage0.huntingground_eyeofears>
+  <missionname.kill_eyeofear>智械危机</missionname.kill_eyeofear>
+  <missiondescription.kill_eyeofear>联盟失控的兵器将此航道封锁了。目前已有多艏失联的报告，需要立刻消除这一威胁。该兵器可以抵御大部分潜艇的小口径武器装备，并且会发射特质炮弹进行攻击，此外还能够发射无人机和登陆仓进行干扰。</missiondescription.kill_eyeofear>
+  <missionsonarlabel.kill_eyeofear>恐惧之眼</missionsonarlabel.kill_eyeofear>
+  <missionsuccess.kill_eyeofear>失控的兵器已经被无力化，等待回收。</missionsuccess.kill_eyeofear>
+  <!--已测试，需更新-->
+  <missionname.assaultoncoalitionstation>突袭联盟秘密站点[地狱难度]</missionname.assaultoncoalitionstation>
+  <!--装备有优化空间-->
+  <missiondescription.assaultoncoalitionstation>摧毁位于[location1]站点，该站点配备了联盟尖盾小队，但不排除获得标枪小队的支援。</missiondescription.assaultoncoalitionstation>
+  <missionheader0.assaultoncoalitionstation>联盟秘密站点已被摧毁</missionheader0.assaultoncoalitionstation>
+  <missionmessage0.assaultoncoalitionstation>联盟秘密站点已被摧毁，据可靠消息，附近的标枪小队正前往支援。</missionmessage0.assaultoncoalitionstation>
+  <!--已验证-->
+  <missionname.assaultonstation>突袭大型海盗站点</missionname.assaultonstation>
+  <missiondescription.assaultonstation>摧毁位于[location1]的海盗站点，该站点已经被一群机械化海盗部队占领，请肃清该站点。 请注意，海盗拥有大量全自动火力和重火力支援。</missiondescription.assaultonstation>
+  <missionheader0.assaultonstation>站点已被摧毁</missionheader0.assaultonstation>
+  <missionmessage0.assaultonstation>我们的船只以后能够继续安全地通过该通道。</missionmessage0.assaultonstation>
+  <missionname.purgestation_small_2>肃清小型精锐海盗站点</missionname.purgestation_small_2>
+  <missiondescription.purgestation_small_2>摧毁位于[location1]的海盗据点，该站点已经被一群武装海盗占领，请肃清该站点。 请注意，海盗拥有大量全自动步枪火力以及少量机甲与精确步枪/重火力。</missiondescription.purgestation_small_2>
+  <missionname.purgestation_small>肃清小型海盗站点</missionname.purgestation_small>
+  <missiondescription.purgestation_small>摧毁位于[location1]的海盗据点，该站点已经被一群武装海盗占领，请肃清该站点。 请注意，海盗拥有少量全自动步枪火力以及可能存在的机甲与精确步枪/重火力。 </missiondescription.purgestation_small>
+  <missionheader0.purgestation_small>据点已经被肃清</missionheader0.purgestation_small>
+  <missionmessage0.purgestation_small>我们的船只以后能够继续安全地通过该通道。</missionmessage0.purgestation_small>
+</infotexts>

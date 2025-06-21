@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Missions>
+  <MonsterMission identifier="killnuker1" textidentifier="killnuker" tags="killmonster,killmonster_set2" type="Monster" difficulty="3" minidifficult="15" commonness="100" reward="5500" maxsonarmarkerdistance="10000">
+    <monster character="Piratenuker" />
+    <monster character="Piratedesolator" />
+    <monster character="Piraterifleman" min="2" max="4" />
+    <monster characterfile="Pirategunnerpod" min="0" max="1" />
+    <Reputation identifier="location" amount="3" />
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <LocationType from="Military" to="None" />
+    <LocationType from="Military" to="AnyOutpost" />
+    <message header="missionheader.killtarget" text="missionmessage.killnuker" />
+  </MonsterMission>
+  <MonsterMission identifier="killnuker2" textidentifier="killnuker" tags="killmonster,killswarm,killswarm_set3" type="Monster" difficulty="4" minidifficult="20" commonness="100" reward="6500" maxsonarmarkerdistance="20000">
+    <monster character="Piratenuker" />
+    <monster character="Piratedesolator" />
+    <monster character="Piraterifleman" min="2" max="4" />
+    <monster character="Piratemarksman" min="1" max="1" />
+    <monster characterfile="Pirategunnerpod" min="0" max="1" />
+    <Reputation identifier="location" amount="3" />
+    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <LocationType from="Military" to="None" />
+    <LocationType from="Military" to="AnyOutpost" />
+    <message header="missionheader.killtarget" text="missionmessage.killnuker" />
+  </MonsterMission>
+  <MonsterMission identifier="killbseclown" textidentifier="killbseclown" tags="killmonster,killmonster_set2" type="Monster" difficulty="4" commonness="50" reward="9000" maxsonarmarkerdistance="20000">
+    <monster character="Technoprankster" min="1" max="1" />
+    <Reputation identifier="location" amount="10" />
+    <Reputation identifier="huskcult" amount="10" />
+    <Reputation identifier="clowns" amount="-10" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="256,0,256,256" color="214,50,48" />
+    <LocationType from="AnyOutpost" to="None" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission identifier="pirategang1" textidentifier="killpirates" tags="killmonster,killmonster_set1" type="Monster" difficulty="2" commonness="100" reward="3000" maxsonarmarkerdistance="20000">
+    <monster character="Pirateforerunner" min="1" max="2" />
+    <monster character="Pirateboarder" min="2" max="3" />
+    <monster characterfile="Pirategunnerpod" min="0" max="1" />
+    <Reputation identifier="location" amount="3" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission identifier="pirategang2" textidentifier="killpirates" tags="killmonster,killmonster_set2" type="Monster" difficulty="3" commonness="100" reward="3500" maxsonarmarkerdistance="20000">
+    <monster character="Pirateforerunner" min="1" max="2" />
+    <monster character="Piratedismantler" min="1" max="1" />
+    <monster character="Pirateboarder" min="2" max="3" />
+    <monster characterfile="Pirategunnerpod" min="0" max="1" />
+    <Reputation identifier="location" amount="3" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission identifier="pirateblockade1" textidentifier="killpirates" tags="killmonster,killswarm,killswarm_set2" type="Monster" difficulty="3" commonness="100" reward="4000" maxsonarmarkerdistance="20000">
+    <monster character="Pirateforerunner" min="2" max="3" />
+    <monster character="Pirateboarder" min="3" max="4" />
+    <monster character="Piratedismantler" min="1" max="1" />
+    <monster character="Piratemarksman" min="1" max="1" />
+    <monster character="Piraterifleman" min="2" max="2" />
+    <monster character="Pirategunner" min="1" max="1" />
+    <monster characterfile="Pirategunnerpod" min="1" max="2" />
+    <Reputation identifier="location" amount="3" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission identifier="pirateblockade2" textidentifier="killpirates" tags="killmonster,killswarm,killswarm_set3" type="Monster" difficulty="3" commonness="100" reward="4500" maxsonarmarkerdistance="20000">
+    <monster character="Pirateantisub" min="1" max="1" />
+    <monster character="Pirateboarder" min="2" max="3" />
+    <monster character="Pirategrenadier" min="1" max="2" />
+    <monster character="Piraterifleman" min="2" max="2" />
+    <monster character="Pirategunner" min="1" max="1" />
+    <monster character="Piratemarksman" min="1" max="1" />
+    <monster character="Piratebombard" min="1" max="1" />
+    <monster characterfile="Pirategunnerpod" min="1" max="2" />
+    <Reputation identifier="location" amount="4" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission identifier="pirateblockade3" textidentifier="killpirates" tags="killmonster,killswarm,killswarm_set4" type="Monster" difficulty="4" commonness="100" reward="5000" maxsonarmarkerdistance="20000">
+    <monster character="Pirateantisub" min="2" max="2" />
+    <monster character="Pirateboarder" min="2" max="2" />
+    <monster character="Pirategrenadier" min="1" max="1" />
+    <monster character="Piraterifleman" min="2" max="3" />
+    <monster character="Pirategunner" min="1" max="2" />
+    <monster character="Piratemarksman" min="1" max="2" />
+    <monster character="Piratebombard" min="1" max="1" />
+    <monster character="Piratesharpshooter" min="1" max="1" />
+    <monster character="Piratedesolator" min="1" max="1" />
+    <monster characterfile="Pirategunnerpod" min="1" max="2" />
+    <Reputation identifier="location" amount="5" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission identifier="mechanizedofficer1" textidentifier="killtraitors" tags="killmonster,killmonster_set3" type="Monster" difficulty="3" commonness="100" reward="4500" minidifficult="20" maxsonarmarkerdistance="20000">
+    <monster character="Pirateveteran" min="1" max="1" />
+    <monster character="Piraterifleman" min="1" max="1" />
+    <monster character="Piratesharpshooter" min="1" max="1" />
+    <Reputation identifier="location" amount="5" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <LocationType from="Military" to="None" />
+    <LocationType from="Military" to="AnyOutpost" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission identifier="mechanizedofficer2" textidentifier="killtraitors" tags="killmonster,killswarm,killswarm_set4" type="Monster" difficulty="4" commonness="100" reward="6000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Pirateantisub" min="2" max="2" />
+    <monster character="Pirategrenadier" min="1" max="1" />
+    <monster character="Piraterifleman" min="2" max="3" />
+    <monster character="Pirategunner" min="1" max="2" />
+    <monster character="Pirateveteran" min="1" max="1" />
+    <monster character="Piratebombard" min="1" max="2" />
+    <monster character="Piratemarksman" min="1" max="3" />
+    <monster character="Piratesharpshooter" min="1" max="2" />
+    <Reputation identifier="location" amount="10" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <LocationType from="Military" to="None" />
+    <LocationType from="Military" to="AnyOutpost" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="separatistex1" tags="combatcoalitionvsseparatists" difficulty="3" commonness="50" reward="5000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Separatistrifleman" min="2" max="4" />
+    <monster character="Separatistsharpshooter" min="1" max="1" />
+    <monster character="Separatistveteran" min="1" max="1" />
+    <Reputation identifier="coalition" amount="4" />
+    <Reputation identifier="separatists" amount="-4" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="separatistex2" textidentifier="killseparatist" tags="combatcoalitionvsseparatists" difficulty="3" commonness="50" reward="8000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Separatistrifleman" min="2" max="4" />
+    <monster character="Separatistsharpshooter" min="1" max="1" />
+    <monster character="Separatisthatchetman" min="1" max="1" />
+    <monster character="Separatistgunner" min="1" max="1" />
+    <monster character="Separatistveteran" min="1" max="1" />
+    <monster character="Separatistbombard" min="1" max="1" />
+    <Reputation identifier="coalition" amount="8" />
+    <Reputation identifier="separatists" amount="-8" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="separatistex3" textidentifier="killseparatist" tags="combatcoalitionvsseparatists" difficulty="4" commonness="50" reward="10000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Separatistantisub" min="2" max="3" />
+    <monster character="Separatistrifleman" min="2" max="3" />
+    <monster character="Separatisthatchetman" min="2" max="2" />
+    <monster character="Separatistsharpshooter" min="1" max="1" />
+    <monster character="Separatistgunner" min="1" max="1" />
+    <monster character="Separatistveteran" min="1" max="1" />
+    <monster character="Separatistbombard" min="1" max="1" />
+    <Reputation identifier="coalition" amount="10" />
+    <Reputation identifier="separatists" amount="-10" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="coalitionex1" tags="combatseparatistsvscoalition" difficulty="5" commonness="50" reward="6000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Coalitionrifleman" min="2" max="4" />
+    <monster character="Coalitionsharpshooter" min="1" max="1" />
+    <monster character="Coalitionveteran" min="1" max="1" />
+    <Reputation identifier="coalition" amount="-4" />
+    <Reputation identifier="separatists" amount="4" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="coalitionex2" textidentifier="killcoalition" tags="combatseparatistsvscoalition" difficulty="5" commonness="50" reward="8000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Coalitionrifleman" min="2" max="4" />
+    <monster character="Coalitionheavy" min="1" max="2" />
+    <monster character="Coalitionsharpshooter" min="1" max="1" />
+    <monster character="Coalitiongunner" min="1" max="1" />
+    <monster character="Coalitionveteran" min="1" max="2" />
+    <Reputation identifier="coalition" amount="-8" />
+    <Reputation identifier="separatists" amount="8" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="coalitionex3" textidentifier="killcoalition" tags="combatseparatistsvscoalition" difficulty="5" commonness="50" reward="10000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Coalitionantisub" min="1" max="1" />
+    <monster character="Coalitionrifleman" min="2" max="3" />
+    <monster character="Coalitionheavy" min="2" max="3" />
+    <monster character="Coalitionsharpshooter" min="1" max="1" />
+    <monster character="Coalitiongunner" min="1" max="1" />
+    <monster character="Coalitionveteran" min="1" max="2" />
+    <monster character="Coalitionannihilator" min="1" max="1" />
+    <Reputation identifier="coalition" amount="-10" />
+    <Reputation identifier="separatists" amount="10" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="separatistattackbae" tags="separatistattack" showinmenus="false" showstartmessage="true" issideobjective="true" difficulty="4" commonness="50" reward="10000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Separatistantisub" min="2" max="3" />
+    <monster character="Separatistrifleman" min="2" max="3" />
+    <monster character="Separatisthatchetman" min="2" max="2" />
+    <monster character="Separatistsharpshooter" min="1" max="2" />
+    <monster character="Separatistgunner" min="1" max="2" />
+    <monster character="Separatistveteran" min="1" max="1" />
+    <monster character="Separatistbombard" min="1" max="1" />
+    <Reputation identifier="coalition" amount="10" />
+    <Reputation identifier="separatists" amount="-10" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="coalitionattackbae" tags="coalitiontattack" showinmenus="false" showstartmessage="true" issideobjective="true" difficulty="4" commonness="50" reward="10000" minidifficult="25" maxsonarmarkerdistance="20000">
+    <monster character="Coalitionantisub" min="1" max="2" />
+    <monster character="Coalitionrifleman" min="2" max="4" />
+    <monster character="Coalitionheavy" min="1" max="2" />
+    <monster character="Coalitionsharpshooter" min="1" max="1" />
+    <monster character="Coalitiongunner" min="1" max="1" />
+    <monster character="Coalitionveteran" min="1" max="1" />
+    <monster character="Coalitionannihilator" min="1" max="1" />
+    <Reputation identifier="coalition" amount="-10" />
+    <Reputation identifier="separatists" amount="10" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,768,256,256" color="214,50,48" />
+  </MonsterMission>
+  <MonsterMission type="Monster" identifier="clearruinskhusk" tags="killmonster,killmonster_set3" difficulty="4" commonness="50" requireruin="true" reward="10000" spawntype="ruin" minidifficult="25" spawnpointtag="fractalguardian" maxsonarmarkerdistance="20000">
+    <monster character="Corruptedknight" min="1" max="1" />
+    <monster character="Cultistzealot" min="0" max="2" />
+    <monster character="Cultistdevoter" min="4" max="8" />
+    <Reputation identifier="location" amount="10" />
+    <Reputation identifier="clowns" amount="10" />
+    <Reputation identifier="huskcult" amount="-20" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <LocationType from="AnyOutpost" to="None" />
+    <LocationType from="AnyOutpost" to="Lair" />
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="512,0,256,256" color="214,50,48" />
+    <message header="missionheader.killtarget" text="missionmessage.killmessage" />
+  </MonsterMission>
+  <AbandonedOutpostMission identifier="abandonedoutposthumansbae" tags="abandonedoutpost" achievementidentifier="abandonedoutpostdestroyhumans" type="OutpostDestroy" reward="6000" difficulty="4" commonness="100" allowretry="true" targetitem="reactor" unhideentitysubcategories="abandonedhuman">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="512,256,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="crewmodule" />
+      <Character identifier="bandit_medicbae" from="abandonedoutpostnpcsbae" moduleflags="researchmodule" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="engineeringmodule" />
+      <Character identifier="banditleader" from="abandonedoutpostnpcsbae" moduleflags="securitymodule" />
+      <Character identifier="bandit_medicbae" from="abandonedoutpostnpcsbae" moduleflags="seccrewmodule" />
+      <Character identifier="bandit_armored" from="abandonedoutpostnpcsbae" spawnpointtags="banditleader" />
+      <Character identifier="bandit_piobae" from="abandonedoutpostnpcsbae" moduleflags="crewmodule" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="researchmodule" />
+      <Character identifier="bandit_piobaeg" from="abandonedoutpostnpcsbae" moduleflags="engineeringmodule" />
+      <Character identifier="bandit_piobae" from="abandonedoutpostnpcs" moduleflags="securitymodule" />
+      <Character identifier="bandit_medicbae" from="abandonedoutpostnpcsbae" moduleflags="crewmodule" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="engineeringmodule" />
+      <Character identifier="banditleader_heavy" from="abandonedoutpostnpcsbae" moduleflags="crewmodule" />
+      <Character identifier="bandit_piobae" from="abandonedoutpostnpcsbae" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="heartofgold" campaignonly="true" />
+    <message header="missionheader0.abandonedoutposthumansbae" text="missionmessage0.abandonedoutposthumansbae" />
+  </AbandonedOutpostMission>
+  <AbandonedOutpostMission identifier="abandonedoutpostassassinatebae" tags="abandonedoutpost" achievementidentifier="abandonedoutpostassassinate" type="OutpostDestroy" reward="7000" difficulty="4" commonness="100" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="bandit_medicbae" from="abandonedoutpostnpcsbae" moduleflags="crewmodule" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="researchmodule" />
+      <Character identifier="bandit_piobae" from="abandonedoutpostnpcsbae" moduleflags="engineeringmodule" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="securitymodule" />
+      <Character identifier="bandit_piobaeg" from="abandonedoutpostnpcsbae" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="crewmodule" />
+      <Character identifier="bandit_medicbae" from="abandonedoutpostnpcsbae" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="bandit_armored" from="abandonedoutpostnpcsbae" asfaraspossible="true" requirekill="true" />
+      <Character identifier="bandit_armored" from="abandonedoutpostnpcsbae" moduleflags="researchmodule" />
+      <Character identifier="bandit_armored" from="abandonedoutpostnpcsbae" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="bandit_piobaeg" from="abandonedoutpostnpcsbae" moduleflags="engineeringmodule" />
+      <Character identifier="bandit_piobae" from="abandonedoutpostnpcsbae" moduleflags="securitymodule" />
+    </Characters>
+    <TriggerEvent state="0" delay="5" eventidentifier="heartofgold" campaignonly="true" />
+    <message header="missionheader0.abandonedoutpostassassinatebae" text="missionmessage0.abandonedoutpostassassinatebae" />
+  </AbandonedOutpostMission>
+  <OutpostDestroyMission identifier="assaultonmechlabs" tags="abandonedoutpost" achievementidentifier="abandonedoutpostassassinate" type="OutpostDestroy" reward="22000" minidifficult="40" difficulty="5" commonness="25" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-30" />
+    <Reputation identifier="coalition" amount="-30" />
+    <Characters>
+      <Character identifier="elmechlab_heavy" from="assaultonmechlabs" moduleflags="researchmodule" />
+      <Character identifier="elmechlab_security" from="assaultonmechlabs" moduleflags="researchmodule" />
+      <Character identifier="elmechlab_security" from="assaultonmechlabs" moduleflags="securitymodule" />
+      <Character identifier="elmechlab_security" from="assaultonmechlabs" moduleflags="researchmodule" />
+      <Character identifier="elmechlab_overwatch" from="assaultonmechlabs" moduleflags="researchmodule" />
+      <Character identifier="elmechlab_patrol" from="assaultonmechlabs" moduleflags="crewmodule" />
+      <Character identifier="elmechlab_patrol" from="assaultonmechlabs" asfaraspossible="true" />
+      <Character identifier="elmechlab_patrol" from="assaultonmechlabs" moduleflags="researchmodule" />
+      <Character identifier="elmechlab_patrol" from="assaultonmechlabs" moduleflags="securitymodule" />
+      <Character identifier="elmechlab_patrol" from="assaultonmechlabs" moduleflags="engineeringmodule" />
+      <Character identifier="elmechlab_officer" from="assaultonmechlabs" requirekill="true" asfaraspossible="true" />
+      <Character identifier="elmechlab_medical" from="assaultonmechlabs" requirekill="true" moduleflags="researchmodule" />
+      <Character identifier="elmechlab_officer" from="assaultonmechlabs" requirekill="true" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="elmechlab_heavy" from="assaultonmechlabs" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="elmechlab_overwatch" from="assaultonmechlabs" requirekill="true" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="elmechlab_patrol" from="assaultonmechlabs" moduleflags="engineeringmodule" multiplayeronly="true" />
+    </Characters>
+    <message header="missionheader0.assaultonmechlabs" text="missionmessage0.assaultonmechlabs" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission identifier="assaultoncoalitionstation" tags="abandonedoutpost" achievementidentifier="abandonedoutpostassassinate" type="OutpostDestroy" reward="14000" minidifficult="40" difficulty="4" commonness="30" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="20" />
+    <Reputation identifier="coalition" amount="-40" />
+    <Characters>
+      <Character identifier="coalition_heavy" from="assaultoncoalitionstation" moduleflags="researchmodule" />
+      <Character identifier="coalition_heavy" from="assaultoncoalitionstation" moduleflags="securitymodule" />
+      <Character identifier="coalition_heavy" from="assaultoncoalitionstation" moduleflags="crewmodule" />
+      <Character identifier="coalition_security" from="assaultoncoalitionstation" moduleflags="researchmodule" />
+      <Character identifier="coalition_security" from="assaultoncoalitionstation" moduleflags="securitymodule" />
+      <Character identifier="coalition_security" from="assaultoncoalitionstation" moduleflags="researchmodule" />
+      <Character identifier="coalition_overwatch" from="assaultoncoalitionstation" moduleflags="researchmodule" />
+      <Character identifier="coalition_patrol" from="assaultoncoalitionstation" moduleflags="crewmodule" />
+      <Character identifier="coalition_patrol" from="assaultoncoalitionstation" asfaraspossible="true" />
+      <Character identifier="coalition_patrol" from="assaultoncoalitionstation" moduleflags="researchmodule" />
+      <Character identifier="coalition_patrol" from="assaultoncoalitionstation" moduleflags="securitymodule" />
+      <Character identifier="coalition_patrol" from="assaultoncoalitionstation" moduleflags="engineeringmodule" />
+      <Character identifier="bandit_medicbae" from="abandonedoutpostnpcsbae" moduleflags="researchmodule" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="securitymodule" />
+      <Character identifier="bandit_piobae" from="abandonedoutpostnpcsbae" moduleflags="engineeringmodule" />
+      <Character identifier="coalition_officer" from="assaultoncoalitionstation" requirekill="true" asfaraspossible="true" />
+      <Character identifier="coalition_officer" from="assaultoncoalitionstation" requirekill="true" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="coalition_heavy" from="assaultoncoalitionstation" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="coalition_overwatch" from="assaultoncoalitionstation" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="coalition_patrol" from="assaultoncoalitionstation" moduleflags="engineeringmodule" multiplayeronly="true" />
+    </Characters>
+    <message header="missionheader0.assaultoncoalitionstation" text="missionmessage0.assaultoncoalitionstation" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission identifier="assaultonseparatismstation" tags="abandonedoutpost" achievementidentifier="abandonedoutpostassassinate" type="OutpostDestroy" reward="8000" minidifficult="25" difficulty="3" commonness="30" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedoutpostassassinate">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-30" />
+    <Reputation identifier="coalition" amount="20" />
+    <Characters>
+      <Character identifier="separatism_security" from="assaultonseparatismstation" moduleflags="researchmodule" />
+      <Character identifier="separatism_security" from="assaultonseparatismstation" moduleflags="securitymodule" />
+      <Character identifier="separatism_security" from="assaultonseparatismstation" moduleflags="researchmodule" />
+      <Character identifier="separatism_overwatch" from="assaultonseparatismstation" moduleflags="securitymodule" />
+      <Character identifier="separatism_patrol" from="assaultonseparatismstation" moduleflags="crewmodule" />
+      <Character identifier="separatism_patrol" from="assaultonseparatismstation" asfaraspossible="true" />
+      <Character identifier="separatism_patrol" from="assaultonseparatismstation" moduleflags="securitymodule" />
+      <Character identifier="separatism_patrol" from="assaultonseparatismstation" moduleflags="securitymodule" />
+      <Character identifier="separatism_patrol" from="assaultonseparatismstation" moduleflags="engineeringmodule" />
+      <Character identifier="bandit_medicbae" from="abandonedoutpostnpcsbae" moduleflags="researchmodule" />
+      <Character identifier="bandit_bae" from="abandonedoutpostnpcsbae" moduleflags="securitymodule" />
+      <Character identifier="bandit_piobae" from="abandonedoutpostnpcsbae" moduleflags="engineeringmodule" />
+      <Character identifier="separatism_officer" from="assaultonseparatismstation" requirekill="true" asfaraspossible="true" />
+      <Character identifier="separatism_officer" from="assaultonseparatismstation" requirekill="true" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="separatism_heavy" from="assaultonseparatismstation" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="separatism_patrol" from="assaultonseparatismstation" moduleflags="engineeringmodule" multiplayeronly="true" />
+    </Characters>
+    <message header="missionheader0.assaultonseparatismstation" text="missionmessage0.assaultonseparatismstation" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission identifier="assaultonstation" tags="abandonedoutpost" achievementidentifier="abandonedoutpostassassinate" type="OutpostDestroy" reward="5000" minidifficult="20" maxdifficult="65" difficulty="3" commonness="30" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-15" />
+    <Reputation identifier="coalition" amount="10" />
+    <Characters>
+      <Character identifier="mech_patrol_ar2" from="piratestation_bw" moduleflags="crewmodule" />
+      <Character identifier="mech_patrol_smg2" from="piratestation_bw" moduleflags="crewmodule" />
+      <Character identifier="mech_patrol_smg" from="piratestation_bw" moduleflags="crewmodule" />
+      <Character identifier="medic" from="piratestation_bw" moduleflags="researchmodule" />
+      <Character identifier="mech_patrol_ar1" from="piratestation_bw" moduleflags="researchmodule" />
+      <Character identifier="mech_patrol_ar2" from="piratestation_bw" moduleflags="engineeringmodule" />
+      <Character identifier="mech_patrol_ar2" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="mech_security_ar2" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="mech_security_as" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="mech_security_ar2" from="piratestation_bw" moduleflags="researchmodule" />
+      <Character identifier="mech_security_laser" from="piratestation_bw" asfaraspossible="true" requirekill="true" />
+      <Character identifier="mech_security_hmg" from="piratestation_bw" asfaraspossible="true" requirekill="true" />
+      <Character identifier="mech_security_mg" from="piratestation_bw" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="medic" from="piratestation_bw" moduleflags="crewmodule" multiplayeronly="true" />
+      <Character identifier="mech_security_ar2" from="piratestation_bw" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="mech_patrol_smg2" from="piratestation_bw" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="mech_security_mg" from="piratestation_bw" moduleflags="researchmodule" multiplayeronly="true" />
+      <Character identifier="mech_security_mg" from="piratestation_bw" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="mech_security_ar2" from="piratestation_bw" moduleflags="securitymodule" multiplayeronly="true" requirekill="true" />
+      <Character identifier="mech_security_hmg" from="piratestation_bw" moduleflags="securitymodule" multiplayeronly="true" requirekill="true" />
+    </Characters>
+    <message header="missionheader0.assaultonstation" text="missionmessage0.assaultonstation" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission identifier="purgestation_small" tags="abandonedoutpost" achievementidentifier="abandonedoutpostassassinate" type="OutpostDestroy" reward="4000" maxdifficult="35" difficulty="3" commonness="30" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-5" />
+    <Reputation identifier="coalition" amount="5" />
+    <Characters>
+      <Character identifier="patrol_smg" from="piratestation_bw" moduleflags="crewmodule" />
+      <Character identifier="patrol_smg" from="piratestation_bw" moduleflags="researchmodule" />
+      <Character identifier="patrol_smg" from="piratestation_bw" moduleflags="engineeringmodule" />
+      <Character identifier="patrol_smg" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="patrol_ar" from="piratestation_bw" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="patrol_ar2" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="patrol_ar2" from="piratestation_bw" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="security_ar" from="piratestation_bw" asfaraspossible="true" />
+      <Character identifier="security_ar2" from="piratestation_bw" asfaraspossible="true" requirekill="true" />
+      <Character identifier="mech_security_ar" from="piratestation_bw" moduleflags="securitymodule" multiplayeronly="true" requirekill="true" />
+    </Characters>
+    <message header="missionheader0.purgestation_small" text="missionmessage0.purgestation_small" />
+  </OutpostDestroyMission>
+  <OutpostDestroyMission identifier="purgestation_small_2" tags="abandonedoutpost" achievementidentifier="abandonedoutpostassassinate" type="OutpostDestroy" reward="5500" minidifficult="15" maxdifficult="45" difficulty="4" commonness="30" allowretry="true" sonarlabel="target" unhideentitysubcategories="abandonedhuman">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,512,256,256" color="214,50,48" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Reputation identifier="separatists" amount="-5" />
+    <Reputation identifier="coalition" amount="5" />
+    <Characters>
+      <Character identifier="patrol_smg" from="piratestation_bw" moduleflags="crewmodule" />
+      <Character identifier="patrol_ar" from="piratestation_bw" moduleflags="researchmodule" />
+      <Character identifier="patrol_ar2" from="piratestation_bw" moduleflags="engineeringmodule" />
+      <Character identifier="patrol_ar2" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="mech_patrol_smg" from="piratestation_bw" moduleflags="securitymodule" multiplayeronly="true" />
+      <Character identifier="security_ar2" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="mech_security_ar" from="piratestation_bw" moduleflags="securitymodule" />
+      <Character identifier="security_ar2" from="piratestation_bw" moduleflags="engineeringmodule" multiplayeronly="true" />
+      <Character identifier="security_ar2" from="piratestation_bw" moduleflags="researchmodule" />
+      <Character identifier="security_ar3" from="piratestation_bw" asfaraspossible="true" requirekill="true" />
+      <Character identifier="security_as" from="piratestation_bw" asfaraspossible="true" requirekill="true" />
+      <Character identifier="mech_security_ar2" from="piratestation_bw" moduleflags="securitymodule" multiplayeronly="true" requirekill="true" />
+    </Characters>
+    <message header="missionheader0.purgestation_small" text="missionheader0.purgestation_small" />
+  </OutpostDestroyMission>
+</Missions>

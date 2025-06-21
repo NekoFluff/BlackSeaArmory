@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!--tips-->
+  <loadingscreentip>"Even gunpowder serves as a remedy" - Quack Doctor Andy</loadingscreentip>
+  <loadingscreentip>"Who actually read these tips?" - Assistant Andy</loadingscreentip>
+  <loadingscreentip>Precision sniper rifles can often switch to semi-automatic mode for better accuracy - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>The armor-piercing capability of a weapon often depends on the barrel length and bullet type - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>Spread increases quickly with rapid consecutive firing - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>Exosuit can often reduce recoil - Black Sea Armory</loadingscreentip>
+  <loadingscreentip>Rare materials may be found in scrap - Black Sea Armory</loadingscreentip>
+  <!--Job.xml-->
+  <jobName.Pilot>Iron Rider</jobName.Pilot>
+  <jobdescription.Pilot>Elite Soldiers of the Iron League, Iron Riders serve as stalwart defenders of humanity on Europa.</jobdescription.Pilot>
+  <talenttree.bwbr1>Gun sword prayer</talenttree.bwbr1>
+  <talenttree.bwbr2>Iron Cult</talenttree.bwbr2>
+  <talenttree.bwbr3>Techno Barbarians</talenttree.bwbr3>
+  <talentname.advancedsplicingbw>Alien Conqueror</talentname.advancedsplicingbw>
+  <talentname.collegeathleticsbw>Physical Athletes</talentname.collegeathleticsbw>
+  <talentname.bountyhunterbw>Executioner</talentname.bountyhunterbw>
+  <talentdescription.crafthighqualitypistols>Pistols you fabricate are of [qualitybonus] higher quality.</talentdescription.crafthighqualitypistols>
+  <talentdescription.bountyhunterbw>When using a pistol or iron fist,causes additional [probability]% damage and [armorpenetration]% armor penetration.</talentdescription.bountyhunterbw>
+  <talentname.justascratchbw>Strengthen Bones</talentname.justascratchbw>
+  <talentdescription.quickdrawbw>Every [seconds] seconds,the damage caused by the next Power Combat System damage will become [damage] times.</talentdescription.quickdrawbw>
+  <talentname.sailorwithnonamebw>Old Sailor</talentname.sailorwithnonamebw>
+  <talentname.tumblebw>Spare Arms</talentname.tumblebw>
+  <talentdescription.tumblebw>Your pistol and iron fist damage increase [damage]%.</talentdescription.tumblebw>
+  <talentname.firstaidtrainingbw>Battlefield First Aid</talentname.firstaidtrainingbw>
+  <talentname.physicalconditioningbw>Physique</talentname.physicalconditioningbw>
+  <talentname.trustbuildingbw>Veteran</talentname.trustbuildingbw>
+  <talentdescription.trustbuildingbw>Every time you complete a task, you increase [smallgain]% of your maximum life. If all crew members survive, increase the maximum life of [largegain]%, up to [maxgain]%. </talentdescription.trustbuildingbw>
+  <talentname.buccaneerbw>White Soldier Battle</talentname.buccaneerbw>
+  <talentname.swordwarriorbw>Sword Warriorbw</talentname.swordwarriorbw>
+  <talentdescription.crafthighqualityswordwarriorbw>The quality of longswords you craft is increased by [qualitybonus].</talentdescription.crafthighqualityswordwarriorbw>
+  <talentdescription.swordwarriorbw>When attacking with melee weapons, each [itemname] you carry increases your damage by [powerincrease]%, up to a maximum of [maxpowerincrease]%.</talentdescription.swordwarriorbw>
+  <talentname.enforcerbw>Reload Hunter</talentname.enforcerbw>
+  <talentdescription.enforcerbw>When attacking with a shotgun,causes additional [damage]% damage and [armorpenetration]% armor penetration.</talentdescription.enforcerbw>
+  <talentname.steelruler>Steel Ruler</talentname.steelruler>
+  <talentdescription.steelruler>When driving a mech,attack power increased [value]%,[stattype] increased [amount]%,damage taken reduced [value]%.</talentdescription.steelruler>
+  <talentname.bythebookbw>Mercenary</talentname.bythebookbw>
+  <talentname.navydiverbw>Aquatic</talentname.navydiverbw>
+  <talentname.deepseaslayerbw>Deep Sea Hunter</talentname.deepseaslayerbw>
+  <talentname.olympianbw>Combat Mastery</talentname.olympianbw>
+  <talentname.warlordbw>Ace</talentname.warlordbw>
+  <talentdescription.chanceofextraweapondamagebw2>When using weapons,additional [probability]% damage and [armorpenetration]% armor penetration are caused.</talentdescription.chanceofextraweapondamagebw2>
+  <talentname.laststand>Last Stand</talentname.laststand>
+  <talentdescription.laststand> When your life is lower than [health]%, you will quickly restore your health. </talentdescription.laststand>
+  <talentname.implacablebw>Iron Will</talentname.implacablebw>
+  <talentname.deadeyebw>I See Dead Eye</talentname.deadeyebw>
+  <talentdescription.deadeyebw>When you launch an Experimental Precise Gun and Designated Marksman Rifle,damage and penetration increases [powerincrease]%.You can also recover from bleeding faster.</talentdescription.deadeyebw>
+  <talentname.stonewallbw>Shield Barrier</talentname.stonewallbw>
+  <talentdescription.stonewallbw>When you are attacked,within [seconds] your physical damage resistance increases [physicaldamagereduction]%,stun resistance increases [stunresistance]%,and melee damage increases [amount]%.</talentdescription.stonewallbw>
+  <talentname.munitionsexpertisebw>High Permission</talentname.munitionsexpertisebw>
+  <talentname.gunsmithbw>Artisan</talentname.gunsmithbw>
+  <talentdescription.gunsmithbw>Item you fabricate are of [qualitybonus] higher quality.</talentdescription.gunsmithbw>
+  <talentname.duelistbw>Heart of the Storm</talentname.duelistbw>
+  <talentdescription.chanceofextraweapondamagebw>When attacking with a CQB SMG or Power Axe,[probability]% probability will cause double damage and [amount]% more armor penetration.</talentdescription.chanceofextraweapondamagebw>
+  <talentname.optimizedpowerflowbw>Modified circuit</talentname.optimizedpowerflowbw>
+  <talentdescription.optimizedpowerflowbw>Turret energy consumption and charging speed reduce your electrical skills by [statamount]%.</talentdescription.optimizedpowerflowbw>
+  <talentdescription.crafthighqualitylaserbw>The quality of the energy weapons you make is improved [qualitybonus].</talentdescription.crafthighqualitylaserbw>
+  <talentname.custommachinebw>Modified machinery</talentname.custommachinebw>
+  <talentdescription.crafthighqualityhmgbw>The quality of the machine gun weapons you make is improved [qualitybonus].</talentdescription.crafthighqualityhmgbw>
+  <!--New Job.xml-->
+  <talenttree.bwpl_offense>Mastery of Slaughter</talenttree.bwpl_offense>
+  <talenttree.bwpl_defense>Fearless Bastion</talenttree.bwpl_defense>
+  <talenttree.bwpl_logistic>Tactical Logistics</talenttree.bwpl_logistic>
+  <talentname.olympian_offense>Combat Energization</talentname.olympian_offense>
+  <talentname.olympian_defense>Damage Mitigation</talentname.olympian_defense>
+  <talentname.olympian_logistic>Logistical Safeguard</talentname.olympian_logistic>
+  <talentname.drsubmarinebw>Field Medic</talentname.drsubmarinebw>
+  <talentname.offense_system>Assault Core</talentname.offense_system>
+  <talentname.defense_system>Fortress Core</talentname.defense_system>
+  <talentname.logistic_system>Logistics Core</talentname.logistic_system>
+  <talentname.revengesquad_offense>Desperate Assault</talentname.revengesquad_offense>
+  <talentname.revengesquad_deffense>Redemption Shield</talentname.revengesquad_deffense>
+  <talentname.revengesquad_logistic>Dire Response</talentname.revengesquad_logistic>
+  <talentname.warlordbw_offense>Ace</talentname.warlordbw_offense>
+  <talentname.warlordbw_deffense>Armor Citadel</talentname.warlordbw_deffense>
+  <talentname.miracleworker_bw>Leadership</talentname.miracleworker_bw>
+  <stattypenames.rangedspreadreduction>Reduction to spread</stattypenames.rangedspreadreduction>
+  <stattypenames.MedicalItemEffectivenessMultiplier>More potent medical items</stattypenames.MedicalItemEffectivenessMultiplier>
+  <talentdescription.olympian_bw>You gain an additional percentage to the following attributes equal to the lowest of all your skills:</talentdescription.olympian_bw>
+  <talentdescription.steelruler_offense>When driving a mech,attack power increased [value]%.</talentdescription.steelruler_offense>
+  <talentdescription.steelruler_deffense>When driving a mech,damage taken reduced [value]%</talentdescription.steelruler_deffense>
+  <talentdescription.steelruler_logist>When driving a mech,speed increased [value]%</talentdescription.steelruler_logist>
+  <talentdescription.miracleworker_bw>Gives [value]% enhancement to self and friendlies when piloting a mech.</talentdescription.miracleworker_bw>
+  <talentdescription.revengesquad_offense> When a alloy is dying, you get [amount]% ‖color:gui.orange‖ damage bonus ‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_offense>
+  <talentdescription.revengesquad_deffense> When a alloy is dying, you get [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_deffense>
+  <talentdescription.revengesquad_logistic>When a alloy is dying, you get [amount]%的‖color:gui.orange‖Repair speed‖end‖ increased by [amount2]% and ‖color:gui.orange‖ movement speed and medical supply effectiveness also enhanced‖end‖，effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
+  <talentdescription.warlordbw_offense>Every time you complete a task, you increase [smallgain]% of your your maximum damage. If all crew members survive, increase the maximum damage of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
+  <talentdescription.warlordbw_deffense>Every time you complete a task, you increase [smallgain]% of your your maximum life.  If all crew members survive, increase the maximum life of  [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
+  <Afflictionname.commnetbw>Command network</Afflictionname.commnetbw>
+  <stattypenames.penetration>Armor Penetration</stattypenames.penetration>
+  <stattypenames.flowresistance>Flow Resistance</stattypenames.flowresistance>
+  <Afflictionname.revengesquad_offense>Wish for Vengeance</Afflictionname.revengesquad_offense>
+  <Afflictionname.revengesquad_deffense>Wish for Guardian</Afflictionname.revengesquad_deffense>
+  <Afflictionname.revengesquad_logistic>Wish for Maintenance</Afflictionname.revengesquad_logistic>
+  <Afflictiondescription.revengesquad_offense>The only way to save a life is to take another life</Afflictiondescription.revengesquad_offense>
+  <Afflictiondescription.revengesquad_deffense>The only way to save a life is to suffer all the pain</Afflictiondescription.revengesquad_deffense>
+  <Afflictiondescription.revengesquad_logistic>The only way to save a life is to defend the last hope</Afflictiondescription.revengesquad_logistic>
+  <talentname.apolloassistsystem_bw>Apollo Assistance System</talentname.apolloassistsystem_bw>
+  <talentdescription.apolloassistsystem_bw> When wearing Apollo, deal an additional 25% chemical burns, and after healing the wounded, the wounded will be assisted by Apollo nanobots within 60 seconds. </talentdescription.apolloassistsystem_bw>
+  <talentname.circeassistsystem_bw>Circe Assist System</talentname.circeassistsystem_bw>
+  <talentdescription.circeassistsystem_bw>When wearing Circe, deal an additional 100% chemical burn and burn damage.</talentdescription.circeassistsystem_bw>
+  <!--AR.xml-->
+  <label.semiautomatic>Semi-auto</label.semiautomatic>
+  <label.lighting>Lighting system</label.lighting>
+  <entityname.spar-408>SPAR-408 Special Designated Marksman Rifle</entityname.spar-408>
+  <entitydescription.spar-408>A designated marksman rifle designed by the Iron Alliance to annihilate high-threat targets. </entitydescription.spar-408>
+  <entityname.408_7magazine_bw>SPAR-408 Kraken Armor-Piercing Magazine(7)</entityname.408_7magazine_bw>
+  <entitydescription.408_7magazine_bw>7 rounds of .408 rifle magazines, the armor-piercing rounds used are enough to penetrate the armor of most creatures. </entitydescription.408_7magazine_bw>
+  <entityname.408fmj_7magazine_bw>SPAR-408 Kun Full Metal Jacket Magazine(7)</entityname.408fmj_7magazine_bw>
+  <entitydescription.408fmj_7magazine_bw>7 rounds .408 rifle magazine, using full metal jacket bullets capable of inflicting a lot of damage inside the target.</entitydescription.408fmj_7magazine_bw>
+  <entityname.408jhp_7magazine_bw>SPAR-408 Scylla Full Metal Jacket Hollow Point Magazine(7)</entityname.408jhp_7magazine_bw>
+  <entitydescription.408jhp_7magazine_bw>7 rounds of .408 rifle magazines, using full metal jacketed hollow point bullets, capable of inflicting massive damage and massive stopping power inside the target. </entitydescription.408jhp_7magazine_bw>
+  <entityname.spar-338>SPAR-338 Special Machine Gun</entityname.spar-338>
+  <entitydescription.spar-338>A precise and deadly machine gun designed by the Iron Alliance to defend against the ever-increasing danger of monsters.</entitydescription.spar-338>
+  <entityname.338_24magazine_bw>SPAR-338 Magazine (24)</entityname.338_24magazine_bw>
+  <entitydescription.338_24magazine_bw>24 rounds titanium .338 Lapua Magnum magazine. </entitydescription.338_24magazine_bw>
+  <entityname.338_60magazine_bw>SPAR-338 Magazine (60)</entityname.338_60magazine_bw>
+  <entitydescription.338_60magazine_bw>60 rounds titanium .338 Lapua Magnum Extended machine gun magazine for suppressing fire. </entitydescription.338_60magazine_bw>
+  <entityname.spar-93>SPAR-93 Special Assault Rifle</entityname.spar-93>
+  <entitydescription.spar-93>Based on the significant success of the SPAR-76 in the market, the Iron Alliance has launched a new heavy assault rifle. This rifle is characterized by its robust construction and efficient combat capabilities, capable of quickly subduing enemies with a few high-power bullets.</entitydescription.spar-93>
+  <entityname.93_30magazine_bw>SPAR-93 Magazine (30)</entityname.93_30magazine_bw>
+  <entitydescription.93_30magazine_bw>A 30-round 9.3×63mm rifle magazine, each round hits like a sledgehammer.</entitydescription.93_30magazine_bw>
+  <entityname.93ap_30magazine_bw>SPAR-93 Armor-Piercing Magazine (30)</entityname.93ap_30magazine_bw>
+  <entitydescription.93ap_30magazine_bw>A 30-round 9.3×63mm armor-piercing rifle magazine, using specially made armor-piercing bullets.</entitydescription.93ap_30magazine_bw>
+  <entityname.spar-8s>SPAR-8S Special Designated Marksman Rifle</entityname.spar-8s>
+  <entitydescription.spar-8s>A fully automatic squad designated marksman rifle designed by the Iron Alliance, with an extended barrel and improved muzzle brake for significantly improved accuracy and armor penetration.</entitydescription.spar-8s>
+  <entityname.spar-8>SPAR-8 Special Designated Marksman Rifle</entityname.spar-8>
+  <entitydescription.spar-8>A fully automatic designated marksman rifle designed by the Iron Alliance, favored by elite troops. </entitydescription.spar-8>
+  <entityname.8_45magazine_bw>SPAR-8 Magazine (45)</entityname.8_45magazine_bw>
+  <entitydescription.8_45magazine_bw>A 45-round titanium 8×75mm rifle magazine using sniper armor-piercing rounds, suitable for standard models.</entitydescription.8_45magazine_bw>
+  <entityname.8_20magazine_bw>SPAR-8 Magazine (20)</entityname.8_20magazine_bw>
+  <entitydescription.8_20magazine_bw>A 20-round titanium 8×75mm rifle magazine using sniper armor-piercing rounds.</entitydescription.8_20magazine_bw>
+  <entityname.8ap_20magazine_bw>SPAR-8 Armor-Piercing Magazine (20)</entityname.8ap_20magazine_bw>
+  <entitydescription.8ap_20magazine_bw>20-round titanium alloy 8×75mm armor-piercing rifle magazine, using specially made armor-piercing bullets.</entitydescription.8ap_20magazine_bw>
+  <entityname.spar-76>SPAR-76 Special Assault Rifle</entityname.spar-76>
+  <entitydescription.spar-76>A heavy assault rifle designed by the Iron Alliance, robust and durable, intended to incapacitate an opponent with just a few shots.</entitydescription.spar-76>
+  <entityname.762_30magazine_bw>SPAR-76 Magazine (30)</entityname.762_30magazine_bw>
+  <entitydescription.762_30magazine_bw>30-round 7.62×54mm rifle magazine, each round hits like a sledgehammer.</entitydescription.762_30magazine_bw>
+  <entityname.762ap_30magazine_bw>SPAR-76 Armor-Piercing Magazine (30)</entityname.762ap_30magazine_bw>
+  <entitydescription.762ap_30magazine_bw>30-round 7.62×54mm armor-piercing rifle magazine, using titanium alloy armor-piercing bullets.</entitydescription.762ap_30magazine_bw>
+  <entityname.spar-65>SPAR-65 Special Assault Rifle</entityname.spar-65>
+  <entitydescription.spar-65>Based on the spar-556a, this rifle features a 65mm heavy barrel and optimized ergonomic design.</entitydescription.spar-65>
+  <entityname.65_50magazine_bw>SPAR-65 Drum Magazine (50)</entityname.65_50magazine_bw>
+  <entitydescription.65_50magazine_bw>A 50-round 6.5×52mm rifle drum magazine that serves as a firepower suppressor within tactical teams.</entitydescription.65_50magazine_bw>
+  <entityname.65ap_50magazine_bw>SPAR-65 Armor Piercing Drum (50)</entityname.65ap_50magazine_bw>
+  <entitydescription.65ap_50magazine_bw>50-round 6.5×52mm armor piercing rifle drum, utilizing titanium alloy bullets.</entitydescription.65ap_50magazine_bw>
+  <entityname.spar-556a>spar-556a Special Assault Rifle</entityname.spar-556a>
+  <entitydescription.spar-556a>An assault rifle designed by the Steel Alliance during its early formation, later upgraded with an extended barrel.</entitydescription.spar-556a>
+  <entityname.spar-556>spar-556 Special Assault Rifle</entityname.spar-556>
+  <entitydescription.spar-556>An assault rifle designed during the early formation of the Steel Alliance, criticized for lacking sufficient stopping power.</entitydescription.spar-556>
+  <entityname.556_30magazine_bw>spar-556 Magazine (30)</entityname.556_30magazine_bw>
+  <entitydescription.556_30magazine_bw>A 30-round 5.56×45mm rifle magazine using steel-core rounds.</entitydescription.556_30magazine_bw>
+  <entityname.556ap_30magazine_bw>SPAR-556 Armor Piercing Magazine (30)</entityname.556ap_30magazine_bw>
+  <entitydescription.556ap_30magazine_bw>30-round 5.56×45mm armor piercing rifle magazine, utilizing armor-piercing titanium alloy bullets.</entitydescription.556ap_30magazine_bw>
+  <entityname.556_150magazine_bw>spar-556 Drum Magazine (150)</entityname.556_150magazine_bw>
+  <entitydescription.556_150magazine_bw>A 150-round 5.56×45mm rifle drum magazine capable of providing firepower suppression within tactical teams.</entitydescription.556_150magazine_bw>
+  <entityname.asmg-300>AG-300 Special Submachine Gun</entityname.asmg-300>
+  <entitydescription.asmg-300>Subsonic submachine gun developed for tactical squads dealing with indoor CQC environments, heavily used by the Alliance Long Spike Division's Judges.</entitydescription.asmg-300>
+  <entityname.300blk_24magazine_bw>AG-300 Magazine (24)</entityname.300blk_24magazine_bw>
+  <entitydescription.300blk_24magazine_bw>24-round .300 BLK submachine gun magazine, offering excellent subsonic performance.</entitydescription.300blk_24magazine_bw>
+  <entityname.asmg-45>AG-45 Submachine Gun</entityname.asmg-45>
+  <entitydescription.asmg-45>Defensive weapon widely used inside submarines, favored by security companies for its high stopping power and low recoil.</entitydescription.asmg-45>
+  <entityname.45_50magazine_bw>AG-45 Magazine (50)</entityname.45_50magazine_bw>
+  <entitydescription.45_50magazine_bw>50-round .45 ACP submachine gun magazine, classic and reliable.</entitydescription.45_50magazine_bw>
+  <entityname.asmg-50>AG-50 Assault Submachine Gun</entityname.asmg-50>
+  <entitydescription.asmg-50>Armed with high-charge .510 ammunition, this is a hard-to-control firearm with extremely high stopping power.</entitydescription.asmg-50>
+  <entityname.50lb_16magazine_bw>AG-50 Magazine (16)</entityname.50lb_16magazine_bw>
+  <entitydescription.50lb_16magazine_bw>16-round .510 LB submachine gun magazine.</entitydescription.50lb_16magazine_bw>
+  <entityname.spsg-15>SPSG-15 Special Assault Shotgun</entityname.spsg-15>
+  <entitydescription.spsg-15>A fully automatic, stockless shotgun with a unique revolving magazine mechanism, boasting a capacity of up to 15 rounds, making it an ideal choice for indoor CQB.</entitydescription.spsg-15>
+  <entityname.spsg-4>SPSG-4 Special "Heavy Hammer" Shotgun</entityname.spsg-4>
+  <entitydescription.spsg-4>The SPSG-4 "Heavy Hammer" shotgun can instantly fire two shotgun rounds using a specially designed gas track, but its complex reset mechanism significantly reduces its versatility.</entitydescription.spsg-4>
+  <entityname.spsg-8>SPSG-8 Special "Ripper" Shotgun</entityname.spsg-8>
+  <entitydescription.spsg-8>The SPSG-8 Special "Ripper" Shotgun features a longer barrel and improved automatic mechanism for increased firepower.</entitydescription.spsg-8>
+  <entityname.mph_bw>4-Inch Multi-Purpose "Stinky" Grenade Launcher</entityname.mph_bw>
+  <entitydescription.mph_bw>The 4-inch Multi-Purpose "Stinky" Grenade Launcher can fire specially designed 4-inch grenades to address different situations.</entitydescription.mph_bw>
+  <entityname.mph_ammo_cyanide>4-Inch "Prussian Blue" Grenade</entityname.mph_ammo_cyanide>
+  <entitydescription.mph_ammo_cyanide>A toxic mixture of hydrogen cyanide and potassium cyanide, causing acute cyanide poisoning within the target area.</entitydescription.mph_ammo_cyanide>
+  <entityname.mph_ammo_cyanide_d>4-inch "Prussian Blue" Grenade (Delayed Fuse)</entityname.mph_ammo_cyanide_d>
+  <entitydescription.mph_ammo_cyanide_d>A highly toxic grenade combining hydrogen cyanide and potassium cyanide, causing acute cyanide poisoning within its range. Features a delayed fuse, detonating 1.5 seconds after impact.</entitydescription.mph_ammo_cyanide_d>
+  <entityname.mph_ammo_stun>4-Inch "Black Sun" Grenade</entityname.mph_ammo_stun>
+  <entitydescription.mph_ammo_stun>Capable of generating intense flash and sound bursts, forcing targets to lose ability and releasing a paralyzing agent to immobilize them.</entitydescription.mph_ammo_stun>
+  <entityname.mph_ammo_stun_d>4-inch "Black Sun" Grenade (Delayed Fuse)</entityname.mph_ammo_stun_d>
+  <entitydescription.mph_ammo_stun_d>Generates large flash and sound bursts, incapacitating targets and releasing a paralyzing agent. Features a delayed fuse, detonating 1.5 seconds after impact.</entitydescription.mph_ammo_stun_d>
+  <entityname.mph_ammo_radiation>4-Inch "Radiance" Grenade</entityname.mph_ammo_radiation>
+  <entitydescription.mph_ammo_radiation>Capable of creating a radiation cloud, severely contaminating the targeted area with radiation.</entitydescription.mph_ammo_radiation>
+  <entityname.mph_ammo_radiation_d>4-inch "Radiance" Grenade (Delayed Fuse)</entityname.mph_ammo_radiation_d>
+  <entitydescription.mph_ammo_radiation_d>Creates a radiation cloud, heavily contaminating any objects in the targeted area. Features a delayed fuse, detonating 1.5 seconds after impact.</entitydescription.mph_ammo_radiation_d>
+  <entityname.mph_ammo_emp>4-Inch "Electro Surge" Grenade</entityname.mph_ammo_emp>
+  <entitydescription.mph_ammo_emp>Capable of producing a powerful EMP pulse, disabling all electrical facilities.</entitydescription.mph_ammo_emp>
+  <entityname.mph_ammo_exp>4-Inch "Thunderclap" Grenade</entityname.mph_ammo_exp>
+  <entitydescription.mph_ammo_exp>Art Is Explosion!</entitydescription.mph_ammo_exp>
+  <entityname.mph_ammo_exp_vt>4-inch "Thunderclap" Grenade (VT)</entityname.mph_ammo_exp_vt>
+  <entitydescription.mph_ammo_exp_vt>Explosion is art, using a proximity fuse to detonate near targets and create a metal storm, cutting everything but the launcher.</entitydescription.mph_ammo_exp_vt>
+  <entityname.mph_ammo_exp_pg>4-inch "Thunderclap" Grenade (PG)</entityname.mph_ammo_exp_pg>
+  <entitydescription.mph_ammo_exp_pg>Explosion is art, using a timed fuse to detonate at a designated target location and create a metal storm, cutting everything but the launcher.</entitydescription.mph_ammo_exp_pg>
+  <entityname.mph_ammo_breaching>4-inch "Bull" Grenade</entityname.mph_ammo_breaching>
+  <entitydescription.mph_ammo_breaching>FBI BREACHING!!!</entitydescription.mph_ammo_breaching>
+  <entityname.mph_ammo_base>4-inch Grenade</entityname.mph_ammo_base>
+  <entitydescription.mph_ammo_base>Unloaded warhead, but still very bad to be stabbed with this thing.</entitydescription.mph_ammo_base>
+  <entityname.mph_ammo_heathesh>4-inch Tandem HESH Grenade</entityname.mph_ammo_heathesh>
+  <entitydescription.mph_ammo_heathesh>Penetrates armor with a HEAT warhead and detonates a fragmentation charge inside, extremely effective against both armor and behemoths.</entitydescription.mph_ammo_heathesh>
+  <!--AXE.xml-->
+  <entityname.PFbw>Power Combat System</entityname.PFbw>
+  <entitydescription.PFbw>All Iron League recruits are trained in hand-to-hand combat.</entitydescription.PFbw>
+  <entityname.stunbatonbw>Heat Saber</entityname.stunbatonbw>
+  <entitydescription.stunbatonbw>Heat Sabers are an effective stun weapon when charged with an X01 Oxygen Cell, but are notoriously ineffective against armor.</entitydescription.stunbatonbw>
+  <entityname.hammer_bw>Thunder Hammer</entityname.hammer_bw>
+  <entitydescription.hammer_bw>A dense boarding hammer. It can be loaded with a shaped charge for more penetration power. Largely ineffective in combat.</entitydescription.hammer_bw>
+  <entityname.uex2>Hammer Detonator</entityname.uex2>
+  <entitydescription.uex2>A shaped charge for use with the Thunder Hammer. Great care must be taken to avoid injury.</entitydescription.uex2>
+  <entityname.bw_axe>Iron League Boarding Axe</entityname.bw_axe>
+  <entitydescription.bw_axe>A slower but safer alternative to the Thunder Hammer for breaching submarines, this cumbersome and unwieldy axe is frighteningly effective against armor.</entitydescription.bw_axe>
+  <entityname.bwgs>Winter Star</entityname.bwgs>
+  <entitydescription.bwgs>A longsword of ancient design. Its heavy blade serves exceptionally well against armor.</entitydescription.bwgs>
+  <entityname.tachi>Conquest</entityname.tachi>
+  <entitydescription.tachi>A curved blade of exotic design. Its swift blade struggles against armor, but excels when meeting flesh.</entitydescription.tachi>
+  <!--BA.xml-->
+  <entityname.corsairar_bw>Corsair</entityname.corsairar_bw>
+  <entitydescription.corsairar_bw>An old and outdate suit of military armor suit. It still sees limited service with novice Iron Riders and Iron Rebels, who use it to raid cargo ships. Made to run off of Oxygen Tanks albeit not very efficiently.</entitydescription.corsairar_bw>
+  <entityname.armored_miningsuit_bw>Hammer Mining Armor</entityname.armored_miningsuit_bw>
+  <entitydescription.armored_miningsuit_bw>Heavy mining armor suit design for high-pressure environment.Used power cycle design to work using fulgurium batteries.Can install extra hammer container.</entitydescription.armored_miningsuit_bw>
+  <entityname.toolbox_bw>Hammer Container</entityname.toolbox_bw>
+  <entitydescription.toolbox_bw>Thick container can transfer dangerous small goods and ores safely.</entitydescription.toolbox_bw>
+  <entityname.armored_hardsuit_bw>X01 Battle Armor</entityname.armored_hardsuit_bw>
+  <entitydescription.armored_hardsuit_bw>A heavy suit of modern battle armor that offers great protection without hampering mobility. It has an attached universal holster to hold one weapon. It is the main issued suit to Iron Riders who don't need specialized protection. Requires an X01 Oxygen Cell for optimal performance.</entitydescription.armored_hardsuit_bw>
+  <entityname.oxygen_cell_bw>X01 Power Cell</entityname.oxygen_cell_bw>
+  <entitydescription.oxygen_cell_bw>The mainstay of Iron League technology is the X01 Oxygen Cell. It utilizes a mix of high-capacity fulgurium batteries with a cutting edge oxygen and pressure system using oxygenite forming a Powercell able power battle armor while also providing breathable air to the occupants. While they've been designed to be quite resistant to puncture and heat, they're certainly not invulnerable.</entitydescription.oxygen_cell_bw>
+  <entityname.laser_bw>Laser</entityname.laser_bw>
+  <entityname.armored_hardsuit_bwl>X01 Commander Armor</entityname.armored_hardsuit_bwl>
+  <entitydescription.armored_hardsuit_bwl>An adorned suit of armor for squad commanders and other veteran officers, the X01 Commander Armor is largely the same as the standard X01 Battle Armor, except that this suit possesses improved communication and sensor system to aid in squad navigation and target tracking. It also serves to serve as a subtle training method for newer Iron Riders, as losing contact with the squad commander usually leads to immediate disorientation.</entitydescription.armored_hardsuit_bwl>
+  <entityname.armored_hardsuit_bw2>X01 Veteran Armor</entityname.armored_hardsuit_bw2>
+  <entitydescription.armored_hardsuit_bw2>A highly adorned and venerated suit of Battle Armor. Each suit of veteran armor is personalized to the wearer through trinkets, engravings, and personal upgrades. It is slightly more robust than standard battle armor through small upgrades, though these small tweaks don't amount to much. The key difference that this suit possesses over others is its built thermal vision.</entitydescription.armored_hardsuit_bw2>
+  <entityname.knight_hardsuit_bw>Silver Knight</entityname.knight_hardsuit_bw>
+  <entitydescription.knight_hardsuit_bw>A mysterious suit of poorly understood armor that was put together in secret by rogue Iron League scientists using poorly understood alien materials found within the alien ruins. It feels almost alive at first touch. Linking deeply to the wearers body while worn, the suit seems to allow for some light resistance to the various toxins and parasites found hidden in the deep of Europa's waters. It requies a rare power cell made from alien power cells and other exotic materials to run properly. Don't let the battery run dry...</entitydescription.knight_hardsuit_bw>
+  <entityname.pio_bw>Pioneer Custom</entityname.pio_bw>
+  <entitydescription.pio_bw>While the Pioneer is an excellent suit of armor for those tasked jobs in dangerous regions of Europa and active combat zones the standart pioneer suit featured not enough armor. Due to frequent complaints and casualties among those the creation of the Pioneer Custom suit of armor was ordered which incorporates extra protection against the dangers of Combat but has become more bulky and less agile because of it. Made to run off of Oxygen Tanks albeit not very efficiently.</entitydescription.pio_bw>
+  <entityname.pio_bw2>Pioneer</entityname.pio_bw2>
+  <entitydescription.pio_bw2>The Pioneer series of Armor suits was designed to help Iron League engineers with their various tasks on Europa. Unlike most Iron League suits, its systems help with more efficient repair, maintenance and construction of bases and submarines while also offering better protection from the dangers associated with those tasks than normal diving suits and even allows the use of the same Oxygen Tanks.</entitydescription.pio_bw2>
+  <entityname.armored_miningsuit_bw2>Hercules</entityname.armored_miningsuit_bw2>
+  <entitydescription.armored_miningsuit_bw2>The Hercules is designed to work as a heavy weapons platform. To this extent it is heavy, slow, and incredibly protective. However, the armor is incredibly clausterphobic and its poor mobility is hampered even further by water. However, it's bulk does serve to absorb the recoil of even the heaviest Iron League weapons. The Hercules comes with a small crane arm and a small amount of armored internal storage to assist with ammunition management. Requies an X01 Oxygen Cell for optimal performance.</entitydescription.armored_miningsuit_bw2>
+  <entityname.corsairar_bp>X00 Prototype Armor</entityname.corsairar_bp>
+  <entitydescription.corsairar_bp>Experimental prototype with extremely high attack performance.Use X01 oxygen cell.</entitydescription.corsairar_bp>
+  <entityname.armored_miningsuit_bw3>Hercules Mk.II</entityname.armored_miningsuit_bw3>
+  <entitydescription.armored_miningsuit_bw3>The Hercules is an excellent weapon platform, but the sluggish nature of the armor meant that anyone who wielded it was often simply outmaneuvered by lighter forces. Thus a new iteration on the armor was developed, removing all of the intneral ammo storage and loading assistance in exchange for a more powerful movement system. It's still incredibly slow, but you will at least be able to reach the end of the hallway before the day is done. Requires an X01 Oxygen Cell for optimal performance.</entitydescription.armored_miningsuit_bw3>
+  <entityname.apollo_bw>Apollo</entityname.apollo_bw>
+  <entitydescription.apollo_bw>A light field medic mech, which can carry a large amount of medical supplies, move quickly in the battlefield, and provide a huge bonus to medicine and research. </entitydescription.apollo_bw>
+  <entityname.circe_bw>Circe</entityname.circe_bw>
+  <entitydescription.circe_bw>Lightweight chemical warfare mech, capable of carrying large amounts of medical supplies, quickly moving across the battlefield, and offering excellent resistance to poison and burns.</entitydescription.circe_bw>
+  <entityname.armored_hardsuit_bw_med>X01 Battle Armor (Combat Medic)</entityname.armored_hardsuit_bw_med>
+  <entitydescription.armored_hardsuit_bw_med>Advanced armor designed for a variety of military tasks, powered by X01 oxygen cells. Equipped with an automatic health monitoring system.</entitydescription.armored_hardsuit_bw_med>
+  <entityname.pio_bw_med>Pioneer Model II</entityname.pio_bw_med>
+  <entitydescription.pio_bw_med>Specialized in medical assistance. use oxygen tanks.</entitydescription.pio_bw_med>
+  <!--Shield.xml-->
+  <entityname.bwapc>Reverse Engineering Alien Power Cell</entityname.bwapc>
+  <entitydescription.bwapc>A man-made alien power cell.</entitydescription.bwapc>
+  <entityname.rgcbw>Thunder Cannon Support Device</entityname.rgcbw>
+  <entitydescription.rgcbw>Can load 4 railgun shell or thunder cannon.</entitydescription.rgcbw>
+  <entityname.shield_bw>Boarding Shield</entityname.shield_bw>
+  <entitydescription.shield_bw>More armor,more safety.</entitydescription.shield_bw>
+  <entityname.arsenal_bw>Black Sea Arsenal</entityname.arsenal_bw>
+  <entitydescription.arsenal_bw>The portable Black Sea Arsenal carries a vast array of weaponry and doubles as an assault spear. When worn, it provides additional power and fire control systems for mechs.</entitydescription.arsenal_bw>
+  <entityname.harpoongunbw>Rapid Harpoongun</entityname.harpoongunbw>
+  <entitydescription.harpoongunbw>Fast fire harpoongun.use spear.</entitydescription.harpoongunbw>
+  <entityname.spearbw>Tattered Spear</entityname.spearbw>
+  <entitydescription.spearbw>Special piercing spear.</entitydescription.spearbw>
+  <entityname.plasmacutterbw>MEGA Plasma</entityname.plasmacutterbw>
+  <entitydescription.plasmacutterbw>Advanced cutting tools,also good to cut flesh.</entitydescription.plasmacutterbw>
+  <entityname.bwpower>Alien Charger</entityname.bwpower>
+  <entitydescription.bwpower>Can power up alien power cell.</entitydescription.bwpower>
+  <entityname.ancientweaponbw>Conqueror</entityname.ancientweaponbw>
+  <entitydescription.ancientweaponbw>Powerful energy weapon.Attack mode depend on which kind of alien power cell it uses.</entitydescription.ancientweaponbw>
+  <entityname.relic_bw>Relic Fragment</entityname.relic_bw>
+  <entityname.cell_bw>Closed Circulatory System Cell</entityname.cell_bw>
+  <entitydescription.cell_bw>The power battery combined with Alien Technology can provide unlimited power for hammerhead,corsair, and pioneer armor.</entitydescription.cell_bw>
+  <!--Boarding Torpedo.xml-->
+  <entityname.boarding_torpedo_bw>Boarding Torpedo</entityname.boarding_torpedo_bw>
+  <entitydescription.boarding_torpedo_bw>Remember,red go fasta,WAGHHHH!</entitydescription.boarding_torpedo_bw>
+  <entityname.jetscooterbw>Engineering Motor</entityname.jetscooterbw>
+  <entitydescription.jetscooterbw>Heavy engine for auxiliary heavy mech.</entitydescription.jetscooterbw>
+  <entityname.divingknifebw>Armor Breaker</entityname.divingknifebw>
+  <entitydescription.divingknifebw>Small single-molecule blade,can actually cause damage.</entitydescription.divingknifebw>
+  <entityname.railbw>Titanium Railgun Shell</entityname.railbw>
+  <entityname.rg_bw>Thunder Cannon</entityname.rg_bw>
+  <entitydescription.rg_bw>Forcibly converted into a portable main gun,has many shortcomings.Use railgun shells other than nuclear shell.</entitydescription.rg_bw>
+  <!--Guns.xml-->
+  <entityname.HMG1_bp6>Revolution</entityname.HMG1_bp6>
+  <entitydescription.HMG1_bp6>Military reformation improve barrage performance.</entitydescription.HMG1_bp6>
+  <entityname.HMG1_bw>Sickle HMG</entityname.HMG1_bw>
+  <entitydescription.HMG1_bw>Heavy rapid-fire weapon,but need cooldown after barrage fire 14.5mm rounds and cooldown slow without forced cooling.</entitydescription.HMG1_bw>
+  <entityname.HMG1_mag_bw>14.5 Ammo Box 200 rounds</entityname.HMG1_mag_bw>
+  <entityname.HMG1_mag_bw_h>14.5 Ammo Box 100 rounds</entityname.HMG1_mag_bw_h>
+  <entitydescription.HMG1_mag_bw>Old-fashioned high penetration rounds.</entitydescription.HMG1_mag_bw>
+  <entitydescription.HMG1_mag_bw_h>Old-fashioned high penetration rounds.</entitydescription.HMG1_mag_bw_h>
+  <entityname.minichaingun_bw>Experimental Chaingun</entityname.minichaingun_bw>
+  <entitydescription.minichaingun_bw>Heavy weapon,but very expensive.Use experimental chaingun ammo box.</entitydescription.minichaingun_bw>
+  <entityname.chaingun_ammo_bw>Experimental Chaingun Ammo Box</entityname.chaingun_ammo_bw>
+  <entitydescription.chaingun_ammo_bw>1000 rounds,rain like hell!!!</entitydescription.chaingun_ammo_bw>
+  <entityname.chaingun_round_bw>Experimental Chaingun Round</entityname.chaingun_round_bw>
+  <!--Laser Cannon.xml-->
+  <entityname.lasercannon_bw>Experimental Laser Cannon</entityname.lasercannon_bw>
+  <entitydescription.lasercannon_bw>Heavily armed laser weapon,can melt both flesh and metal.Good at against door than structure.Required X01 Oxygen Cell.</entitydescription.lasercannon_bw>
+  <entityname.explosivespearbw>Iron Fist</entityname.explosivespearbw>
+  <entitydescription.explosivespearbw>Single used weapon,go for a hard punch.</entitydescription.explosivespearbw>
+  <entityname.ifbw>Fist</entityname.ifbw>
+  <entityname.esg_bw>Experimental Precise Gun</entityname.esg_bw>
+  <entitydescription.esg_bw>Heavy gun developed for coalition special operations,fires precise bullet.</entitydescription.esg_bw>
+  <entityname.SG_ammo>Precise Bullet Clip</entityname.SG_ammo>
+  <entityname.esg_bw2>Experimental Precise Gun Mk.II</entityname.esg_bw2>
+  <entitydescription.esg_bw2>Improved heavy gun,aiming faster.Use precise bullet.</entitydescription.esg_bw2>
+  <entityname.lasercannon_bp3>Disaster</entityname.lasercannon_bp3>
+  <entitydescription.lasercannon_bp3>Modified laser cannon with a compact frame,has the defect of being prone to overheating.</entitydescription.lasercannon_bp3>
+  <!--Guns.xml-->
+  <entityname.lmground_bw>Lmg Round</entityname.lmground_bw>
+  <entityname.lmground_bw2>Lmg Round2</entityname.lmground_bw2>
+  <entityname.lmgmagazine_bw>Linked 7.62mm magazine</entityname.lmgmagazine_bw>
+  <entitydescription.lmgmagazine_bw>Trigger happy hero!!!</entitydescription.lmgmagazine_bw>
+  <entityname.lmgmagazine_bw2>Linked Autofilled 7.62mm magazine</entityname.lmgmagazine_bw2>
+  <entitydescription.lmgmagazine_bw2>Living metal provide limitless rounds,but halfed the damage.</entitydescription.lmgmagazine_bw2>
+  <entityname.lmg_bw>Tactical LMG</entityname.lmg_bw>
+  <entitydescription.lmg_bw>A reliable auto-fire weapon,can deal massive damage to soft target.Use linked 7.62mm magazine.</entitydescription.lmg_bw>
+  <!--PRG.xml-->
+  <entityname.battlecannon_bw>Axe Rocket Cannon</entityname.battlecannon_bw>
+  <entitydescription.battlecannon_bw>Heavy cannon fires HE rockets,use rocket shell.</entitydescription.battlecannon_bw>
+  <entityname.cannonshell_bw>Rocket Shell</entityname.cannonshell_bw>
+  <entitydescription.cannonshell_bw>Storm the line.Deal good burn damage on impact.</entitydescription.cannonshell_bw>
+  <entityname.prg_bw>Experimental Portable Rail Gun</entityname.prg_bw>
+  <entitydescription.prg_bw>Heavy shoulder-fired launcher developed for coalition special operations, unwieldy and expensive but packs a punch.</entitydescription.prg_bw>
+  <entityname.prg_ammo>Experimental PRG Storm Shell</entityname.prg_ammo>
+  <entitydescription.prg_ammo>Dumbfire railgun with an armor piercing warhead.</entitydescription.prg_ammo>
+  <!--SG.xml-->
+  <entityname.shotgunshellbw>Double Shotgunshell</entityname.shotgunshellbw>
+  <entityname.shotgununiquebw>DOOM</entityname.shotgununiquebw>
+  <entitydescription.shotgununiquebw>Double-barreled shotgun.Fire double shotgunshell.</entitydescription.shotgununiquebw>
+  <entityname.grenadelauncher_bw>Drum Hybrid Barrel</entityname.grenadelauncher_bw>
+  <entitydescription.grenadelauncher_bw>Coalition auto gun.Can fire 25mm grenade or shotgun shell.</entitydescription.grenadelauncher_bw>
+  <entityname.bw_shotgun_drum>Drum Shotgun Shell</entityname.bw_shotgun_drum>
+  <entitydescription.bw_shotgun_drum>Buckshot ammunition for a shotgun.</entitydescription.bw_shotgun_drum>
+  <entityname.bw_shotgun_shell>Drum Shotgun Shell</entityname.bw_shotgun_shell>
+  <entitydescription.bw_shotgun_shell>Buckshot ammunition for a shotgun.</entitydescription.bw_shotgun_shell>
+  <entityname.bw_grenade_drum>Drum 25mm Grenade</entityname.bw_grenade_drum>
+  <entitydescription.bw_grenade_drum>Fire in the hole!!!</entitydescription.bw_grenade_drum>
+  <entityname.bw_grenade>Drum 25mm Grenade</entityname.bw_grenade>
+  <entitydescription.bw_grenade>Fire in the hole!!!</entitydescription.bw_grenade>
+  <!--Mods\BWeapons\SMG\Guns.xml-->
+  <entityname.smground_bw>Smg Round</entityname.smground_bw>
+  <entityname.smgmagazine_bw>7.62mm magazine</entityname.smgmagazine_bw>
+  <entitydescription.smgmagazine_bw>Little friend.</entitydescription.smgmagazine_bw>
+  <entityname.smg_bw>CQB SMG</entityname.smg_bw>
+  <entitydescription.smg_bw>Fast auto-fire weapon,can be dual wielded.Use 7.62mm magazine.</entitydescription.smg_bw>
+  <entityname.smgmagazine_bw2>(LEGACY WILL BE REMOVED)7.62mm Autofilled magazine</entityname.smgmagazine_bw2>
+  <entitydescription.>Living metal provide limitless rounds,but halfed the damage.</entitydescription.>
+  <entityname.smground_bw2>Smg Round2</entityname.smground_bw2>
+  <!--Materials-->
+  <entityname.bca_bw>Composite Armor Plate</entityname.bca_bw>
+  <entitydescription.bca_bw>Developed by the Iron Alliance, this advanced composite armor uses NERA (Non-Explosive Reactive Armor) technology to provide multi-layered defense. It includes compressed titanium alloy, armored silica, depleted materials, titanium metal fiber mesh, and rubber. Effectively withstands threats from explosives and armor-piercing weapons.</entitydescription.bca_bw>
+  <entityname.pta_bw>Compressed Titanium</entityname.pta_bw>
+  <entitydescription.pta_bw>The newest alloy developed by the Iron Alliance, has a material property that is unparalleled. But the cost is high, so it is only used by the Iron Federation to create high-end weapons to counter the growing threat. </entitydescription.pta_bw>
+  <entityname.amu_bw>hardened aluminum alloy</entityname.amu_bw>
+  <entitydescription.amu_bw>The alloy developed by the Iron and Steel Alliance has good heat dissipation performance, comparable to steel hardness and extremely light weight, and is often used to make gun casings. </entitydescription.amu_bw>
+  <entityname.sst_bw>Hardened Steel</entityname.sst_bw>
+  <entitydescription.sst_bw>The alloy developed by the Iron Alliance has amazing hardness and durability, and is often used to make gun barrels. </entitydescription.sst_bw>
+  <entityname.camp6_bw>Compound Six</entityname.camp6_bw>
+  <entitydescription.camp6_bw>A military high explosive developed by the Iron Alliance, which can be used to synthesize military high explosives, far exceeds the performance of known gunpowder on Europa at the same mass. It is said that the developer is a military doctor who is active on the front line, and his motto is "Gunpowder is also medicine". </entitydescription.camp6_bw>
+  <entityname.camp7_bw>Compound No. 7</entityname.camp7_bw>
+  <entitydescription.camp7_bw>A military high explosive developed by the Iron Alliance, adding local specialties to the formula of Compound No. 6, which can be used to synthesize military high explosives. It is said that the developer is a military doctor who is active on the front line, and his motto is "Gunpowder is also medicine". </entitydescription.camp7_bw>
+  <entityname.c6_bw>C6 Explosives</entityname.c6_bw>
+  <entitydescription.c6_bw>A military high explosive developed by the Iron Federation. </entitydescription.c6_bw>
+  <!--tactical Scanner.xml-->
+  <entityname.divingsuitlockerbw>Apron</entityname.divingsuitlockerbw>
+  <entityname.shellbagbw>Dreadnought Support System</entityname.shellbagbw>
+  <entitydescription.shellbagbw>Infantry support bag design for boarding battle,can not take high water pressure.X01 oxygen cell can active underwater oxygen supply system.</entitydescription.shellbagbw>
+  <entityname.shellshieldbw>Dreadnought PCIA</entityname.shellshieldbw>
+  <entitydescription.shellshieldbw>Powered combat infantry armor design for protect high rank officers,slow but as solid as a rock.X01 oxygen cell can active underwater oxygen supply system.</entitydescription.shellshieldbw>
+  <entityname.ballistichelmetbw>Armored helmet</entityname.ballistichelmetbw>
+  <entitydescription.ballistichelmetbw>A symbol of footman.Can not salvage.</entitydescription.ballistichelmetbw>
+  <entityname.captainscapbw>Military cap</entityname.captainscapbw>
+  <entitydescription.captainscapbw>A symbol of leadership.Can not salvage.</entitydescription.captainscapbw>
+  <entityname.weldingtoolbw>Smart Arc</entityname.weldingtoolbw>
+  <entitydescription.weldingtoolbw>Smart system can avoid to damage biological,use batterycell,fulguriumbatterycell,or X01 oxygen cell.</entitydescription.weldingtoolbw>
+  <entityname.captainsuniformbw>Battle Armor</entityname.captainsuniformbw>
+  <entitydescription.captainsuniformbw>A symbol of loyalty.Can not salvage.</entitydescription.captainsuniformbw>
+  <entityname.tatical_scanner>tactical Scanner</entityname.tatical_scanner>
+  <entitydescription.tatical_scanner>Tactical Scanner not only show for situation,but also can inject medicine to save your life.</entitydescription.tatical_scanner>
+  <entityname.revolver_bw>Dead Rock</entityname.revolver_bw>
+  <entitydescription.revolver_bw>Old-fashioned weapon,can be dual wielded.Use 14.5mm round.</entitydescription.revolver_bw>
+  <entityname.revolverammobw>14.5mm Round Clip</entityname.revolverammobw>
+  <entityname.revolverammobw2>14.5mm Concussion Round Clip</entityname.revolverammobw2>
+  <entityname.revolverammobw3>14.5mm Flare Round Clip</entityname.revolverammobw3>
+  <entityname.coilgunammo_bw>LEGACY Coilgun Ammunition Box(Red)</entityname.coilgunammo_bw>
+  <entityname.coilgunammo_bw2>LEGACY Coilgun Ammunition Box(Yellow)</entityname.coilgunammo_bw2>
+  <entityname.coilgunboltbw>coilgunboltbw</entityname.coilgunboltbw>
+  <entityname.coilgunboltbw2>coilgunboltbw2</entityname.coilgunboltbw2>
+  <entityname.bandolierbw>Tactical Bandolier</entityname.bandolierbw>
+  <entitydescription.bandolierbw>A symbol of courage,increase range weapons attack speed.Cannot be disassembled.</entitydescription.bandolierbw>
+  <entityname.bandolierbw2>Tactical Support System</entityname.bandolierbw2>
+  <entitydescription.bandolierbw2>A symbol of courage,increases attack speed of range and melee weapons.Cannot be disassembled.</entitydescription.bandolierbw2>
+  <entityname.bandolierbw3>Shield Support System</entityname.bandolierbw3>
+  <entitydescription.bandolierbw3> Symbol of courage, increasing defense power and attack speed of range weapons.Cannot be disassembled.</entitydescription.bandolierbw3>
+  <entityname.bandolierbw4>Assault Support System</entityname.bandolierbw4>
+  <entitydescription.bandolierbw4>A symbol of courage,strengthens the attack speed and defense of range and melee weapons.Cannot be disassembled.</entitydescription.bandolierbw4>
+  <entityname.handcannonbw>Peace Keeper</entityname.handcannonbw>
+  <entitydescription.handcannonbw>This large-caliber handcannon is full of intimidation.</entitydescription.handcannonbw>
+  <!--Affliction-->
+  <Afflictionname.architect>Architect</Afflictionname.architect>
+  <Afflictiondescription.architect>Repair speed and health increased 25%.</Afflictiondescription.architect>
+  <Afflictionname.architect2>Fortification Architect</Afflictionname.architect2>
+  <Afflictiondescription.architect2>Repair speed increased 25%,health increased 50%,very slowly repairs itself.</Afflictiondescription.architect2>
+  <Afflictionname.Hercules>Fortification Architect</Afflictionname.Hercules>
+  <Afflictiondescription.Hercules>Increases repair speed by 25%, health by 25%</Afflictiondescription.Hercules>
+  <Afflictionname.Hercules2>Fortification Architect</Afflictionname.Hercules2>
+  <Afflictiondescription.Hercules2>Increases repair speed by 25%, health by 25%, and reduces physical damage taken by 15%.</Afflictiondescription.Hercules2>
+  <Afflictionname.Swift>Swift</Afflictionname.Swift>
+  <Afflictiondescription.Swift>Melee Attack speed increased 20%.</Afflictiondescription.Swift>
+  <Afflictionname.Alienpw>Toughness</Afflictionname.Alienpw>
+  <Afflictiondescription.Alienpw>Health increased 50%,very slowly repairs itself.</Afflictiondescription.Alienpw>
+  <Afflictionname.X01>Advanced Armor</Afflictionname.X01>
+  <Afflictiondescription.X01>Damage increased by 10%,health increased by 10%.</Afflictiondescription.X01>
+  <Afflictionname.X00>Assault Armor</Afflictionname.X00>
+  <Afflictiondescription.X00>Increases damage by 10%, attack speed by 20%, and health by 10%.</Afflictiondescription.X00>
+  <Afflictionname.X01D>Living Armor</Afflictionname.X01D>
+  <Afflictiondescription.X01D>Increases damage by 10%, health by 20%, and very slowly self-repairs after receiving damage.</Afflictiondescription.X01D>
+  <Afflictionname.Hammer>Self repair</Afflictionname.Hammer>
+  <Afflictiondescription.Hammer>Health increased 25%,very slowly repairs itself.</Afflictiondescription.Hammer>
+  <Afflictionname.PCIA>Biological health care system</Afflictionname.PCIA>
+  <Afflictiondescription.PCIA>Very slowly repairs itself.</Afflictiondescription.PCIA>
+  <Afflictionname.DEFbw>Extra Armor</Afflictionname.DEFbw>
+  <Afflictiondescription.DEFbw>Increases health 50% and physical damage resistance increased 30%.</Afflictiondescription.DEFbw>
+  <Afflictionname.DEFbw2>Additional Armor</Afflictionname.DEFbw2>
+  <Afflictiondescription.DEFbw2>Increases health 25% and physical damage resistance increased 15%.</Afflictiondescription.DEFbw2>
+  <Afflictionname.DEFbw3>Extra Armor</Afflictionname.DEFbw3>
+  <Afflictiondescription.DEFbw3>Increases health by 50%, reduces physical damage taken by 30%, and increases attack speed by 20%.</Afflictiondescription.DEFbw3>
+  <Afflictionname.Swift2>Assault armor</Afflictionname.Swift2>
+  <Afflictiondescription.Swift2>Damage increased 10%,attack speed increased 20%,health increases 25%.</Afflictiondescription.Swift2>
+  <Afflictionname.steelruler>Steel ruler</Afflictionname.steelruler>
+  <Afflictionname.quickdrawingbw>A full blow</Afflictionname.quickdrawingbw>
+  <Afflictionname.stonewallbw>Hold the line</Afflictionname.stonewallbw>
+  <Afflictionname.sup1>Support system</Afflictionname.sup1>
+  <Afflictiondescription.sup1>Ranged attack speed increased 20%.</Afflictiondescription.sup1>
+  <Afflictionname.sup2>Support system</Afflictionname.sup2>
+  <Afflictiondescription.sup2>Attack speed increased 20%.</Afflictiondescription.sup2>
+  <Afflictionname.sup3>Assault Support System</Afflictionname.sup3>
+  <Afflictiondescription.sup3>Attack speed increased 20%,health increased 25%,physical damage resistance increased 15%.</Afflictiondescription.sup3>
+  <Afflictionname.sup4>Arsenal Support System</Afflictionname.sup4>
+  <Afflictiondescription.sup4> Attack speed increased by 20%, HP increased by 25%, and physical damage reduced by 20%. </Afflictiondescription.sup4>
+  <Afflictionname.Med_sys>Battle Medic System</Afflictionname.Med_sys>
+  <Afflictiondescription.Med_sys>Increases health by 10%, enhances poison effects by 10%.</Afflictiondescription.Med_sys>
+  <Afflictionname.Apollo_sys>Battle Physician System</Afflictionname.Apollo_sys>
+  <Afflictiondescription.Apollo_sys>Increases health by 10%, enhances poison effects by 25%, and eliminates the risk of contamination when genetically merged.</Afflictiondescription.Apollo_sys>
+  <Afflictionname.Circe_sys>Chemical Warfare System</Afflictionname.Circe_sys>
+  <Afflictiondescription.Circe_sys>Increases health by 10%, enhances poison and fire effects by 100%, and neutralizes toxins in the body over time.</Afflictiondescription.Circe_sys>
+  <Afflictionname.bedsidemanner_bw>Apollo Support System</Afflictionname.bedsidemanner_bw>
+  <Afflictiondescription.bedsidemanner_bw> Increases movement speed by 10%, reduces physical damage by 10%, and will not die due to pain while in effect. </Afflictiondescription.bedsidemanner_bw>
+  <entityname.railgunshellbw2>Empty Shell</entityname.railgunshellbw2>
+  <!--Enemy Characters equipments-->
+  <entityname.corsairar_bw_e>Pirate Corsair</entityname.corsairar_bw_e>
+  <entityname.armored_miningsuit_bw_e>Reinforced Mining Armor</entityname.armored_miningsuit_bw_e>
+  <entityname.pio_bw2_e>Pirate Pioneer</entityname.pio_bw2_e>
+  <entityname.armored_hardsuit_bw_e>X01</entityname.armored_hardsuit_bw_e>
+  <entityname.armored_hardsuit_bw2_e>X01 Veteran</entityname.armored_hardsuit_bw2_e>
+  <entityname.armored_miningsuit_bw3_e>modified Hercules</entityname.armored_miningsuit_bw3_e>
+  <entityname.knight_hardsuit_bw_e>Corrupted Knight</entityname.knight_hardsuit_bw_e>
+  <entityname.clownexosuitbw_e>Funkoverlord 4000</entityname.clownexosuitbw_e>
+  <entitydescription.corsairar_bw_e>This suit is locked by biometric authentication.</entitydescription.corsairar_bw_e>
+  <entitydescription.armored_miningsuit_bw_e>This suit is locked by biometric authentication.</entitydescription.armored_miningsuit_bw_e>
+  <entitydescription.pio_bw2_e>This suit is locked by biometric authentication.</entitydescription.pio_bw2_e>
+  <entitydescription.armored_hardsuit_bw_e>This suit is locked by biometric authentication.</entitydescription.armored_hardsuit_bw_e>
+  <entitydescription.armored_hardsuit_bw2_e>This suit is locked by biometric authentication.</entitydescription.armored_hardsuit_bw2_e>
+  <entitydescription.armored_miningsuit_bw3_e>This suit is locked by biometric authentication.</entitydescription.armored_miningsuit_bw3_e>
+  <entitydescription.knight_hardsuit_bw_e>Why do we resist embracing the Husk?</entitydescription.knight_hardsuit_bw_e>
+  <entitydescription.clownexosuitbw_e>Why so serious?</entitydescription.clownexosuitbw_e>
+  <!--Enemy Characters-->
+  <character.Pirateantisub>Pirate AntiSub</character.Pirateantisub>
+  <character.Pirateantisub_emp>Pirate AntiSub</character.Pirateantisub_emp>
+  <character.Pirateboarder>Pirate Boarder</character.Pirateboarder>
+  <character.Piratebombard>Pirate Bombard</character.Piratebombard>
+  <character.Piratecommando>Pirate Commando</character.Piratecommando>
+  <character.Piratecommandopod>Pirate Commando Pod</character.Piratecommandopod>
+  <character.Piratecommando2>Pirate Commando</character.Piratecommando2>
+  <character.Piratedismantler>Pirate Dismantler</character.Piratedismantler>
+  <character.Piratedismantlerpod>Pirate Dismantler Pod</character.Piratedismantlerpod>
+  <character.Pirateenforcer>Pirate Enforcer</character.Pirateenforcer>
+  <character.Pirateenforcerpod>Pirate Enforcer Pod</character.Pirateenforcerpod>
+  <character.Pirateforerunner>Pirate Forerunner</character.Pirateforerunner>
+  <character.Pirategunner>Pirate Gunner</character.Pirategunner>
+  <character.Pirategunner2>Pirate Gunner</character.Pirategunner2>
+  <character.Pirategunnerpod>Pirate Gunner Pod</character.Pirategunnerpod>
+  <character.Piratemarksman>Pirate Marksman</character.Piratemarksman>
+  <character.Piratemarksmanpod>Pirate Marksman Pod</character.Piratemarksmanpod>
+  <character.Pirategrenadier>Pirate Grenadier</character.Pirategrenadier>
+  <character.Piratenuker>Pirate AntiSub</character.Piratenuker>
+  <character.Piraterifleman>Pirate Rifleman</character.Piraterifleman>
+  <character.Pirateriflemanpod>Pirate Rifleman Pod</character.Pirateriflemanpod>
+  <character.Piratesharpshooter>Pirate Sharpshooter</character.Piratesharpshooter>
+  <character.Piratesharpshooterpod>Pirate Sharpshooter Pod</character.Piratesharpshooterpod>
+  <character.Pirateveteran>Pirate Veteran</character.Pirateveteran>
+  <character.Pirateveteranpod>Pirate Veteran Pod</character.Pirateveteranpod>
+  <character.Piratedesolator>Pirate Desolator</character.Piratedesolator>
+  <character.Piratescavenger>Pirate Scavenger</character.Piratescavenger>
+  <character.Piratescavengerpod>Pirate Scavenger Pod</character.Piratescavengerpod>
+  <character.Piratetyrant>Pirate Tyrant</character.Piratetyrant>
+  <character.Piraterepressor>Pirate Repressor</character.Piraterepressor>
+  <character.Piratetyrantpod>Pirate Tyrant Pod</character.Piratetyrantpod>
+  <character.Piraterepressorpod>Pirate Repressor Pod</character.Piraterepressorpod>
+  <character.Pirateheavy>Pirate Heavy</character.Pirateheavy>
+  <character.Pirateheavypod>Pirate Heavy Pod</character.Pirateheavypod>
+  <character.Piraterecruits>Pirate Recruits</character.Piraterecruits>
+  <character.Piraterecruitspod>Pirate Recruits Pod</character.Piraterecruitspod>
+  <character.Coalitionantisub>Coalition AntiSub</character.Coalitionantisub>
+  <character.Coalitionheavy>Coalition Heavy</character.Coalitionheavy>
+  <character.Coalitiongunner>Coalition Gunner</character.Coalitiongunner>
+  <character.Coalitionsharpshooter>Coalition Sharpshooter</character.Coalitionsharpshooter>
+  <character.Coalitionannihilator>Coalition Annihilator</character.Coalitionannihilator>
+  <character.Coalitionveteran>Coalition Officer</character.Coalitionveteran>
+  <character.Coalitionrifleman>Coalition Rifleman</character.Coalitionrifleman>
+  <character.Separatistrifleman>Separatist Rifleman</character.Separatistrifleman>
+  <character.Separatistantisub>Separatist AntiSub</character.Separatistantisub>
+  <character.Separatistveteran>Separatist Veteran</character.Separatistveteran>
+  <character.Separatistgunner>Separatist Gunner</character.Separatistgunner>
+  <character.Separatistsharpshooter>Separatist Sharpshooter</character.Separatistsharpshooter>
+  <character.Separatistbombard>Separatist Bombard</character.Separatistbombard>
+  <character.Corruptedknight>Corrupted Knight</character.Corruptedknight>
+  <character.Cultistdevoter>Cultist Devoter</character.Cultistdevoter>
+  <character.Cultistzealot>Cultist Zealot</character.Cultistzealot>
+  <character.Technoprankster>Techno Prankster</character.Technoprankster>
+  <character.Coalitioneyeofear>Eye of Fear</character.Coalitioneyeofear>
+  <!--Mission text-->
+  <missionheader.killtarget>Targets terminated</missionheader.killtarget>
+  <missionmessage.killmessage>The Targets have been neutralized. Navigate the submarine out of the cavern to claim the reward.</missionmessage.killmessage>
+  <missionname.killnuker>Nuclear Emergency</missionname.killnuker>
+  <missiondescription.killnuker>A group of elite separatists have defected to pirates with nuclear ordnance. While no casualties has been reported just yet, it is urgent to take out this threat. Their mech suits are designed to withstand against most of submarines armaments ,so it is highly recommended to take on them with man-portable weaponry.</missiondescription.killnuker>
+  <missionsonarlabel.killnuker>Pirates</missionsonarlabel.killnuker>
+  <missionsuccess.killnuker>You have reported that the stolen nuclear weapons have been properly disposed.</missionsuccess.killnuker>
+  <missionname.killbseclown>Techno Prankster</missionname.killbseclown>
+  <missiondescription.killbseclown>A rogue technology enthusiast from the Children of the Honkmother has harnessed Iron League technology purely for mischief. While their pranks are mostly harmless, this particular jest is causing serious damages on our supply lines. Find and kill him.</missiondescription.killbseclown>
+  <missionsonarlabel.killbseclown>Techno Prankster</missionsonarlabel.killbseclown>
+  <missionsuccess.killbseclown>He won't be bothering us anymore.</missionsuccess.killbseclown>
+  <missionname.clearruinskhusk>Corrupted Knight</missionname.clearruinskhusk>
+  <missiondescription.clearruinskhusk>A brainwashed genetic augmented soldier and some cultists has escaped with a cutting-edge secret suit,and fled into nearby alien ruin. Pursue him and eliminate the threat. It seems they have also been developing malicious equipment in secret collaboration with cultists.</missiondescription.clearruinskhusk>
+  <missionsuccess.clearruinskhusk>The Target have been neutralized.</missionsuccess.clearruinskhusk>
+  <missionsonarlabel.clearruinskhusk>Cultists</missionsonarlabel.clearruinskhusk>
+  <missionname.killpirates>Mechanized Pirates</missionname.killpirates>
+  <missiondescription.killpirates>According to our sources, there is a group of Pirates Mechs blocking the route from [location1] to [location2]. Get rid of those Mechs so that our vessels can continue traveling safely through the passage.Their mech suits are designed to withstand against most of submarines armaments ,so it is highly recommended to take on them with man-portable weaponry.</missiondescription.killpirates>
+  <missionsonarlabel.killpirates>Pirates Raiders</missionsonarlabel.killpirates>
+  <missionsuccess.killpirates>The Pirates have been neutralized. The route should be safe again.</missionsuccess.killpirates>
+  <missionname.killtraitors>Mechanized Traitors</missionname.killtraitors>
+  <missiondescription.killtraitors>Our mechanized unit's officer has defected to the pirates with most advanced arsenal. We request that eliminate him before the situation deteriorates any further. Their mech suits are designed to withstand against most of submarines armaments ,so it is highly recommended to take on them with man-portable weaponry.</missiondescription.killtraitors>
+  <missionsonarlabel.killtraitors>Traitors</missionsonarlabel.killtraitors>
+  <missionsuccess.killtraitors>The Officer and his team have been neutralized. </missionsuccess.killtraitors>
+  <missionname.separatistex1>Separatist Patrol</missionname.separatistex1>
+  <missiondescription.separatistex1>According to our sources, there is a group of Separatist Mechs roaming the route from [location1] to [location2]. Get rid of those Mechs so that our vessels can continue traveling safely through the passage.Their mech suits are designed to withstand against most of submarines armaments ,so it is highly recommended to take on them with man-portable weaponry.</missiondescription.separatistex1>
+  <missionsonarlabel.separatistex1>Separatist Patrol</missionsonarlabel.separatistex1>
+  <missionsuccess.separatistex1>The Separatists have been neutralized. The route should be safe again.</missionsuccess.separatistex1>
+  <missionname.killseparatist>Separatist Military Excercise</missionname.killseparatist>
+  <missiondescription.killseparatist>According to our sources, Separatist Mechanized troops conduct Military Excercise the route from [location1] to [location2]. Get rid of those Mechs so that our vessels can continue traveling safely through the passage.Their mech suits are designed to withstand against most of submarines armaments ,so it is highly recommended to take on them with man-portable weaponry.</missiondescription.killseparatist>
+  <missionsonarlabel.killseparatist>Separatist Troops</missionsonarlabel.killseparatist>
+  <missionsuccess.killseparatist>The Separatists have been neutralized. The route should be safe again.</missionsuccess.killseparatist>
+  <missionname.coalitionex1>Coalition Patrol</missionname.coalitionex1>
+  <missiondescription.coalitionex1>According to our sources, there is a group of Coalition Mechs roaming the route from [location1] to [location2]. Get rid of those Mechs so that our vessels can continue traveling safely through the passage.Their mech suits are designed to withstand against most of submarines armaments ,so it is highly recommended to take on them with man-portable weaponry.</missiondescription.coalitionex1>
+  <missionsonarlabel.coalitionex1>Coalition Patrol</missionsonarlabel.coalitionex1>
+  <missionsuccess.coalitionex1>The Coalition Patrol have been neutralized. The route should be safe again.</missionsuccess.coalitionex1>
+  <missionname.killcoalition>Coalition Military Excercise</missionname.killcoalition>
+  <missiondescription.killcoalition>According to our sources, Coalition Mechanized troops conduct Military Excercise the route from [location1] to [location2]. Get rid of those Mechs so that our vessels can continue traveling safely through the passage.Their mech suits are designed to withstand against most of submarines armaments ,so it is highly recommended to take on them with man-portable weaponry.</missiondescription.killcoalition>
+  <missionsonarlabel.killcoalition>Coalition Troops</missionsonarlabel.killcoalition>
+  <missionsuccess.killcoalition>The Coalition troops have been neutralized. The route should be safe again.</missionsuccess.killcoalition>
+  <missionname.separatistattackbae>Incoming transmission</missionname.separatistattackbae>
+  <missiondescription.separatistattackbae>“This passageway has been reclaimed by the Jovian Separatists. Set your course back immediately or we'll make sure none of you fascists make it out of here alive.”</missiondescription.separatistattackbae>
+  <missionname.coalitionattackbae>Incoming transmission</missionname.coalitionattackbae>
+  <missiondescription.coalitionattackbae>“End of the road, traitors! The price for treason against the Coalition is death!”</missiondescription.coalitionattackbae>
+  <missionname.abandonedoutposthumansbae>Outpost recovery</missionname.abandonedoutposthumansbae>
+  <missiondescription.abandonedoutposthumansbae>Contact with [location1] was recently lost, and it's suspected to have been taken over by someone. Destroy the outpost's reactor to drive away any squatters and ensure they don't return.</missiondescription.abandonedoutposthumansbae>
+  <missionsuccess.abandonedoutposthumansbae>The squatters were driven away from the outpost successfully.</missionsuccess.abandonedoutposthumansbae>
+  <missionfailure.abandonedoutposthumansbae>Destroying the outpost's reactor failed.</missionfailure.abandonedoutposthumansbae>
+  <missionheader0.abandonedoutposthumansbae>Reactor destroyed</missionheader0.abandonedoutposthumansbae>
+  <missionmessage0.abandonedoutposthumansbae>The reactor has been destroyed. This should make sure squatters won't try to take over the outpost again. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutposthumansbae>
+  <missionname.abandonedoutpostassassinatebae>Outpost assassination</missionname.abandonedoutpostassassinatebae>
+  <missiondescription.abandonedoutpostassassinatebae>Contact with [location1] was recently lost, and there have been reports about a notorious group of heavily armed outlaws having claimed it as their base. There's a bounty on the head of the group's leader's – eliminate the leader to claim the reward.</missiondescription.abandonedoutpostassassinatebae>
+  <missionsuccess.abandonedoutpostassassinatebae>The leader of the bandit group has been successfully eliminated.</missionsuccess.abandonedoutpostassassinatebae>
+  <missionname.assaultonmechlabs>Assault on Black Sea Mecha Labs [Hell Difficulty]</missionname.assaultonmechlabs>
+  <missiondescription.assaultonmechlabs>XOF Transmission: Destroy the Black Sea Mecha Labs located at [location1]. Do not disappoint me. Mission Details: Numerous elite Black Sea Mecha guards and a few experimental mechas are present. Security forces are equipped with heavy guards and sharpshooters. Plan the assault carefully, leave no survivors, and destroy the facility.</missiondescription.assaultonmechlabs>
+  <missionheader0.assaultonmechlabs> Black Sea Mecha Labs Have Been Destroyed</missionheader0.assaultonmechlabs>
+  <missionmessage0.assaultonmechlabs> Black Sea Mecha Labs have been destroyed. XOF is pleased with your performance. Evacuate before the elite forces arrive and leave no trace behind.</missionmessage0.assaultonmechlabs>
+  <missionsuccess.assaultonmechlabs> Assault Successful</missionsuccess.assaultonmechlabs>
+  <missionfailure.assaultonmechlabs> Assault Failed</missionfailure.assaultonmechlabs>
+  <missionname.assaultoncoalitionstation>Assault on Coalition Secret Station [Hell Difficulty]</missionname.assaultoncoalitionstation>
+  <missiondescription.assaultoncoalitionstation>Destroy the site located at [location1]. The site is equipped with the Alliance Shield Team, but the possibility of receiving support from the Javelin Team cannot be ruled out.</missiondescription.assaultoncoalitionstation>
+  <missionheader0.assaultoncoalitionstation>Alliance Secret Station Has Been Destroyed</missionheader0.assaultoncoalitionstation>
+  <missionmessage0.assaultoncoalitionstation>The Alliance Secret Station has been destroyed. According to reliable sources, the nearby Javelin Team is en route to provide support.</missionmessage0.assaultoncoalitionstation>
+  <missionname.assaultonseparatismstation>Assault on Separatist Station [Extreme Difficulty]</missionname.assaultonseparatismstation>
+  <missiondescription.assaultonseparatismstation>Destroy the site located at [location1]. This station serves as a supply point for the Siren Team. Destroy it to cut off the separatists' supply line.</missiondescription.assaultonseparatismstation>
+  <missionheader0.assaultonseparatismstation>Separatist Station Has Been Destroyed</missionheader0.assaultonseparatismstation>
+  <missionmessage0.assaultonseparatismstation>The supply line has been cut off.。</missionmessage0.assaultonseparatismstation>
+  <missionname.assaultonstation>Assault on Pirate Station [Extreme Difficulty]</missionname.assaultonstation>
+  <missiondescription.assaultonstation>Destroy the site located at [location1]. The station has been occupied by pirates. Clear the area.</missiondescription.assaultonstation>
+  <missionheader0.assaultonstation>The station has been destroyed.</missionheader0.assaultonstation>
+  <missionmessage0.assaultonstation>Our ships can now safely pass through this channel。</missionmessage0.assaultonstation>
+  <missionfailure.abandonedoutpostassassinatebae>Eliminating the leader of the bandit group failed.</missionfailure.abandonedoutpostassassinatebae>
+  <missionheader0.abandonedoutpostassassinatebae>Bandit leader killed</missionheader0.abandonedoutpostassassinatebae>
+  <missionmessage0.abandonedoutpostassassinatebae>The leader of the bandit group has been successfully eliminated. Undock from the outpost to complete the mission.</missionmessage0.abandonedoutpostassassinatebae>
+  <missionname.purgestation_small_2>Eliminate Elite Small Pirate Outpost</missionname.purgestation_small_2>
+  <missiondescription.purgestation_small_2>Destroy the pirate base located at [location1], which has been occupied by a group of armed pirates. Clear the outpost. Be advised, pirates are equipped with numerous automatic rifles, and a few mechs and precision/heavy weaponry.</missiondescription.purgestation_small_2>
+  <missionname.purgestation_small>Eliminate Small Pirate Outpost</missionname.purgestation_small>
+  <missiondescription.purgestation_small>Destroy the pirate base located at [location1], which has been occupied by a group of armed pirates. Clear the outpost. Note, pirates possess limited automatic rifle firepower, with possible presence of mechs and precision/heavy weaponry.</missiondescription.purgestation_small>
+  <missionheader0.purgestation_small>Outpost Cleared</missionheader0.purgestation_small>
+  <missionmessage0.purgestation_small>Our ships can now safely pass through this channel.</missionmessage0.purgestation_small>
+  <missionname.huntingground_eyeofear>Eye of Fear Unleashed</missionname.huntingground_eyeofear>
+  <missiondescription.huntingground_eyeofear>A rogue mechanical creature has lost control in the abyss, attacking all targets. If it remains alive, it will complicate the construction of new outposts nearby and may impact existing ones.</missiondescription.huntingground_eyeofear>
+  <missionsuccess.huntingground_eyeofears>The Eye of Fear is dead, securing the channel.</missionsuccess.huntingground_eyeofears>
+  <missionfailure.huntingground_eyeofears>The Eye of Fear continues to occupy the area, affecting lives.</missionfailure.huntingground_eyeofears>
+  <missionheader0.huntingground_eyeofears>Target Eliminated</missionheader0.huntingground_eyeofears>
+  <missionmessage0.huntingground_eyeofears>The Eye of Fear is dead, securing the channel.</missionmessage0.huntingground_eyeofears>
+  <missionname.kill_eyeofear>AI Crisis</missionname.kill_eyeofear>
+  <missiondescription.kill_eyeofear>A rogue Alliance weapon has blockaded this channel. There have been multiple reports of lost contact, and the threat needs to be eliminated immediately. The weapon can withstand most small caliber weaponry from submarines, and it launches specialty rounds in attacks. It also deploys drones and boarding pods to disrupt operations.</missiondescription.kill_eyeofear>
+  <missionsonarlabel.kill_eyeofear>Eye of Fear</missionsonarlabel.kill_eyeofear>
+  <missionsuccess.kill_eyeofear>The rogue weapon has been neutralized, awaiting recovery.</missionsuccess.kill_eyeofear>
+</infotexts>
