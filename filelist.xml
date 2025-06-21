@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Alex's Black Sea Armory" modversion="1.0.0" corepackage="False" steamworkshopid="3505367830" gameversion="1.9.7.0" altnames="Alex's Black Sea Armory">
-  <Jobs file="%ModDir%/Job/Content/Jobs.xml" />
-  <TalentTrees file="%ModDir%/Job/Content/TalentTrees.xml" />
-  <Talents file="%ModDir%/Job/TalentsBP.xml" />
-  <Afflictions file="%ModDir%/Job/AfflictionsBP.xml" />
+  <Jobs file="%ModDir%/Jobs/IronRider/Job.xml" />
+  <TalentTrees file="%ModDir%/Jobs/IronRider/TalentTree.xml" />
+  <Talents file="%ModDir%/Jobs/IronRider/Talents.xml" />
+  <Afflictions file="%ModDir%/Jobs/IronRider/Afflictions.xml" />
   <Particles file="%ModDir%/Particles/ParticlePrefabs.xml" />
   <Item file="%ModDir%/items/DreadnoughtSupportSystem.xml" />
   <Item file="%ModDir%/items/HMG/Guns.xml" />

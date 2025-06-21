@@ -2,10 +2,10 @@
 <Jobs>
   <Job identifier="IronRider" maxnumber="99" minkarma="50" uicolor="0.43,0.57,0.43" vitalitymodifier="20" pricemultiplier="3.0" idlebehavior="Patrol">
     <Jobicon>
-      <sprite texture="%ModDir%/Job/SR.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+      <sprite texture="%ModDir%/Jobs/IronRider/Icon.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     </Jobicon>
     <JobiconSmall>
-      <sprite texture="%ModDir%/Job/SR2.png" sourcerect="0,0,28,28" origin="0.5,0.5" />
+      <sprite texture="%ModDir%/Jobs/IronRider/IconSmall.png" sourcerect="0,0,28,28" origin="0.5,0.5" />
     </JobiconSmall>
     <Skills>
       <Skill identifier="weapons" level="40,50" primary="true" />
