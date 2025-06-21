@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Mechno's and Duke's Maddened Black Sea Armory" steamworkshopid="2891792017" corepackage="false" modversion="1.7.0" gameversion="1.4.4.1" installtime="1713787308" altnames="Mechno's and Duke's Maddened Black Sea Armory" expectedhash="6E5024ECF63184C3C0E85FAEB6D2925A">
+<contentpackage name="Alex's Maddened Black Sea Armory" steamworkshopid="2891792017" corepackage="false" modversion="1.0.0" gameversion="1.4.4.1" installtime="1713787308" altnames="Alex's Maddened Black Sea Armory">
   <Jobs file="%ModDir%/Job/Content/Jobs.xml" />
   <TalentTrees file="%ModDir%/Job/Content/TalentTrees.xml" />
   <Talents file="%ModDir%/Job/TalentsBP.xml" />
   <Afflictions file="%ModDir%/Job/AfflictionsBP.xml" />
   <Particles file="%ModDir%/Particles/ParticlePrefabs.xml" />
+  <Item file="%ModDir%/items/DreadnoughtSupportSystem.xml" />
   <Item file="%ModDir%/items/HMG/Guns.xml" />
   <Item file="%ModDir%/LMG/Guns.xml" />
   <Item file="%ModDir%/PRG/PRG.xml" />

@@ -387,8 +387,8 @@
   <entitydescription.c6_bw>钢铁联盟研发的一种军用烈性炸药。 </entitydescription.c6_bw>
   <!--tactical Scanner.xml-->
   <entityname.divingsuitlockerbw>机坪(Apron)</entityname.divingsuitlockerbw>
-  <entityname.shellbagbw>无畏辅助系统(Dreadnought Support System)</entityname.shellbagbw>
-  <entitydescription.shellbagbw>为了舰内作战而设计的步兵支援系统，不能承受高水压。使用X01 氧气电池的话能在水中提供氧气。 </entitydescription.shellbagbw>
+  <entityname.dreadnoughtsupportsystem>无畏辅助系统(Dreadnought Support System)</entityname.dreadnoughtsupportsystem>
+  <entitydescription.dreadnoughtsupportsystem>为了舰内作战而设计的步兵支援系统，不能承受高水压。使用X01 氧气电池的话能在水中提供氧气。 </entitydescription.dreadnoughtsupportsystem>
   <entityname.shellshieldbw>无畏步兵动力装甲(Dreadnought PCIA)</entityname.shellshieldbw>
   <entitydescription.shellshieldbw>为了保护舰内高阶军官而设计的动力装甲，可以承受强大水压。使用X01 氧气电池的话能在水中提供氧气。 </entitydescription.shellshieldbw>
   <entityname.ballistichelmetbw>装甲头盔(Armored helmet)</entityname.ballistichelmetbw>

@@ -370,8 +370,8 @@
   <entitydescription.c6_bw>A military high explosive developed by the Iron Federation. </entitydescription.c6_bw>
   <!--tactical Scanner.xml-->
   <entityname.divingsuitlockerbw>Apron</entityname.divingsuitlockerbw>
-  <entityname.shellbagbw>Dreadnought Support System</entityname.shellbagbw>
-  <entitydescription.shellbagbw>Infantry support bag design for boarding battle,can not take high water pressure.X01 oxygen cell can active underwater oxygen supply system.</entitydescription.shellbagbw>
+  <entityname.dreadnoughtsupportsystem>Dreadnought Support System</entityname.dreadnoughtsupportsystem>
+  <entitydescription.dreadnoughtsupportsystem>Infantry support bag design for boarding battle,can not take high water pressure.X01 oxygen cell can active underwater oxygen supply system.</entitydescription.dreadnoughtsupportsystem>
   <entityname.shellshieldbw>Dreadnought PCIA</entityname.shellshieldbw>
   <entitydescription.shellshieldbw>Powered combat infantry armor design for protect high rank officers,slow but as solid as a rock.X01 oxygen cell can active underwater oxygen supply system.</entitydescription.shellshieldbw>
   <entityname.ballistichelmetbw>Armored helmet</entityname.ballistichelmetbw>

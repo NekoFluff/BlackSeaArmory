@@ -189,8 +189,8 @@
   <entityname.smground_bw2>Smg Round2</entityname.smground_bw2>
   <!--tactical Scanner.xml-->
   <entityname.divingsuitlockerbw>エプロン</entityname.divingsuitlockerbw>
-  <entityname.shellbagbw>ドレッドノートサポートシステム</entityname.shellbagbw>
-  <entitydescription.shellbagbw>船内での戦闘を行う歩兵向けの補助装備。高い水圧には耐えられない。動作にはX01酸素セルが必要。</entitydescription.shellbagbw>
+  <entityname.dreadnoughtsupportsystem>ドレッドノートサポートシステム</entityname.dreadnoughtsupportsystem>
+  <entitydescription.dreadnoughtsupportsystem>船内での戦闘を行う歩兵向けの補助装備。高い水圧には耐えられない。動作にはX01酸素セルが必要。</entitydescription.dreadnoughtsupportsystem>
   <entityname.shellshieldbw>ドレッドノートPCIA</entityname.shellshieldbw>
   <entitydescription.shellshieldbw>高圧化での使用を想定した将校向けの装備で、動きは遅いものの頑丈。動作にはX01酸素セルが必要。</entitydescription.shellshieldbw>
   <entityname.ballistichelmetbw>アーマーヘルメット</entityname.ballistichelmetbw>

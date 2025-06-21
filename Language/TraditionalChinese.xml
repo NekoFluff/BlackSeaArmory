@@ -187,8 +187,8 @@
   <entityname.smground_bw2>Smg Round2</entityname.smground_bw2>
   <!--tactical Scanner.xml-->
   <entityname.divingsuitlockerbw>機坪(Apron)</entityname.divingsuitlockerbw>
-  <entityname.shellbagbw>無畏輔助系統(Dreadnought Support System)</entityname.shellbagbw>
-  <entitydescription.shellbagbw>為了艦內作戰而設計的步兵支援系統，不能承受高水壓。使用X01氧氣電池的話能在水中提供氧氣。</entitydescription.shellbagbw>
+  <entityname.dreadnoughtsupportsystem>無畏輔助系統(Dreadnought Support System)</entityname.dreadnoughtsupportsystem>
+  <entitydescription.dreadnoughtsupportsystem>為了艦內作戰而設計的步兵支援系統，不能承受高水壓。使用X01氧氣電池的話能在水中提供氧氣。</entitydescription.dreadnoughtsupportsystem>
   <entityname.shellshieldbw>無畏步兵動力裝甲(Dreadnought PCIA)</entityname.shellshieldbw>
   <entitydescription.shellshieldbw>為了保護艦內高階軍官而設計的動力裝甲，可以承受強大水壓。使用X01氧氣電池的話能在水中提供氧氣。</entitydescription.shellshieldbw>
   <entityname.ballistichelmetbw>裝甲頭盔(Armored helmet)</entityname.ballistichelmetbw>

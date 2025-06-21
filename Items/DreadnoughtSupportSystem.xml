@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+     <!-- Dreadnought Support System -->
+  <Item name="" identifier="dreadnoughtsupportsystem" category="Equipment" tags="smallitem,clothing,gunsmith" impactsoundtag="impact_metal_light" description="" scale="0.5" allowasextracargo="true">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <Price baseprice="1000" soldeverywhere="false" canbespecial="false">
+      <Price locationtype="outpost" sold="false" />
+      <Price locationtype="city" sold="false" />
+      <Price locationtype="research" sold="false" />
+      <Price locationtype="military" sold="false" />
+      <Price locationtype="mine" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="mudraptorshell" />
+      <Item identifier="physicorium" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="mudraptorshell" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/TS/BC4.png" sourcerect="0,0,64,64" />
+    <Sprite texture="%ModDir%/TS/tatical.png" sourcerect="0,340,164,228" depth="0.6" />
+    <Body radius="40" height="60" density="40" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,explosiondamage" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,lacerations" damagemultiplier="0.65" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.75" probabilitymultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="internaldamage" damagemultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.6" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.6" probabilitymultiplier="0.6" damagesound="LimbArmor" />
+      <SkillModifier skillidentifier="mechanical" skillvalue="5" />
+      <SkillModifier skillidentifier="electrical" skillvalue="5" />
+      <sprite name="dreadnoughtsupportsystem" texture="%ModDir%/TS/tatical.png" sourcerect="0,340,164,228" limb="Torso" depthlimb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" origin="0.65,0.37">
+        <LightComponent range="200.0" lightcolor="250,224,165,255" powerconsumption="10" IsOn="true" allowingameediting="false">
+          <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/lightcone.png" origin="0.05, 0.45" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <StatusEffect type="OnWearing" target="Character" OxygenAvailable="0.0" UseHullOxygen="true" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="false" ObstructVision="false" PressureProtection="1000.0" LowPassMultiplier="0.2" setvalue="true" disabledeltatime="true">
+        <Affliction identifier="PCIA" strength="10" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="2000.0" Condition="-0.2" comparison="Or" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygen_cell_bw" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="1.15" setvalue="true" disabledeltatime="true" />
+      <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
+        <Containable items="none" />
+        <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="0,96,120,24" />
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="oxygen_cell_bw" />
+        </SubContainer>
+      </ItemContainer>
+    </Wearable>
+    <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
+  </Item>
+</Items>
