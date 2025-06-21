@@ -408,18 +408,18 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional HullOxygenPercentage="lt 50" />
         <Conditional InWater="false" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional InWater="true" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" Condition="-0.09" interval="1.0" disabledeltatime="true" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.05" interval="1.0" disabledeltatime="true" targetslot="0">
         <RequiredItem items="oxygen_cell_bw" targetslot="0" type="Contained" />
       </StatusEffect>
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -608,18 +608,18 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional HullOxygenPercentage="lt 50" />
         <Conditional InWater="false" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional InWater="true" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" Condition="-0.09" interval="1.0" disabledeltatime="true" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.05" interval="1.0" disabledeltatime="true" targetslot="0">
         <RequiredItem items="oxygen_cell_bw" targetslot="0" type="Contained" />
       </StatusEffect>
       <Sonar range="6000.0" powerconsumption="10" drawhudwhenequipped="true" detectsubmarinewalls="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="true" allowuioverlap="true">
@@ -760,18 +760,18 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional HullOxygenPercentage="lt 50" />
         <Conditional InWater="false" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional InWater="true" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" Condition="-0.09" interval="1.0" disabledeltatime="true" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.05" interval="1.0" disabledeltatime="true" targetslot="0">
         <RequiredItem items="oxygen_cell_bw" targetslot="0" type="Contained" />
       </StatusEffect>
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -1450,22 +1450,22 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.065" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional HullOxygenPercentage="lt 50" />
         <Conditional InWater="false" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.065" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional InWater="true" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" Condition="-0.065" interval="1.0" disabledeltatime="true" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.05" interval="1.0" disabledeltatime="true" targetslot="0">
         <RequiredItem items="oxygen_cell_bw" targetslot="0" type="Contained" />
       </StatusEffect>
       <Sonar range="3500.0" powerconsumption="10" drawhudwhenequipped="true" detectsubmarinewalls="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="true" allowuioverlap="true">
-        <StatusEffect type="OnUse" targettype="Contained" Condition="-0.065" disabledeltatime="true">
+        <StatusEffect type="OnUse" targettype="Contained" Condition="-0.05" disabledeltatime="true">
           <RequiredItem items="oxygen_cell_bw" type="Contained" />
         </StatusEffect>
         <sound file="Content/Items/Command/SonarPing.ogg" type="OnUse" range="1000.0" />
@@ -1704,18 +1704,18 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional HullOxygenPercentage="lt 50" />
         <Conditional InWater="false" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional InWater="true" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" Condition="-0.09" interval="1.0" disabledeltatime="true" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.05" interval="1.0" disabledeltatime="true" targetslot="0">
         <RequiredItem items="oxygen_cell_bw" targetslot="0" type="Contained" />
       </StatusEffect>
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -1820,18 +1820,18 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional HullOxygenPercentage="lt 50" />
         <Conditional InWater="false" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.09" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="2000.0" Condition="-0.05" comparison="And" targetslot="0">
         <Conditional IsDead="false" />
         <Conditional InWater="true" />
         <RequiredItem items="oxygen_cell_bw" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" Condition="-0.09" interval="1.0" disabledeltatime="true" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained" Condition="-0.05" interval="1.0" disabledeltatime="true" targetslot="0">
         <RequiredItem items="oxygen_cell_bw" targetslot="0" type="Contained" />
       </StatusEffect>
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.1" probabilitymultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
