@@ -20,9 +20,9 @@
   <talentname.physicalconditioningbw>強健體魄</talentname.physicalconditioningbw>
   <talentname.trustbuildingbw>歷戰老兵</talentname.trustbuildingbw>
   <talentdescription.trustbuildingbw>每當你完成一項任務，你增加[smallgain]%最大生命。若所有船員都倖存，則再增加[largegain]%的最大生命，上限為[maxgain]%。</talentdescription.trustbuildingbw>
-  <talentname.swordwarriorbw>長劍修士</talentname.swordwarriorbw>
-  <talentdescription.crafthighqualityswordwarriorbw>你製造的長劍武器品質提升[qualitybonus]。</talentdescription.crafthighqualityswordwarriorbw>
-  <talentdescription.swordwarriorbw>近戰武器攻擊時，你攜帶的每個[itemname]都會提升[powerincrease]%傷害，上限為[maxpowerincrease]%。</talentdescription.swordwarriorbw>
+  <talentname.swordwarrior>長劍修士</talentname.swordwarrior>
+  <talentdescription.crafthighqualityswordwarrior>你製造的長劍武器品質提升[qualitybonus]。</talentdescription.crafthighqualityswordwarrior>
+  <talentdescription.swordwarrior>近戰武器攻擊時，你攜帶的每個[itemname]都會提升[powerincrease]%傷害，上限為[maxpowerincrease]%。</talentdescription.swordwarrior>
   <talentname.enforcerbw>重裝獵手</talentname.enforcerbw>
   <talentdescription.enforcerbw>使用霰彈攻擊時，額外造成[damage]%傷害與[armorpenetration]%穿甲。</talentdescription.enforcerbw>
   <talentname.steelruler>鋼鐵統御</talentname.steelruler>

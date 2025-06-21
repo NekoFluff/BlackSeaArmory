@@ -30,9 +30,9 @@
   <talentname.trustbuildingbw>历战老兵</talentname.trustbuildingbw>
   <talentdescription.trustbuildingbw>每当你完成一项任务，你增加[smallgain]%最大生命。若所有船员都幸存，则再增加[largegain]%的最大生命，上限为[maxgain]%。</talentdescription.trustbuildingbw>
   <talentname.buccaneerbw>White Soldier Battle</talentname.buccaneerbw>
-  <talentname.swordwarriorbw>长剑修士</talentname.swordwarriorbw>
-  <talentdescription.crafthighqualityswordwarriorbw>你制造的长剑武器品质提升[qualitybonus]。</talentdescription.crafthighqualityswordwarriorbw>
-  <talentdescription.swordwarriorbw>近战武器攻击时，你携带的每个[itemname]都会提升[powerincrease]%伤害，上限为[maxpowerincrease]%。</talentdescription.swordwarriorbw>
+  <talentname.swordwarrior>长剑修士</talentname.swordwarrior>
+  <talentdescription.crafthighqualityswordwarrior>你制造的长剑武器品质提升[qualitybonus]。</talentdescription.crafthighqualityswordwarrior>
+  <talentdescription.swordwarrior>近战武器攻击时，你携带的每个[itemname]都会提升[powerincrease]%伤害，上限为[maxpowerincrease]%。</talentdescription.swordwarrior>
   <talentname.enforcerbw>重装猎手</talentname.enforcerbw>
   <talentdescription.enforcerbw>使用霰弹攻击时，额外造成[damage]%伤害与[armorpenetration]%穿甲。</talentdescription.enforcerbw>
   <talentname.steelruler>钢铁统御</talentname.steelruler>

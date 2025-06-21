@@ -20,7 +20,7 @@
         <TalentOption identifier="olympian_offense" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="swordwarriorbw" />
+        <TalentOption identifier="swordwarrior" />
         <TalentOption identifier="deadeyebw" />
       </TalentOptions>
       <TalentOptions>

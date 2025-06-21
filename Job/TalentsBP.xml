@@ -264,14 +264,14 @@
     </AbilityGroupEffect>
   </Talent>
   <!-- SwordWarriorBw edited stats Check the stun value if did it correct should be 15 -->
-  <Talent identifier="swordwarriorbw">
+  <Talent identifier="swordwarrior">
     <Description tag="talentdescription.unlockrecipe">
       <Replace tag="[itemname]" value="entityname.bwgs,entityname.tachi" color="gui.orange" />
     </Description>
-    <Description tag="talentdescription.crafthighqualityswordwarriorbw">
+    <Description tag="talentdescription.crafthighqualityswordwarrior">
       <Replace tag="[qualitybonus]" value="1" color="gui.green" />
     </Description>
-    <Description tag="talentdescription.swordwarriorbw">
+    <Description tag="talentdescription.swordwarrior">
       <Replace tag="[powerincrease]" value="12.5" color="gui.green" />
       <Replace tag="[maxpowerincrease]" value="100" color="gui.green" />
       <Replace tag="[itemname]" value="entityname.relic_bw" color="gui.orange" />

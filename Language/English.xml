@@ -29,26 +29,26 @@
   <talentname.trustbuildingbw>Veteran</talentname.trustbuildingbw>
   <talentdescription.trustbuildingbw>Every time you complete a task, you increase [smallgain]% of your maximum life. If all crew members survive, increase the maximum life of [largegain]%, up to [maxgain]%. </talentdescription.trustbuildingbw>
   <talentname.buccaneerbw>White Soldier Battle</talentname.buccaneerbw>
-  <talentname.swordwarriorbw>Sword Warriorbw</talentname.swordwarriorbw>
-  <talentdescription.crafthighqualityswordwarriorbw>The quality of longswords you craft is increased by [qualitybonus].</talentdescription.crafthighqualityswordwarriorbw>
-  <talentdescription.swordwarriorbw>When attacking with melee weapons, each [itemname] you carry increases your damage by [powerincrease]%, up to a maximum of [maxpowerincrease]%.</talentdescription.swordwarriorbw>
+  <talentname.swordwarrior>Sword Warrior</talentname.swordwarrior>
+  <talentdescription.crafthighqualityswordwarrior>The quality of longswords you craft is increased by [qualitybonus].</talentdescription.crafthighqualityswordwarrior>
+  <talentdescription.swordwarrior>When attacking with melee weapons, each [itemname] you carry increases your damage by [powerincrease]%, up to a maximum of [maxpowerincrease]%.</talentdescription.swordwarrior>
   <talentname.enforcerbw>Reload Hunter</talentname.enforcerbw>
   <talentdescription.enforcerbw>When attacking with a shotgun,causes additional [damage]% damage and [armorpenetration]% armor penetration.</talentdescription.enforcerbw>
   <talentname.steelruler>Steel Ruler</talentname.steelruler>
-  <talentdescription.steelruler>When driving a mech,attack power increased [value]%,[stattype] increased [amount]%,damage taken reduced [value]%.</talentdescription.steelruler>
+  <talentdescription.steelruler>When driving a mech, attack power increased [value]%,[stattype] increased [amount]%, damage taken reduced [value]%.</talentdescription.steelruler>
   <talentname.bythebookbw>Mercenary</talentname.bythebookbw>
   <talentname.navydiverbw>Aquatic</talentname.navydiverbw>
   <talentname.deepseaslayerbw>Deep Sea Hunter</talentname.deepseaslayerbw>
   <talentname.olympianbw>Combat Mastery</talentname.olympianbw>
   <talentname.warlordbw>Ace</talentname.warlordbw>
-  <talentdescription.chanceofextraweapondamagebw2>When using weapons,additional [probability]% damage and [armorpenetration]% armor penetration are caused.</talentdescription.chanceofextraweapondamagebw2>
+  <talentdescription.chanceofextraweapondamagebw2>When using weapons, additional [probability]% damage and [armorpenetration]% armor penetration are caused.</talentdescription.chanceofextraweapondamagebw2>
   <talentname.laststand>Last Stand</talentname.laststand>
   <talentdescription.laststand> When your life is lower than [health]%, you will quickly restore your health. </talentdescription.laststand>
   <talentname.implacablebw>Iron Will</talentname.implacablebw>
   <talentname.deadeyebw>I See Dead Eye</talentname.deadeyebw>
-  <talentdescription.deadeyebw>When you launch an Experimental Precise Gun and Designated Marksman Rifle,damage and penetration increases [powerincrease]%.You can also recover from bleeding faster.</talentdescription.deadeyebw>
+  <talentdescription.deadeyebw>When you launch an Experimental Precise Gun and Designated Marksman Rifle,damage and penetration increases [powerincrease]%. You can also recover from bleeding faster.</talentdescription.deadeyebw>
   <talentname.stonewallbw>Shield Barrier</talentname.stonewallbw>
-  <talentdescription.stonewallbw>When you are attacked,within [seconds] your physical damage resistance increases [physicaldamagereduction]%,stun resistance increases [stunresistance]%,and melee damage increases [amount]%.</talentdescription.stonewallbw>
+  <talentdescription.stonewallbw>When you are attacked,within [seconds] your physical damage resistance increases [physicaldamagereduction]%,stun resistance increases [stunresistance]%, and melee damage increases [amount]%.</talentdescription.stonewallbw>
   <talentname.munitionsexpertisebw>High Permission</talentname.munitionsexpertisebw>
   <talentname.gunsmithbw>Artisan</talentname.gunsmithbw>
   <talentdescription.gunsmithbw>Item you fabricate are of [qualitybonus] higher quality.</talentdescription.gunsmithbw>
@@ -79,15 +79,15 @@
   <stattypenames.rangedspreadreduction>Reduction to spread</stattypenames.rangedspreadreduction>
   <stattypenames.MedicalItemEffectivenessMultiplier>More potent medical items</stattypenames.MedicalItemEffectivenessMultiplier>
   <talentdescription.olympian_bw>You gain an additional percentage to the following attributes equal to the lowest of all your skills:</talentdescription.olympian_bw>
-  <talentdescription.steelruler_offense>When driving a mech,attack power increased [value]%.</talentdescription.steelruler_offense>
-  <talentdescription.steelruler_deffense>When driving a mech,damage taken reduced [value]%</talentdescription.steelruler_deffense>
-  <talentdescription.steelruler_logist>When driving a mech,speed increased [value]%</talentdescription.steelruler_logist>
-  <talentdescription.miracleworker_bw>Gives [value]% enhancement to self and friendlies when IronRidering a mech.</talentdescription.miracleworker_bw>
-  <talentdescription.revengesquad_offense> When a alloy is dying, you get [amount]% ‖color:gui.orange‖ damage bonus ‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_offense>
-  <talentdescription.revengesquad_deffense> When a alloy is dying, you get [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_deffense>
-  <talentdescription.revengesquad_logistic>When a alloy is dying, you get [amount]%的‖color:gui.orange‖Repair speed‖end‖ increased by [amount2]% and ‖color:gui.orange‖ movement speed and medical supply effectiveness also enhanced‖end‖，effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
-  <talentdescription.warlordbw_offense>Every time you complete a task, you increase [smallgain]% of your your maximum damage. If all crew members survive, increase the maximum damage of [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
-  <talentdescription.warlordbw_deffense>Every time you complete a task, you increase [smallgain]% of your your maximum life. If all crew members survive, increase the maximum life of [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
+  <talentdescription.steelruler_offense>When driving a mech, attack power increased [value]%.</talentdescription.steelruler_offense>
+  <talentdescription.steelruler_deffense>When driving a mech, damage taken reduced [value]%</talentdescription.steelruler_deffense>
+  <talentdescription.steelruler_logist>When driving a mech, speed increased [value]%</talentdescription.steelruler_logist>
+  <talentdescription.miracleworker_bw>When using a mech, both you and your allies gain a [value]% general enhancement and +[value] to skills.</talentdescription.miracleworker_bw>
+  <talentdescription.revengesquad_offense>When an ally is dying, you gain [amount]% ‖color:gui.orange‖ damage bonus ‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_offense>
+  <talentdescription.revengesquad_deffense>When an ally is dying, you gain [amount]% of ‖color:gui.orange‖Physical Damage Resistance‖end‖, effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time. </talentdescription.revengesquad_deffense>
+  <talentdescription.revengesquad_logistic>When an ally is dying, you gain [amount]% ‖color:gui.orange‖repair speed‖end‖ and [amount2]% ‖color:gui.orange‖ movement speed and medical supply effectiveness‖end‖. Effect lasts for [duration] seconds after the ally dies or recovers, and the effect decreases over time.</talentdescription.revengesquad_logistic>
+  <talentdescription.warlordbw_offense>Every time you complete a task, you maximum damage is increased by [smallgain]%. If all crew members survive, increase the maximum damage by [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_offense>
+  <talentdescription.warlordbw_deffense>Every time you complete a task, your maximum life is increased by [smallgain]%. If all crew members survive, increase the maximum life by [largegain]%, up to [maxgain]%. </talentdescription.warlordbw_deffense>
   <Afflictionname.commnetbw>Command network</Afflictionname.commnetbw>
   <stattypenames.penetration>Armor Penetration</stattypenames.penetration>
   <stattypenames.flowresistance>Flow Resistance</stattypenames.flowresistance>
@@ -267,7 +267,7 @@
   <entityname.spearbw>Tattered Spear</entityname.spearbw>
   <entitydescription.spearbw>Special piercing spear.</entitydescription.spearbw>
   <entityname.plasmacutterbw>MEGA Plasma</entityname.plasmacutterbw>
-  <entitydescription.plasmacutterbw>Advanced cutting tools,also good to cut flesh.</entitydescription.plasmacutterbw>
+  <entitydescription.plasmacutterbw>Advanced cutting tools, also good to cut flesh.</entitydescription.plasmacutterbw>
   <entityname.bwpower>Alien Charger</entityname.bwpower>
   <entitydescription.bwpower>Can power up alien power cell.</entitydescription.bwpower>
   <entityname.ancientweaponbw>Conqueror</entityname.ancientweaponbw>
@@ -309,7 +309,7 @@
   <entitydescription.esg_bw>Heavy gun developed for coalition special operations,fires precise bullet.</entitydescription.esg_bw>
   <entityname.SG_ammo>Precise Bullet Clip</entityname.SG_ammo>
   <entityname.esg_bw2>Experimental Precise Gun Mk.II</entityname.esg_bw2>
-  <entitydescription.esg_bw2>Improved heavy gun,aiming faster.Use precise bullet.</entitydescription.esg_bw2>
+  <entitydescription.esg_bw2>Improved heavy gun, aiming faster. Use precise bullet.</entitydescription.esg_bw2>
   <entityname.lasercannon_bp3>Disaster</entityname.lasercannon_bp3>
   <entitydescription.lasercannon_bp3>Modified laser cannon with a compact frame,has the defect of being prone to overheating.</entitydescription.lasercannon_bp3>
   <!--Guns.xml-->
@@ -375,9 +375,9 @@
   <entityname.shellshieldbw>Dreadnought PCIA</entityname.shellshieldbw>
   <entitydescription.shellshieldbw>Powered combat infantry armor design for protect high rank officers,slow but as solid as a rock.X01 oxygen cell can active underwater oxygen supply system.</entitydescription.shellshieldbw>
   <entityname.ballistichelmetbw>Armored helmet</entityname.ballistichelmetbw>
-  <entitydescription.ballistichelmetbw>A symbol of footman.Can not salvage.</entitydescription.ballistichelmetbw>
+  <entitydescription.ballistichelmetbw>A symbol of footman. Can not salvage.</entitydescription.ballistichelmetbw>
   <entityname.captainscapbw>Military cap</entityname.captainscapbw>
-  <entitydescription.captainscapbw>A symbol of leadership.Can not salvage.</entitydescription.captainscapbw>
+  <entitydescription.captainscapbw>A symbol of leadership. Can not salvage.</entitydescription.captainscapbw>
   <entityname.weldingtoolbw>Smart Arc</entityname.weldingtoolbw>
   <entitydescription.weldingtoolbw>Smart system can avoid to damage biological,use batterycell,fulguriumbatterycell,or X01 oxygen cell.</entitydescription.weldingtoolbw>
   <entityname.captainsuniformbw>Battle Armor</entityname.captainsuniformbw>
@@ -433,7 +433,7 @@
   <Afflictionname.DEFbw3>Extra Armor</Afflictionname.DEFbw3>
   <Afflictiondescription.DEFbw3>Increases health by 50%, reduces physical damage taken by 30%, and increases attack speed by 20%.</Afflictiondescription.DEFbw3>
   <Afflictionname.Swift2>Assault armor</Afflictionname.Swift2>
-  <Afflictiondescription.Swift2>Damage increased 10%,attack speed increased 20%,health increases 25%.</Afflictiondescription.Swift2>
+  <Afflictiondescription.Swift2>Damage increased 10%, attack speed increased 20%,health increases 25%.</Afflictiondescription.Swift2>
   <Afflictionname.steelruler>Steel ruler</Afflictionname.steelruler>
   <Afflictionname.quickdrawingbw>A full blow</Afflictionname.quickdrawingbw>
   <Afflictionname.stonewallbw>Hold the line</Afflictionname.stonewallbw>
@@ -538,7 +538,7 @@
   <missionsonarlabel.killbseclown>Techno Prankster</missionsonarlabel.killbseclown>
   <missionsuccess.killbseclown>He won't be bothering us anymore.</missionsuccess.killbseclown>
   <missionname.clearruinskhusk>Corrupted Knight</missionname.clearruinskhusk>
-  <missiondescription.clearruinskhusk>A brainwashed genetic augmented soldier and some cultists has escaped with a cutting-edge secret suit,and fled into nearby alien ruin. Pursue him and eliminate the threat. It seems they have also been developing malicious equipment in secret collaboration with cultists.</missiondescription.clearruinskhusk>
+  <missiondescription.clearruinskhusk>A brainwashed genetic augmented soldier and some cultists has escaped with a cutting-edge secret suit, and fled into nearby alien ruin. Pursue him and eliminate the threat. It seems they have also been developing malicious equipment in secret collaboration with cultists.</missiondescription.clearruinskhusk>
   <missionsuccess.clearruinskhusk>The Target have been neutralized.</missionsuccess.clearruinskhusk>
   <missionsonarlabel.clearruinskhusk>Cultists</missionsonarlabel.clearruinskhusk>
   <missionname.killpirates>Mechanized Pirates</missionname.killpirates>
