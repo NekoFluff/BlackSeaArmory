@@ -942,6 +942,8 @@
         <CharacterAbilityGivePermanentStat statidentifier="weldingfuel" stattype="IncreaseFabricationQuality" value="1" />
         <CharacterAbilityGivePermanentStat statidentifier="mobilebattery" stattype="IncreaseFabricationQuality" value="1" />
         <CharacterAbilityGivePermanentStat statidentifier="demolitionsexpert" stattype="IncreaseFabricationQuality" value="1" />
+        <CharacterAbilityGivePermanentStat statidentifier="ammobox" stattype="IncreaseFabricationQuality" value="1" />
+        <CharacterAbilityGivePermanentStat statidentifier="railgunammo" stattype="IncreaseFabricationQuality" value="1" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="None">
