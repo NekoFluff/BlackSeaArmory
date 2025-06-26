@@ -9,9 +9,9 @@
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="4">
         <TalentOption identifier="bootcamp" />
-        <TalentOption identifier="bythebook" />
+        <TalentOption identifier="bythebookbw" />
         <TalentOption identifier="warstories" />
-        <TalentOption identifier="munitionsexpertise" />
+        <TalentOption identifier="gunsmithbw" />
       </TalentOptions>
     </SubTree>
     <!-- 专精天赋树 -->
