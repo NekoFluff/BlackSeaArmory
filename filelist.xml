@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Alex's Black Sea Armory" modversion="1.1.2" corepackage="False" steamworkshopid="3505367830" gameversion="1.9.7.0" altnames="Alex's Black Sea Armory">
+<contentpackage name="Alex's Black Sea Armory" modversion="1.2.0" corepackage="False" steamworkshopid="3505367830" gameversion="1.9.7.0" altnames="Alex's Black Sea Armory">
   <Jobs file="%ModDir%/Jobs/IronRider/Job.xml" />
   <TalentTrees file="%ModDir%/Jobs/IronRider/TalentTree.xml" />
   <Talents file="%ModDir%/Jobs/IronRider/Talents.xml" />
